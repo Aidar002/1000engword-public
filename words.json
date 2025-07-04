@@ -1,0 +1,7002 @@
+[
+  {
+    "id": 1,
+    "term": "family",
+    "translation": "семья",
+    "example": "This is my family.",
+    "example_translation": "Это моя семья."
+  },
+  {
+    "id": 2,
+    "term": "able",
+    "translation": "способен",
+    "example": "She is able to swim.",
+    "example_translation": "Она способна плавать."
+  },
+  {
+    "id": 3,
+    "term": "about",
+    "translation": "около, приблизительно",
+    "example": "It's about ten miles from here.",
+    "example_translation": "Это примерно в десяти милях отсюда."
+  },
+  {
+    "id": 4,
+    "term": "above",
+    "translation": "выше, над(чем-то)",
+    "example": "The picture hangs above the bed.",
+    "example_translation": "Картина висит над кроватью."
+  },
+  {
+    "id": 5,
+    "term": "accept",
+    "translation": "принять",
+    "example": "He will accept the gift.",
+    "example_translation": "Он примет подарок."
+  },
+  {
+    "id": 6,
+    "term": "across",
+    "translation": "через, по ту сторону",
+    "example": "They ran across the street.",
+    "example_translation": "Они перебежали через улицу."
+  },
+  {
+    "id": 7,
+    "term": "act",
+    "translation": "действовать, играть",
+    "example": "You should act now.",
+    "example_translation": "Тебе стоит действовать сейчас."
+  },
+  {
+    "id": 8,
+    "term": "actually",
+    "translation": "действительно, актуально",
+    "example": "She actually likes it.",
+    "example_translation": "Она действительно это любит."
+  },
+  {
+    "id": 9,
+    "term": "add",
+    "translation": "добавить",
+    "example": "Add sugar to the tea.",
+    "example_translation": "Добавь сахар в чай."
+  },
+  {
+    "id": 10,
+    "term": "admit",
+    "translation": "признать",
+    "example": "He admits his mistake.",
+    "example_translation": "Он признаёт свою ошибку."
+  },
+  {
+    "id": 11,
+    "term": "afraid",
+    "translation": "бояться",
+    "example": "I’m afraid of spiders.",
+    "example_translation": "Я боюсь пауков."
+  },
+  {
+    "id": 12,
+    "term": "after",
+    "translation": "после",
+    "example": "We met after school.",
+    "example_translation": "Мы встретились после школы."
+  },
+  {
+    "id": 13,
+    "term": "afternoon",
+    "translation": "полдень, после обеда",
+    "example": "I'll call you in the afternoon.",
+    "example_translation": "Я позвоню тебе после обеда."
+  },
+  {
+    "id": 14,
+    "term": "again",
+    "translation": "снова",
+    "example": "Let’s try again.",
+    "example_translation": "Давай попробуем снова."
+  },
+  {
+    "id": 15,
+    "term": "against",
+    "translation": "против",
+    "example": "They are against this idea.",
+    "example_translation": "Они против этой идеи."
+  },
+  {
+    "id": 16,
+    "term": "age",
+    "translation": "возраст",
+    "example": "What is your age?",
+    "example_translation": "Сколько тебе лет?"
+  },
+  {
+    "id": 17,
+    "term": "ago",
+    "translation": "назад",
+    "example": "She left an hour ago.",
+    "example_translation": "Она ушла час назад."
+  },
+  {
+    "id": 18,
+    "term": "agree",
+    "translation": "соглашаться",
+    "example": "I agree with you.",
+    "example_translation": "Я с тобой согласен."
+  },
+  {
+    "id": 19,
+    "term": "ah",
+    "translation": "ах",
+    "example": "Ah, I see!",
+    "example_translation": "Ах, понятно!"
+  },
+  {
+    "id": 20,
+    "term": "ahead",
+    "translation": "впереди",
+    "example": "The road ahead is clear.",
+    "example_translation": "Дорога впереди свободна."
+  },
+  {
+    "id": 21,
+    "term": "air",
+    "translation": "воздух",
+    "example": "I need some fresh air.",
+    "example_translation": "Мне нужен свежий воздух."
+  },
+  {
+    "id": 22,
+    "term": "all",
+    "translation": "всё, все",
+    "example": "All people are equal.",
+    "example_translation": "Все люди равны."
+  },
+  {
+    "id": 23,
+    "term": "allow",
+    "translation": "позволять",
+    "example": "They allow pets here.",
+    "example_translation": "Здесь разрешены домашние животные."
+  },
+  {
+    "id": 24,
+    "term": "almost",
+    "translation": "почти",
+    "example": "I'm almost ready.",
+    "example_translation": "Я почти готов."
+  },
+  {
+    "id": 25,
+    "term": "alone",
+    "translation": "один, в одиночестве",
+    "example": "He lives alone.",
+    "example_translation": "Он живёт один."
+  },
+  {
+    "id": 26,
+    "term": "along",
+    "translation": "вдоль",
+    "example": "We walked along the river.",
+    "example_translation": "Мы шли вдоль реки."
+  },
+  {
+    "id": 27,
+    "term": "already",
+    "translation": "уже",
+    "example": "I already know this.",
+    "example_translation": "Я уже это знаю."
+  },
+  {
+    "id": 28,
+    "term": "alright",
+    "translation": "хорошо, нормальный",
+    "example": "Alright, let's go!",
+    "example_translation": "Хорошо, пошли!"
+  },
+  {
+    "id": 29,
+    "term": "also",
+    "translation": "также",
+    "example": "She also likes coffee.",
+    "example_translation": "Она тоже любит кофе."
+  },
+  {
+    "id": 30,
+    "term": "although",
+    "translation": "хотя",
+    "example": "Although it rained, we went out.",
+    "example_translation": "Хотя шёл дождь, мы вышли."
+  },
+  {
+    "id": 31,
+    "term": "always",
+    "translation": "всегда",
+    "example": "He always smiles.",
+    "example_translation": "Он всегда улыбается."
+  },
+  {
+    "id": 32,
+    "term": "am",
+    "translation": "быть",
+    "example": "I am happy.",
+    "example_translation": "Я счастлив."
+  },
+  {
+    "id": 33,
+    "term": "amaze",
+    "translation": "удивлять",
+    "example": "Her story amazed me.",
+    "example_translation": "Её рассказ меня удивил."
+  },
+  {
+    "id": 34,
+    "term": "school",
+    "translation": "школа",
+    "example": "The school is big.",
+    "example_translation": "Школа большая."
+  },
+  {
+    "id": 35,
+    "term": "and",
+    "translation": "и",
+    "example": "You and I are friends.",
+    "example_translation": "Ты и я друзья."
+  },
+  {
+    "id": 36,
+    "term": "anger",
+    "translation": "гнев",
+    "example": "He couldn’t control his anger.",
+    "example_translation": "Он не смог сдержать свой гнев."
+  },
+  {
+    "id": 37,
+    "term": "angry",
+    "translation": "сердитый",
+    "example": "She is angry with me.",
+    "example_translation": "Она сердится на меня."
+  },
+  {
+    "id": 38,
+    "term": "animal",
+    "translation": "животное",
+    "example": "That animal is dangerous.",
+    "example_translation": "Это животное опасно."
+  },
+  {
+    "id": 39,
+    "term": "annoy",
+    "translation": "раздражать",
+    "example": "Noise annoys me.",
+    "example_translation": "Шум меня раздражает."
+  },
+  {
+    "id": 40,
+    "term": "another",
+    "translation": "другой",
+    "example": "I’ll take another one.",
+    "example_translation": "Я возьму другой."
+  },
+  {
+    "id": 41,
+    "term": "answer",
+    "translation": "ответ",
+    "example": "What's your answer?",
+    "example_translation": "Каков твой ответ?"
+  },
+  {
+    "id": 42,
+    "term": "any",
+    "translation": "любой",
+    "example": "Take any book.",
+    "example_translation": "Возьми любую книгу."
+  },
+  {
+    "id": 43,
+    "term": "anymore",
+    "translation": "больше не",
+    "example": "I don't work there anymore.",
+    "example_translation": "Я больше там не работаю."
+  },
+  {
+    "id": 44,
+    "term": "anyone",
+    "translation": "кто-нибудь",
+    "example": "Can anyone help me?",
+    "example_translation": "Кто-нибудь может мне помочь?"
+  },
+  {
+    "id": 45,
+    "term": "anything",
+    "translation": "что-нибудь",
+    "example": "Do you want anything?",
+    "example_translation": "Хочешь что-нибудь?"
+  },
+  {
+    "id": 46,
+    "term": "anyway",
+    "translation": "всё равно",
+    "example": "It's too late anyway.",
+    "example_translation": "Всё равно уже поздно."
+  },
+  {
+    "id": 47,
+    "term": "apartment",
+    "translation": "квартира",
+    "example": "My apartment is cozy.",
+    "example_translation": "Моя квартира уютная."
+  },
+  {
+    "id": 48,
+    "term": "apparently",
+    "translation": "очевидно",
+    "example": "Apparently, he forgot.",
+    "example_translation": "Очевидно, он забыл."
+  },
+  {
+    "id": 49,
+    "term": "appear",
+    "translation": "появляться",
+    "example": "She appeared at the door.",
+    "example_translation": "Она появилась в дверях."
+  },
+  {
+    "id": 50,
+    "term": "approach",
+    "translation": "подходить, приближаться",
+    "example": "He approached the house.",
+    "example_translation": "Он подошёл к дому."
+  },
+  {
+    "id": 51,
+    "term": "are",
+    "translation": "являются",
+    "example": "They are happy.",
+    "example_translation": "Они счастливы."
+  },
+  {
+    "id": 52,
+    "term": "area",
+    "translation": "область, район",
+    "example": "This area is beautiful.",
+    "example_translation": "Эта область красивая."
+  },
+  {
+    "id": 53,
+    "term": "aren't",
+    "translation": "не являются",
+    "example": "They aren't ready.",
+    "example_translation": "Они не готовы."
+  },
+  {
+    "id": 54,
+    "term": "arm",
+    "translation": "рука (от плеча до кисти)",
+    "example": "She broke her arm.",
+    "example_translation": "Она сломала руку."
+  },
+  {
+    "id": 55,
+    "term": "around",
+    "translation": "вокруг",
+    "example": "They walked around the park.",
+    "example_translation": "Они гуляли вокруг парка."
+  },
+  {
+    "id": 56,
+    "term": "arrive",
+    "translation": "прибывать",
+    "example": "They arrive at noon.",
+    "example_translation": "Они прибывают в полдень."
+  },
+  {
+    "id": 57,
+    "term": "as",
+    "translation": "как",
+    "example": "Do as I say.",
+    "example_translation": "Делай, как я говорю."
+  },
+  {
+    "id": 58,
+    "term": "ask",
+    "translation": "спрашивать",
+    "example": "I want to ask a question.",
+    "example_translation": "Я хочу задать вопрос."
+  },
+  {
+    "id": 59,
+    "term": "asleep",
+    "translation": "спящий",
+    "example": "The baby is asleep.",
+    "example_translation": "Малыш спит."
+  },
+  {
+    "id": 60,
+    "term": "ass",
+    "translation": "задница",
+    "example": "Get your ass here!",
+    "example_translation": "Тащи свою задницу сюда!"
+  },
+  {
+    "id": 61,
+    "term": "at",
+    "translation": "в",
+    "example": "He is at home.",
+    "example_translation": "Он дома."
+  },
+  {
+    "id": 62,
+    "term": "attack",
+    "translation": "атака, атаковать",
+    "example": "They attack at night.",
+    "example_translation": "Они атакуют ночью."
+  },
+  {
+    "id": 63,
+    "term": "attempt",
+    "translation": "попытка, пытаться",
+    "example": "He made an attempt.",
+    "example_translation": "Он сделал попытку."
+  },
+  {
+    "id": 64,
+    "term": "attention",
+    "translation": "внимание",
+    "example": "Pay attention to me.",
+    "example_translation": "Обрати на меня внимание."
+  },
+  {
+    "id": 65,
+    "term": "aunt",
+    "translation": "тётя",
+    "example": "My aunt is kind.",
+    "example_translation": "Моя тётя добрая."
+  },
+  {
+    "id": 66,
+    "term": "avoid",
+    "translation": "избегать",
+    "example": "I avoid spicy food.",
+    "example_translation": "Я избегаю острой еды."
+  },
+  {
+    "id": 67,
+    "term": "away",
+    "translation": "прочь, вдали",
+    "example": "Go away!",
+    "example_translation": "Уходи!"
+  },
+  {
+    "id": 68,
+    "term": "baby",
+    "translation": "младенец",
+    "example": "The baby is crying.",
+    "example_translation": "Младенец плачет."
+  },
+  {
+    "id": 69,
+    "term": "back",
+    "translation": "назад, спина",
+    "example": "Go back now.",
+    "example_translation": "Иди назад."
+  },
+  {
+    "id": 70,
+    "term": "bad",
+    "translation": "плохой",
+    "example": "This is a bad idea.",
+    "example_translation": "Это плохая идея."
+  },
+  {
+    "id": 71,
+    "term": "bag",
+    "translation": "сумка",
+    "example": "My bag is heavy.",
+    "example_translation": "Моя сумка тяжёлая."
+  },
+  {
+    "id": 72,
+    "term": "ball",
+    "translation": "мяч",
+    "example": "Throw the ball.",
+    "example_translation": "Брось мяч."
+  },
+  {
+    "id": 73,
+    "term": "band",
+    "translation": "группа, лента",
+    "example": "I like this band.",
+    "example_translation": "Мне нравится эта группа."
+  },
+  {
+    "id": 74,
+    "term": "bar",
+    "translation": "бар, перекладина",
+    "example": "We met at a bar.",
+    "example_translation": "Мы встретились в баре."
+  },
+  {
+    "id": 75,
+    "term": "barely",
+    "translation": "едва, почти не",
+    "example": "I barely know him.",
+    "example_translation": "Я его почти не знаю."
+  },
+  {
+    "id": 76,
+    "term": "bathroom",
+    "translation": "ванная комната",
+    "example": "The bathroom is clean.",
+    "example_translation": "Ванная чистая."
+  },
+  {
+    "id": 77,
+    "term": "be",
+    "translation": "быть",
+    "example": "I want to be free.",
+    "example_translation": "Я хочу быть свободным."
+  },
+  {
+    "id": 78,
+    "term": "beat",
+    "translation": "бить, побеждать",
+    "example": "We can beat them.",
+    "example_translation": "Мы можем их победить."
+  },
+  {
+    "id": 79,
+    "term": "beautiful",
+    "translation": "красивый",
+    "example": "She is beautiful.",
+    "example_translation": "Она красивая."
+  },
+  {
+    "id": 80,
+    "term": "became",
+    "translation": "стал",
+    "example": "He became a doctor.",
+    "example_translation": "Он стал врачом."
+  },
+  {
+    "id": 81,
+    "term": "because",
+    "translation": "потому что",
+    "example": "I stayed because of you.",
+    "example_translation": "Я остался из-за тебя."
+  },
+  {
+    "id": 82,
+    "term": "become",
+    "translation": "становиться",
+    "example": "It will become easier.",
+    "example_translation": "Это станет проще."
+  },
+  {
+    "id": 83,
+    "term": "bed",
+    "translation": "кровать",
+    "example": "Go to bed.",
+    "example_translation": "Ложись спать."
+  },
+  {
+    "id": 84,
+    "term": "bedroom",
+    "translation": "спальня",
+    "example": "The bedroom is big.",
+    "example_translation": "Спальня большая."
+  },
+  {
+    "id": 85,
+    "term": "been",
+    "translation": "был",
+    "example": "I’ve been there.",
+    "example_translation": "Я был там."
+  },
+  {
+    "id": 86,
+    "term": "before",
+    "translation": "до, раньше",
+    "example": "Do it before lunch.",
+    "example_translation": "Сделай это до обеда."
+  },
+  {
+    "id": 87,
+    "term": "began",
+    "translation": "начал",
+    "example": "She began to cry.",
+    "example_translation": "Она начала плакать."
+  },
+  {
+    "id": 88,
+    "term": "begin",
+    "translation": "начинать",
+    "example": "Let’s begin now.",
+    "example_translation": "Давай начнём сейчас."
+  },
+  {
+    "id": 89,
+    "term": "behind",
+    "translation": "позади",
+    "example": "He is behind you.",
+    "example_translation": "Он позади тебя."
+  },
+  {
+    "id": 90,
+    "term": "believe",
+    "translation": "верить",
+    "example": "I believe you.",
+    "example_translation": "Я тебе верю."
+  },
+  {
+    "id": 91,
+    "term": "bell",
+    "translation": "колокол, звонок",
+    "example": "The bell rang.",
+    "example_translation": "Зазвонил звонок."
+  },
+  {
+    "id": 92,
+    "term": "beside",
+    "translation": "рядом",
+    "example": "Sit beside me.",
+    "example_translation": "Сядь рядом со мной."
+  },
+  {
+    "id": 93,
+    "term": "besides",
+    "translation": "кроме того",
+    "example": "Besides you, nobody came.",
+    "example_translation": "Кроме тебя, никто не пришёл."
+  },
+  {
+    "id": 94,
+    "term": "best",
+    "translation": "лучший",
+    "example": "He is the best.",
+    "example_translation": "Он лучший."
+  },
+  {
+    "id": 95,
+    "term": "better",
+    "translation": "лучше",
+    "example": "This is better.",
+    "example_translation": "Это лучше."
+  },
+  {
+    "id": 96,
+    "term": "between",
+    "translation": "между",
+    "example": "The ball is between boxes.",
+    "example_translation": "Мяч между коробками."
+  },
+  {
+    "id": 97,
+    "term": "big",
+    "translation": "большой",
+    "example": "This house is big.",
+    "example_translation": "Этот дом большой."
+  },
+  {
+    "id": 98,
+    "term": "bit",
+    "translation": "немного",
+    "example": "Wait a bit.",
+    "example_translation": "Подожди немного."
+  },
+  {
+    "id": 99,
+    "term": "bite",
+    "translation": "кусать",
+    "example": "Dogs bite.",
+    "example_translation": "Собаки кусаются."
+  },
+  {
+    "id": 100,
+    "term": "black",
+    "translation": "чёрный",
+    "example": "He wore black.",
+    "example_translation": "Он был в чёрном."
+  },
+  {
+    "id": 101,
+    "term": "blink",
+    "translation": "моргать",
+    "example": "Don’t blink.",
+    "example_translation": "Не моргай."
+  },
+  {
+    "id": 102,
+    "term": "block",
+    "translation": "блок, квартал",
+    "example": "Walk one block.",
+    "example_translation": "Пройди один квартал."
+  },
+  {
+    "id": 103,
+    "term": "blonde",
+    "translation": "блондинка",
+    "example": "She is blonde.",
+    "example_translation": "Она блондинка."
+  },
+  {
+    "id": 104,
+    "term": "blood",
+    "translation": "кровь",
+    "example": "There’s blood here.",
+    "example_translation": "Здесь кровь."
+  },
+  {
+    "id": 105,
+    "term": "blue",
+    "translation": "синий",
+    "example": "The sky is blue.",
+    "example_translation": "Небо синее."
+  },
+  {
+    "id": 106,
+    "term": "blush",
+    "translation": "краснеть",
+    "example": "She began to blush.",
+    "example_translation": "Она начала краснеть."
+  },
+  {
+    "id": 107,
+    "term": "body",
+    "translation": "тело",
+    "example": "Your body is strong.",
+    "example_translation": "Твоё тело сильное."
+  },
+  {
+    "id": 108,
+    "term": "book",
+    "translation": "книга",
+    "example": "Read this book.",
+    "example_translation": "Прочти эту книгу."
+  },
+  {
+    "id": 109,
+    "term": "bore",
+    "translation": "скучать",
+    "example": "He will bore you.",
+    "example_translation": "Он тебя утомит."
+  },
+  {
+    "id": 110,
+    "term": "both",
+    "translation": "оба",
+    "example": "We both agree.",
+    "example_translation": "Мы оба согласны."
+  },
+  {
+    "id": 111,
+    "term": "bother",
+    "translation": "беспокоить",
+    "example": "Don’t bother me.",
+    "example_translation": "Не беспокой меня."
+  },
+  {
+    "id": 112,
+    "term": "bottle",
+    "translation": "бутылка",
+    "example": "Open the bottle.",
+    "example_translation": "Открой бутылку."
+  },
+  {
+    "id": 113,
+    "term": "bottom",
+    "translation": "дно, нижняя часть",
+    "example": "Look at the bottom.",
+    "example_translation": "Посмотри вниз."
+  },
+  {
+    "id": 114,
+    "term": "box",
+    "translation": "коробка",
+    "example": "The box is empty.",
+    "example_translation": "Коробка пустая."
+  },
+  {
+    "id": 115,
+    "term": "boy",
+    "translation": "мальчик",
+    "example": "That boy is smart.",
+    "example_translation": "Тот мальчик умный."
+  },
+  {
+    "id": 116,
+    "term": "boyfriend",
+    "translation": "парень",
+    "example": "Her boyfriend is nice.",
+    "example_translation": "Её парень хороший."
+  },
+  {
+    "id": 117,
+    "term": "brain",
+    "translation": "мозг",
+    "example": "Use your brain.",
+    "example_translation": "Пользуйся мозгом."
+  },
+  {
+    "id": 118,
+    "term": "break",
+    "translation": "ломать, перерыв",
+    "example": "Break the glass.",
+    "example_translation": "Разбей стакан."
+  },
+  {
+    "id": 119,
+    "term": "breakfast",
+    "translation": "завтрак",
+    "example": "Have breakfast now.",
+    "example_translation": "Позавтракай сейчас."
+  },
+  {
+    "id": 120,
+    "term": "breath",
+    "translation": "дыхание",
+    "example": "Take a deep breath.",
+    "example_translation": "Сделай глубокий вдох."
+  },
+  {
+    "id": 121,
+    "term": "breathe",
+    "translation": "дышать",
+    "example": "Breathe slowly.",
+    "example_translation": "Дыши медленно."
+  },
+  {
+    "id": 122,
+    "term": "bright",
+    "translation": "яркий",
+    "example": "The light is bright.",
+    "example_translation": "Свет яркий."
+  },
+  {
+    "id": 123,
+    "term": "bring",
+    "translation": "приносить",
+    "example": "Bring me water.",
+    "example_translation": "Принеси мне воды."
+  },
+  {
+    "id": 124,
+    "term": "broke",
+    "translation": "сломал",
+    "example": "He broke the vase.",
+    "example_translation": "Он сломал вазу."
+  },
+  {
+    "id": 125,
+    "term": "broken",
+    "translation": "сломанный",
+    "example": "The door is broken.",
+    "example_translation": "Дверь сломана."
+  },
+  {
+    "id": 126,
+    "term": "brother",
+    "translation": "брат",
+    "example": "My brother is tall.",
+    "example_translation": "Мой брат высокий."
+  },
+  {
+    "id": 127,
+    "term": "brought",
+    "translation": "принёс",
+    "example": "She brought a gift.",
+    "example_translation": "Она принесла подарок."
+  },
+  {
+    "id": 128,
+    "term": "brown",
+    "translation": "коричневый",
+    "example": "The bag is brown.",
+    "example_translation": "Сумка коричневая."
+  },
+  {
+    "id": 129,
+    "term": "brush",
+    "translation": "щётка, чистить",
+    "example": "Brush your hair.",
+    "example_translation": "Расчеши волосы."
+  },
+  {
+    "id": 130,
+    "term": "build",
+    "translation": "строить",
+    "example": "Build a house.",
+    "example_translation": "Построй дом."
+  },
+  {
+    "id": 131,
+    "term": "burn",
+    "translation": "гореть, жечь",
+    "example": "Fire burns.",
+    "example_translation": "Огонь жжёт."
+  },
+  {
+    "id": 132,
+    "term": "burst",
+    "translation": "взорваться",
+    "example": "He burst out laughing.",
+    "example_translation": "Он рассмеялся."
+  },
+  {
+    "id": 133,
+    "term": "bus",
+    "translation": "автобус",
+    "example": "Take the bus.",
+    "example_translation": "Садись на автобус."
+  },
+  {
+    "id": 134,
+    "term": "business",
+    "translation": "бизнес",
+    "example": "He runs a business.",
+    "example_translation": "Он ведёт бизнес."
+  },
+  {
+    "id": 135,
+    "term": "busy",
+    "translation": "занят",
+    "example": "I am busy now.",
+    "example_translation": "Я сейчас занят."
+  },
+  {
+    "id": 136,
+    "term": "but",
+    "translation": "но",
+    "example": "I’m here, but tired.",
+    "example_translation": "Я здесь, но устал."
+  },
+  {
+    "id": 137,
+    "term": "buy",
+    "translation": "покупать",
+    "example": "Buy a new phone.",
+    "example_translation": "Купи новый телефон."
+  },
+  {
+    "id": 138,
+    "term": "by",
+    "translation": "у, около, к",
+    "example": "Stand by the door.",
+    "example_translation": "Встань у двери."
+  },
+  {
+    "id": 139,
+    "term": "call",
+    "translation": "звать, звонить",
+    "example": "Call me later.",
+    "example_translation": "Позвони мне позже."
+  },
+  {
+    "id": 140,
+    "term": "calm",
+    "translation": "спокойный, успокаивать",
+    "example": "Stay calm.",
+    "example_translation": "Оставайся спокойным."
+  },
+  {
+    "id": 141,
+    "term": "came",
+    "translation": "пришёл",
+    "example": "She came home.",
+    "example_translation": "Она пришла домой."
+  },
+  {
+    "id": 142,
+    "term": "can",
+    "translation": "мочь",
+    "example": "I can swim.",
+    "example_translation": "Я умею плавать."
+  },
+  {
+    "id": 143,
+    "term": "can't",
+    "translation": "не мочь",
+    "example": "I can't drive.",
+    "example_translation": "Я не умею водить."
+  },
+  {
+    "id": 144,
+    "term": "car",
+    "translation": "машина",
+    "example": "The car is fast.",
+    "example_translation": "Машина быстрая."
+  },
+  {
+    "id": 145,
+    "term": "card",
+    "translation": "карта, открытка",
+    "example": "Give me a card.",
+    "example_translation": "Дай мне карту."
+  },
+  {
+    "id": 146,
+    "term": "care",
+    "translation": "забота, заботиться",
+    "example": "I care about you.",
+    "example_translation": "Ты мне не безразличен."
+  },
+  {
+    "id": 147,
+    "term": "carefully",
+    "translation": "осторожно",
+    "example": "Drive carefully.",
+    "example_translation": "Веди осторожно."
+  },
+  {
+    "id": 148,
+    "term": "carry",
+    "translation": "нести",
+    "example": "Carry this bag.",
+    "example_translation": "Неси эту сумку."
+  },
+  {
+    "id": 149,
+    "term": "case",
+    "translation": "случай, дело",
+    "example": "In this case…",
+    "example_translation": "В этом случае…"
+  },
+  {
+    "id": 150,
+    "term": "cat",
+    "translation": "кот",
+    "example": "The cat is black.",
+    "example_translation": "Кот чёрный."
+  },
+  {
+    "id": 151,
+    "term": "catch",
+    "translation": "поймать",
+    "example": "Catch the ball.",
+    "example_translation": "Поймай мяч."
+  },
+  {
+    "id": 152,
+    "term": "caught",
+    "translation": "поймал",
+    "example": "He caught a fish.",
+    "example_translation": "Он поймал рыбу."
+  },
+  {
+    "id": 153,
+    "term": "cause",
+    "translation": "причина",
+    "example": "What’s the cause?",
+    "example_translation": "В чём причина?"
+  },
+  {
+    "id": 154,
+    "term": "cell",
+    "translation": "клетка, ячейка",
+    "example": "The cell divides.",
+    "example_translation": "Клетка делится."
+  },
+  {
+    "id": 155,
+    "term": "chair",
+    "translation": "стул",
+    "example": "Sit on the chair.",
+    "example_translation": "Сядь на стул."
+  },
+  {
+    "id": 156,
+    "term": "chance",
+    "translation": "шанс",
+    "example": "Give me a chance.",
+    "example_translation": "Дай мне шанс."
+  },
+  {
+    "id": 157,
+    "term": "change",
+    "translation": "менять",
+    "example": "Change your clothes.",
+    "example_translation": "Переоденься."
+  },
+  {
+    "id": 158,
+    "term": "chase",
+    "translation": "гнаться",
+    "example": "Dogs chase cats.",
+    "example_translation": "Собаки гоняются за кошками."
+  },
+  {
+    "id": 159,
+    "term": "check",
+    "translation": "проверять",
+    "example": "Check your email.",
+    "example_translation": "Проверь почту."
+  },
+  {
+    "id": 160,
+    "term": "cheek",
+    "translation": "щека",
+    "example": "Kiss on the cheek.",
+    "example_translation": "Поцелуй в щёку."
+  },
+  {
+    "id": 161,
+    "term": "chest",
+    "translation": "грудь",
+    "example": "He has a broad chest.",
+    "example_translation": "У него широкая грудь."
+  },
+  {
+    "id": 162,
+    "term": "child",
+    "translation": "ребёнок",
+    "example": "The child is small.",
+    "example_translation": "Ребёнок маленький."
+  },
+  {
+    "id": 163,
+    "term": "children",
+    "translation": "дети",
+    "example": "Children play here.",
+    "example_translation": "Дети играют здесь."
+  },
+  {
+    "id": 164,
+    "term": "chuckle",
+    "translation": "посмеиваться",
+    "example": "He chuckled quietly.",
+    "example_translation": "Он тихо посмеялся."
+  },
+  {
+    "id": 165,
+    "term": "city",
+    "translation": "город",
+    "example": "It's a big city.",
+    "example_translation": "Это большой город."
+  },
+  {
+    "id": 166,
+    "term": "class",
+    "translation": "класс, урок",
+    "example": "I have math class.",
+    "example_translation": "У меня урок математики."
+  },
+  {
+    "id": 167,
+    "term": "clean",
+    "translation": "чистый, чистить",
+    "example": "Clean the room.",
+    "example_translation": "Убери комнату."
+  },
+  {
+    "id": 168,
+    "term": "clear",
+    "translation": "ясный, чистый",
+    "example": "The sky is clear.",
+    "example_translation": "Небо ясное."
+  },
+  {
+    "id": 169,
+    "term": "climb",
+    "translation": "лезть, взбираться",
+    "example": "Climb the tree.",
+    "example_translation": "Взберись на дерево."
+  },
+  {
+    "id": 170,
+    "term": "close",
+    "translation": "закрывать",
+    "example": "Close the window.",
+    "example_translation": "Закрой окно."
+  },
+  {
+    "id": 171,
+    "term": "clothes",
+    "translation": "одежда",
+    "example": "I bought new clothes.",
+    "example_translation": "Я купил новую одежду."
+  },
+  {
+    "id": 172,
+    "term": "coffee",
+    "translation": "кофе",
+    "example": "I like coffee.",
+    "example_translation": "Я люблю кофе."
+  },
+  {
+    "id": 173,
+    "term": "cold",
+    "translation": "холодный",
+    "example": "It’s very cold.",
+    "example_translation": "Очень холодно."
+  },
+  {
+    "id": 174,
+    "term": "college",
+    "translation": "колледж",
+    "example": "He studies in college.",
+    "example_translation": "Он учится в колледже."
+  },
+  {
+    "id": 175,
+    "term": "color",
+    "translation": "цвет",
+    "example": "What color is this?",
+    "example_translation": "Какой это цвет?"
+  },
+  {
+    "id": 176,
+    "term": "come",
+    "translation": "приходить",
+    "example": "Come here now.",
+    "example_translation": "Иди сюда."
+  },
+  {
+    "id": 177,
+    "term": "comment",
+    "translation": "комментарий",
+    "example": "Leave a comment.",
+    "example_translation": "Оставь комментарий."
+  },
+  {
+    "id": 178,
+    "term": "complete",
+    "translation": "завершить",
+    "example": "Complete the task.",
+    "example_translation": "Выполни задание."
+  },
+  {
+    "id": 179,
+    "term": "completely",
+    "translation": "полностью",
+    "example": "It’s completely dark.",
+    "example_translation": "Полностью темно."
+  },
+  {
+    "id": 180,
+    "term": "computer",
+    "translation": "компьютер",
+    "example": "Turn on the computer.",
+    "example_translation": "Включи компьютер."
+  },
+  {
+    "id": 181,
+    "term": "concern",
+    "translation": "беспокойство",
+    "example": "This is my concern.",
+    "example_translation": "Это моя забота."
+  },
+  {
+    "id": 182,
+    "term": "confuse",
+    "translation": "путать",
+    "example": "Don’t confuse them.",
+    "example_translation": "Не путай их."
+  },
+  {
+    "id": 183,
+    "term": "consider",
+    "translation": "рассматривать",
+    "example": "I consider this good.",
+    "example_translation": "Я считаю это хорошим."
+  },
+  {
+    "id": 184,
+    "term": "continue",
+    "translation": "продолжать",
+    "example": "Continue your work.",
+    "example_translation": "Продолжай работу."
+  },
+  {
+    "id": 185,
+    "term": "control",
+    "translation": "контролировать",
+    "example": "Control yourself.",
+    "example_translation": "Контролируй себя."
+  },
+  {
+    "id": 186,
+    "term": "conversation",
+    "translation": "разговор",
+    "example": "We had a conversation.",
+    "example_translation": "Мы поговорили."
+  },
+  {
+    "id": 187,
+    "term": "cool",
+    "translation": "крутой, прохладный",
+    "example": "This place is cool.",
+    "example_translation": "Это место классное."
+  },
+  {
+    "id": 188,
+    "term": "corner",
+    "translation": "угол",
+    "example": "Stand in the corner.",
+    "example_translation": "Встань в угол."
+  },
+  {
+    "id": 189,
+    "term": "couch",
+    "translation": "диван",
+    "example": "Sit on the couch.",
+    "example_translation": "Сядь на диван."
+  },
+  {
+    "id": 190,
+    "term": "could",
+    "translation": "мог",
+    "example": "I could help you.",
+    "example_translation": "Я мог бы помочь."
+  },
+  {
+    "id": 191,
+    "term": "couldn't",
+    "translation": "не мог",
+    "example": "He couldn't run.",
+    "example_translation": "Он не мог бежать."
+  },
+  {
+    "id": 192,
+    "term": "counter",
+    "translation": "прилавок, стойка",
+    "example": "Put it on the counter.",
+    "example_translation": "Положи это на прилавок."
+  },
+  {
+    "id": 193,
+    "term": "couple",
+    "translation": "пара",
+    "example": "A couple walked by.",
+    "example_translation": "Мимо прошла пара."
+  },
+  {
+    "id": 194,
+    "term": "course",
+    "translation": "курс, конечно",
+    "example": "Of course, I agree.",
+    "example_translation": "Конечно, я согласен."
+  },
+  {
+    "id": 195,
+    "term": "cover",
+    "translation": "покрывать",
+    "example": "Cover the pot.",
+    "example_translation": "Накрой кастрюлю."
+  },
+  {
+    "id": 196,
+    "term": "crack",
+    "translation": "трещина, трескаться",
+    "example": "There's a crack here.",
+    "example_translation": "Здесь трещина."
+  },
+  {
+    "id": 197,
+    "term": "crazy",
+    "translation": "сумасшедший",
+    "example": "He is crazy.",
+    "example_translation": "Он сумасшедший."
+  },
+  {
+    "id": 198,
+    "term": "cross",
+    "translation": "пересекать",
+    "example": "Cross the road.",
+    "example_translation": "Перейди дорогу."
+  },
+  {
+    "id": 199,
+    "term": "crowd",
+    "translation": "толпа",
+    "example": "The crowd cheered.",
+    "example_translation": "Толпа ликовала."
+  },
+  {
+    "id": 200,
+    "term": "cry",
+    "translation": "плакать",
+    "example": "Don't cry.",
+    "example_translation": "Не плачь."
+  },
+  {
+    "id": 201,
+    "term": "cup",
+    "translation": "чашка",
+    "example": "He poured tea into a cup.",
+    "example_translation": "Он налил чай в чашку."
+  },
+  {
+    "id": 202,
+    "term": "cut",
+    "translation": "резать",
+    "example": "Be careful not to cut your finger.",
+    "example_translation": "Осторожно, не порежь палец."
+  },
+  {
+    "id": 203,
+    "term": "cute",
+    "translation": "милый",
+    "example": "What a cute puppy!",
+    "example_translation": "Какой милый щенок!"
+  },
+  {
+    "id": 204,
+    "term": "dad",
+    "translation": "папа",
+    "example": "My dad helps me with homework.",
+    "example_translation": "Мой папа помогает мне с домашней работой."
+  },
+  {
+    "id": 205,
+    "term": "damn",
+    "translation": "чертов",
+    "example": "That was a damn good movie!",
+    "example_translation": "Это был чертовски хороший фильм!"
+  },
+  {
+    "id": 206,
+    "term": "dance",
+    "translation": "танцевать",
+    "example": "They love to dance every weekend.",
+    "example_translation": "Они любят танцевать каждые выходные."
+  },
+  {
+    "id": 207,
+    "term": "dark",
+    "translation": "темный",
+    "example": "The room was dark and quiet.",
+    "example_translation": "Комната была темной и тихой."
+  },
+  {
+    "id": 208,
+    "term": "date",
+    "translation": "дата/свидание",
+    "example": "We have a date tomorrow night.",
+    "example_translation": "У нас свидание завтра вечером."
+  },
+  {
+    "id": 209,
+    "term": "daughter",
+    "translation": "дочь",
+    "example": "Their daughter is very talented.",
+    "example_translation": "Их дочь очень талантливая."
+  },
+  {
+    "id": 210,
+    "term": "day",
+    "translation": "день",
+    "example": "It was a sunny day.",
+    "example_translation": "Это был солнечный день."
+  },
+  {
+    "id": 211,
+    "term": "dead",
+    "translation": "мертвый",
+    "example": "The flowers are dead.",
+    "example_translation": "Цветы мертвые."
+  },
+  {
+    "id": 212,
+    "term": "deal",
+    "translation": "сделка",
+    "example": "They made a deal yesterday.",
+    "example_translation": "Они заключили сделку вчера."
+  },
+  {
+    "id": 213,
+    "term": "dear",
+    "translation": "дорогой",
+    "example": "She wrote a letter to her dear friend.",
+    "example_translation": "Она написала письмо своему дорогому другу."
+  },
+  {
+    "id": 214,
+    "term": "death",
+    "translation": "смерть",
+    "example": "The death of the king shocked everyone.",
+    "example_translation": "Смерть короля всех шокировала."
+  },
+  {
+    "id": 215,
+    "term": "decide",
+    "translation": "решать",
+    "example": "I will decide tomorrow.",
+    "example_translation": "Я решу завтра."
+  },
+  {
+    "id": 216,
+    "term": "deep",
+    "translation": "глубокий",
+    "example": "The lake is very deep.",
+    "example_translation": "Озеро очень глубокое."
+  },
+  {
+    "id": 217,
+    "term": "definitely",
+    "translation": "определенно",
+    "example": "I will definitely come to the party.",
+    "example_translation": "Я определенно приду на вечеринку."
+  },
+  {
+    "id": 218,
+    "term": "desk",
+    "translation": "письменный стол",
+    "example": "He keeps his books on the desk.",
+    "example_translation": "Он хранит свои книги на письменном столе."
+  },
+  {
+    "id": 219,
+    "term": "did",
+    "translation": "делал",
+    "example": "She did her homework yesterday.",
+    "example_translation": "Она сделала домашнее задание вчера."
+  },
+  {
+    "id": 220,
+    "term": "didn't",
+    "translation": "не делал",
+    "example": "I didn't see him at school.",
+    "example_translation": "Я не видел его в школе."
+  },
+  {
+    "id": 221,
+    "term": "die",
+    "translation": "умирать",
+    "example": "Plants die without water.",
+    "example_translation": "Растения умирают без воды."
+  },
+  {
+    "id": 222,
+    "term": "different",
+    "translation": "разный",
+    "example": "My two sisters are very different.",
+    "example_translation": "Мои две сестры очень разные."
+  },
+  {
+    "id": 223,
+    "term": "dinner",
+    "translation": "ужин",
+    "example": "We have dinner at seven o'clock.",
+    "example_translation": "Мы ужинаем в семь часов."
+  },
+  {
+    "id": 224,
+    "term": "direction",
+    "translation": "направление",
+    "example": "Turn left in that direction.",
+    "example_translation": "Поверни налево в том направлении."
+  },
+  {
+    "id": 225,
+    "term": "disappear",
+    "translation": "исчезать",
+    "example": "The magician made the rabbit disappear.",
+    "example_translation": "Фокусник заставил кролика исчезнуть."
+  },
+  {
+    "id": 226,
+    "term": "do",
+    "translation": "делать",
+    "example": "I do my homework every day.",
+    "example_translation": "Я делаю домашнее задание каждый день."
+  },
+  {
+    "id": 227,
+    "term": "doctor",
+    "translation": "доктор",
+    "example": "The doctor helped the patient.",
+    "example_translation": "Доктор помог пациенту."
+  },
+  {
+    "id": 228,
+    "term": "does",
+    "translation": "делает",
+    "example": "She does her work carefully.",
+    "example_translation": "Она делает свою работу аккуратно."
+  },
+  {
+    "id": 229,
+    "term": "doesn't",
+    "translation": "не делает",
+    "example": "He doesn't like coffee.",
+    "example_translation": "Он не любит кофе."
+  },
+  {
+    "id": 230,
+    "term": "dog",
+    "translation": "собака",
+    "example": "My dog loves to play fetch.",
+    "example_translation": "Моя собака любит играть в мячик."
+  },
+  {
+    "id": 231,
+    "term": "don't",
+    "translation": "не делай",
+    "example": "Don't forget your keys!",
+    "example_translation": "Не забудь свои ключи!"
+  },
+  {
+    "id": 232,
+    "term": "done",
+    "translation": "сделано",
+    "example": "I have done all my tasks.",
+    "example_translation": "Я выполнил все свои задания."
+  },
+  {
+    "id": 233,
+    "term": "door",
+    "translation": "дверь",
+    "example": "Close the door, please.",
+    "example_translation": "Пожалуйста, закрой дверь."
+  },
+  {
+    "id": 234,
+    "term": "doubt",
+    "translation": "сомнение",
+    "example": "I have no doubt about his honesty.",
+    "example_translation": "У меня нет сомнений в его честности."
+  },
+  {
+    "id": 235,
+    "term": "down",
+    "translation": "вниз",
+    "example": "The cat climbed down the tree.",
+    "example_translation": "Кошка спустилась с дерева."
+  },
+  {
+    "id": 236,
+    "term": "drag",
+    "translation": "тащить",
+    "example": "Don't drag your feet.",
+    "example_translation": "Не тяни ноги."
+  },
+  {
+    "id": 237,
+    "term": "draw",
+    "translation": "рисовать",
+    "example": "She likes to draw animals.",
+    "example_translation": "Она любит рисовать животных."
+  },
+  {
+    "id": 238,
+    "term": "dream",
+    "translation": "мечтать",
+    "example": "I dream of traveling the world.",
+    "example_translation": "Я мечтаю путешествовать по миру."
+  },
+  {
+    "id": 239,
+    "term": "dress",
+    "translation": "платье",
+    "example": "She wore a red dress to the party.",
+    "example_translation": "Она надела красное платье на вечеринку."
+  },
+  {
+    "id": 240,
+    "term": "drink",
+    "translation": "пить",
+    "example": "He likes to drink orange juice.",
+    "example_translation": "Он любит пить апельсиновый сок."
+  },
+  {
+    "id": 241,
+    "term": "drive",
+    "translation": "водить",
+    "example": "I drive to work every day.",
+    "example_translation": "Я езжу на работу каждый день."
+  },
+  {
+    "id": 242,
+    "term": "drop",
+    "translation": "падать",
+    "example": "Be careful not to drop the glass.",
+    "example_translation": "Будь осторожен, не урони стакан."
+  },
+  {
+    "id": 243,
+    "term": "drove",
+    "translation": "водил",
+    "example": "He drove across the country last summer.",
+    "example_translation": "Он ездил по стране прошлым летом."
+  },
+  {
+    "id": 244,
+    "term": "dry",
+    "translation": "сухой",
+    "example": "The towel is dry now.",
+    "example_translation": "Полотенце теперь сухое."
+  },
+  {
+    "id": 245,
+    "term": "during",
+    "translation": "во время",
+    "example": "During the movie, I fell asleep.",
+    "example_translation": "Во время фильма я заснул."
+  },
+  {
+    "id": 246,
+    "term": "each",
+    "translation": "каждый",
+    "example": "Each student has a book.",
+    "example_translation": "У каждого студента есть книга."
+  },
+  {
+    "id": 247,
+    "term": "ear",
+    "translation": "ухо",
+    "example": "My ear hurts.",
+    "example_translation": "У меня болит ухо."
+  },
+  {
+    "id": 248,
+    "term": "early",
+    "translation": "рано",
+    "example": "She arrived early to the meeting.",
+    "example_translation": "Она пришла рано на встречу."
+  },
+  {
+    "id": 249,
+    "term": "easily",
+    "translation": "легко",
+    "example": "This task is done easily.",
+    "example_translation": "Это задание выполняется легко."
+  },
+  {
+    "id": 250,
+    "term": "easy",
+    "translation": "легкий",
+    "example": "This is an easy question.",
+    "example_translation": "Это легкий вопрос."
+  },
+  {
+    "id": 251,
+    "term": "eat",
+    "translation": "есть",
+    "example": "I like to eat apples.",
+    "example_translation": "Я люблю есть яблоки."
+  },
+  {
+    "id": 252,
+    "term": "edge",
+    "translation": "край",
+    "example": "Be careful near the edge of the table.",
+    "example_translation": "Будь осторожен возле края стола."
+  },
+  {
+    "id": 253,
+    "term": "either",
+    "translation": "или",
+    "example": "You can take either road.",
+    "example_translation": "Ты можешь пойти по любой дороге."
+  },
+  {
+    "id": 254,
+    "term": "else",
+    "translation": "ещё",
+    "example": "Is there anything else?",
+    "example_translation": "Есть ли ещё что-нибудь?"
+  },
+  {
+    "id": 255,
+    "term": "empty",
+    "translation": "пустой",
+    "example": "The box is empty.",
+    "example_translation": "Коробка пустая."
+  },
+  {
+    "id": 256,
+    "term": "end",
+    "translation": "конец",
+    "example": "This is the end of the story.",
+    "example_translation": "Это конец истории."
+  },
+  {
+    "id": 257,
+    "term": "enjoy",
+    "translation": "наслаждаться",
+    "example": "We enjoy the sunny weather.",
+    "example_translation": "Мы наслаждаемся солнечной погодой."
+  },
+  {
+    "id": 258,
+    "term": "enough",
+    "translation": "достаточно",
+    "example": "I have enough money.",
+    "example_translation": "У меня достаточно денег."
+  },
+  {
+    "id": 259,
+    "term": "enter",
+    "translation": "входить",
+    "example": "Please enter the room quietly.",
+    "example_translation": "Пожалуйста, войдите в комнату тихо."
+  },
+  {
+    "id": 260,
+    "term": "entire",
+    "translation": "целый",
+    "example": "He read the entire book.",
+    "example_translation": "Он прочитал всю книгу."
+  },
+  {
+    "id": 261,
+    "term": "escape",
+    "translation": "убегать",
+    "example": "The prisoner tried to escape.",
+    "example_translation": "Заключённый пытался сбежать."
+  },
+  {
+    "id": 262,
+    "term": "especially",
+    "translation": "особенно",
+    "example": "I love fruits, especially strawberries.",
+    "example_translation": "Я люблю фрукты, особенно клубнику."
+  },
+  {
+    "id": 263,
+    "term": "even",
+    "translation": "даже",
+    "example": "She didn’t even say goodbye.",
+    "example_translation": "Она даже не сказала «пока»."
+  },
+  {
+    "id": 264,
+    "term": "evening",
+    "translation": "вечер",
+    "example": "We went for a walk in the evening.",
+    "example_translation": "Мы пошли гулять вечером."
+  },
+  {
+    "id": 265,
+    "term": "eventually",
+    "translation": "в конце концов",
+    "example": "He eventually passed the exam.",
+    "example_translation": "В конце концов он сдал экзамен."
+  },
+  {
+    "id": 266,
+    "term": "ever",
+    "translation": "когда-либо",
+    "example": "Have you ever been to Paris?",
+    "example_translation": "Ты когда-либо был в Париже?"
+  },
+  {
+    "id": 267,
+    "term": "every",
+    "translation": "каждый",
+    "example": "Every child needs love.",
+    "example_translation": "Каждому ребенку нужна любовь."
+  },
+  {
+    "id": 268,
+    "term": "everyone",
+    "translation": "все",
+    "example": "Everyone is welcome here.",
+    "example_translation": "Здесь всем рады."
+  },
+  {
+    "id": 269,
+    "term": "everything",
+    "translation": "всё",
+    "example": "She packed everything for the trip.",
+    "example_translation": "Она упаковала всё для поездки."
+  },
+  {
+    "id": 270,
+    "term": "exactly",
+    "translation": "точно",
+    "example": "That’s exactly what I meant.",
+    "example_translation": "Это именно то, что я имел в виду."
+  },
+  {
+    "id": 271,
+    "term": "except",
+    "translation": "кроме",
+    "example": "Everyone went to the party except John.",
+    "example_translation": "Все пошли на вечеринку, кроме Джона."
+  },
+  {
+    "id": 272,
+    "term": "excite",
+    "translation": "возбуждать",
+    "example": "This news will excite you.",
+    "example_translation": "Эти новости тебя взволнуюют."
+  },
+  {
+    "id": 273,
+    "term": "exclaim",
+    "translation": "восклицать",
+    "example": "She exclaimed with surprise.",
+    "example_translation": "Она воскликнула от удивления."
+  },
+  {
+    "id": 274,
+    "term": "excuse",
+    "translation": "извинять",
+    "example": "Please excuse my mistake.",
+    "example_translation": "Пожалуйста, извините мою ошибку."
+  },
+  {
+    "id": 275,
+    "term": "expect",
+    "translation": "ожидать",
+    "example": "I expect you to arrive on time.",
+    "example_translation": "Я ожидаю, что ты придёшь вовремя."
+  },
+  {
+    "id": 276,
+    "term": "explain",
+    "translation": "объяснять",
+    "example": "Can you explain this problem?",
+    "example_translation": "Ты можешь объяснить эту проблему?"
+  },
+  {
+    "id": 277,
+    "term": "expression",
+    "translation": "выражение",
+    "example": "Her face showed a happy expression.",
+    "example_translation": "Её лицо показывало счастливое выражение."
+  },
+  {
+    "id": 278,
+    "term": "eye",
+    "translation": "глаз",
+    "example": "He has blue eyes.",
+    "example_translation": "У него голубые глаза."
+  },
+  {
+    "id": 279,
+    "term": "eyebrow",
+    "translation": "бровь",
+    "example": "She raised her eyebrow.",
+    "example_translation": "Она подняла бровь."
+  },
+  {
+    "id": 280,
+    "term": "face",
+    "translation": "лицо",
+    "example": "He washed his face.",
+    "example_translation": "Он умывался."
+  },
+  {
+    "id": 281,
+    "term": "fact",
+    "translation": "факт",
+    "example": "It’s a fact that the earth is round.",
+    "example_translation": "Это факт, что Земля круглая."
+  },
+  {
+    "id": 282,
+    "term": "fall",
+    "translation": "падать",
+    "example": "Leaves fall in autumn.",
+    "example_translation": "Листья падают осенью."
+  },
+  {
+    "id": 283,
+    "term": "family",
+    "translation": "семья",
+    "example": "My family is very important to me.",
+    "example_translation": "Моя семья очень важна для меня."
+  },
+  {
+    "id": 284,
+    "term": "far",
+    "translation": "далеко",
+    "example": "They live far from here.",
+    "example_translation": "Они живут далеко отсюда."
+  },
+  {
+    "id": 285,
+    "term": "fast",
+    "translation": "быстрый",
+    "example": "The car is very fast.",
+    "example_translation": "Машина очень быстрая."
+  },
+  {
+    "id": 286,
+    "term": "father",
+    "translation": "отец",
+    "example": "My father works in a bank.",
+    "example_translation": "Мой отец работает в банке."
+  },
+  {
+    "id": 287,
+    "term": "fault",
+    "translation": "вина",
+    "example": "It’s not my fault.",
+    "example_translation": "Это не моя вина."
+  },
+  {
+    "id": 288,
+    "term": "favorite",
+    "translation": "любимый",
+    "example": "My favorite color is blue.",
+    "example_translation": "Мой любимый цвет — синий."
+  },
+  {
+    "id": 289,
+    "term": "fear",
+    "translation": "страх",
+    "example": "He has a fear of heights.",
+    "example_translation": "Он боится высоты."
+  },
+  {
+    "id": 290,
+    "term": "feel",
+    "translation": "чувствовать",
+    "example": "I feel happy today.",
+    "example_translation": "Я чувствую себя счастливым сегодня."
+  },
+  {
+    "id": 291,
+    "term": "feet",
+    "translation": "стопы",
+    "example": "My feet are cold.",
+    "example_translation": "Мои стопы холодные."
+  },
+  {
+    "id": 292,
+    "term": "fell",
+    "translation": "упал",
+    "example": "He fell down the stairs.",
+    "example_translation": "Он упал с лестницы."
+  },
+  {
+    "id": 293,
+    "term": "felt",
+    "translation": "чувствовал",
+    "example": "I felt tired after work.",
+    "example_translation": "Я чувствовал усталость после работы."
+  },
+  {
+    "id": 294,
+    "term": "few",
+    "translation": "немного",
+    "example": "I have a few friends here.",
+    "example_translation": "У меня здесь немного друзей."
+  },
+  {
+    "id": 295,
+    "term": "field",
+    "translation": "поле",
+    "example": "She works in a large field.",
+    "example_translation": "Она работает в большом поле."
+  },
+  {
+    "id": 296,
+    "term": "fight",
+    "translation": "драться",
+    "example": "They fight over small things.",
+    "example_translation": "Они дерутся из-за мелочей."
+  },
+  {
+    "id": 297,
+    "term": "figure",
+    "translation": "фигура",
+    "example": "I can’t figure out the answer.",
+    "example_translation": "Я не могу понять ответ."
+  },
+  {
+    "id": 298,
+    "term": "fill",
+    "translation": "заполнять",
+    "example": "Please fill the form carefully.",
+    "example_translation": "Пожалуйста, заполни форму аккуратно."
+  },
+  {
+    "id": 299,
+    "term": "finally",
+    "translation": "наконец",
+    "example": "He finally finished the project.",
+    "example_translation": "Он наконец закончил проект."
+  },
+  {
+    "id": 300,
+    "term": "find",
+    "translation": "находить",
+    "example": "I can’t find my keys.",
+    "example_translation": "Я не могу найти свои ключи."
+  },
+  {
+    "id": 301,
+    "term": "fine",
+    "translation": "хорошо",
+    "example": "Everything is fine now.",
+    "example_translation": "Теперь всё хорошо."
+  },
+  {
+    "id": 302,
+    "term": "finger",
+    "translation": "палец",
+    "example": "She cut her finger while cooking.",
+    "example_translation": "Она порезала палец во время готовки."
+  },
+  {
+    "id": 303,
+    "term": "finish",
+    "translation": "заканчивать",
+    "example": "We will finish the work soon.",
+    "example_translation": "Мы скоро закончим работу."
+  },
+  {
+    "id": 304,
+    "term": "fire",
+    "translation": "огонь",
+    "example": "The fire is warm and bright.",
+    "example_translation": "Огонь тёплый и яркий."
+  },
+  {
+    "id": 305,
+    "term": "first",
+    "translation": "первый",
+    "example": "This is my first car.",
+    "example_translation": "Это моя первая машина."
+  },
+  {
+    "id": 306,
+    "term": "fit",
+    "translation": "подходить",
+    "example": "This shirt fits me well.",
+    "example_translation": "Эта рубашка мне подходит."
+  },
+  {
+    "id": 307,
+    "term": "five",
+    "translation": "пять",
+    "example": "I have five apples.",
+    "example_translation": "У меня пять яблок."
+  },
+  {
+    "id": 308,
+    "term": "fix",
+    "translation": "чинить",
+    "example": "Can you fix this chair?",
+    "example_translation": "Ты можешь починить этот стул?"
+  },
+  {
+    "id": 309,
+    "term": "flash",
+    "translation": "вспышка",
+    "example": "There was a flash of lightning.",
+    "example_translation": "Была вспышка молнии."
+  },
+  {
+    "id": 310,
+    "term": "flip",
+    "translation": "переворачивать",
+    "example": "He flipped the page quickly.",
+    "example_translation": "Он быстро перевернул страницу."
+  },
+  {
+    "id": 311,
+    "term": "floor",
+    "translation": "пол",
+    "example": "The floor is clean.",
+    "example_translation": "Пол чистый."
+  },
+  {
+    "id": 312,
+    "term": "fly",
+    "translation": "летать",
+    "example": "Birds can fly.",
+    "example_translation": "Птицы умеют летать."
+  },
+  {
+    "id": 313,
+    "term": "focus",
+    "translation": "сосредотачиваться",
+    "example": "Focus on your studies.",
+    "example_translation": "Сосредоточься на учёбе."
+  },
+  {
+    "id": 314,
+    "term": "follow",
+    "translation": "следовать",
+    "example": "Follow the instructions carefully.",
+    "example_translation": "Тщательно следуй инструкциям."
+  },
+  {
+    "id": 315,
+    "term": "food",
+    "translation": "еда",
+    "example": "I love Italian food.",
+    "example_translation": "Я люблю итальянскую еду."
+  },
+  {
+    "id": 316,
+    "term": "foot",
+    "translation": "стопа",
+    "example": "My foot hurts.",
+    "example_translation": "Моя стопа болит."
+  },
+  {
+    "id": 317,
+    "term": "for",
+    "translation": "для",
+    "example": "This gift is for you.",
+    "example_translation": "Этот подарок для тебя."
+  },
+  {
+    "id": 318,
+    "term": "force",
+    "translation": "сила",
+    "example": "They used force to open the door.",
+    "example_translation": "Они применили силу, чтобы открыть дверь."
+  },
+  {
+    "id": 319,
+    "term": "forget",
+    "translation": "забывать",
+    "example": "Don’t forget to call me.",
+    "example_translation": "Не забудь позвонить мне."
+  },
+  {
+    "id": 320,
+    "term": "form",
+    "translation": "форма",
+    "example": "Please fill out the form carefully.",
+    "example_translation": "Пожалуйста, аккуратно заполните форму."
+  },
+  {
+    "id": 321,
+    "term": "forward",
+    "translation": "вперёд",
+    "example": "Move forward to the next step.",
+    "example_translation": "Перейдите вперёд к следующему шагу."
+  },
+  {
+    "id": 322,
+    "term": "found",
+    "translation": "нашёл",
+    "example": "I found my lost keys.",
+    "example_translation": "Я нашёл свои потерянные ключи."
+  },
+  {
+    "id": 323,
+    "term": "four",
+    "translation": "четыре",
+    "example": "I have four apples.",
+    "example_translation": "У меня четыре яблока."
+  },
+  {
+    "id": 324,
+    "term": "free",
+    "translation": "бесплатный",
+    "example": "The event is free to attend.",
+    "example_translation": "Посещение мероприятия бесплатное."
+  },
+  {
+    "id": 325,
+    "term": "friend",
+    "translation": "друг",
+    "example": "She is my best friend.",
+    "example_translation": "Она моя лучшая подруга."
+  },
+  {
+    "id": 326,
+    "term": "from",
+    "translation": "от",
+    "example": "He came from Canada.",
+    "example_translation": "Он приехал из Канады."
+  },
+  {
+    "id": 327,
+    "term": "front",
+    "translation": "перед",
+    "example": "Stand in front of the door.",
+    "example_translation": "Встань перед дверью."
+  },
+  {
+    "id": 328,
+    "term": "frown",
+    "translation": "хмуриться",
+    "example": "Don't frown, everything will be fine.",
+    "example_translation": "Не хмурься, всё будет хорошо."
+  },
+  {
+    "id": 329,
+    "term": "fuck",
+    "translation": "ругательство",
+    "example": "This word is a strong swear word.",
+    "example_translation": "Это слово — сильное ругательство."
+  },
+  {
+    "id": 330,
+    "term": "full",
+    "translation": "полный",
+    "example": "The glass is full of water.",
+    "example_translation": "Стакан полный воды."
+  },
+  {
+    "id": 331,
+    "term": "fun",
+    "translation": "веселье",
+    "example": "We had fun at the party.",
+    "example_translation": "Мы весело провели время на вечеринке."
+  },
+  {
+    "id": 332,
+    "term": "funny",
+    "translation": "смешной",
+    "example": "That joke was really funny.",
+    "example_translation": "Этот анекдот был очень смешным."
+  },
+  {
+    "id": 333,
+    "term": "further",
+    "translation": "дальше",
+    "example": "Drive further to reach the town.",
+    "example_translation": "Едь дальше, чтобы добраться до города."
+  },
+  {
+    "id": 334,
+    "term": "game",
+    "translation": "игра",
+    "example": "They played a game of chess.",
+    "example_translation": "Они сыграли партию в шахматы."
+  },
+  {
+    "id": 335,
+    "term": "gasp",
+    "translation": "вздох",
+    "example": "She let out a gasp of surprise.",
+    "example_translation": "Она с удивлением вздохнула."
+  },
+  {
+    "id": 336,
+    "term": "gave",
+    "translation": "дал",
+    "example": "He gave me a gift.",
+    "example_translation": "Он дал мне подарок."
+  },
+  {
+    "id": 337,
+    "term": "gaze",
+    "translation": "взгляд",
+    "example": "She gazed at the stars.",
+    "example_translation": "Она смотрела на звёзды."
+  },
+  {
+    "id": 338,
+    "term": "gently",
+    "translation": "нежно",
+    "example": "Touch the baby gently.",
+    "example_translation": "Нежно прикоснись к ребёнку."
+  },
+  {
+    "id": 339,
+    "term": "get",
+    "translation": "получать",
+    "example": "I want to get a new phone.",
+    "example_translation": "Я хочу получить новый телефон."
+  },
+  {
+    "id": 340,
+    "term": "giggle",
+    "translation": "хихикать",
+    "example": "The children giggled during the show.",
+    "example_translation": "Дети хихикали во время шоу."
+  },
+  {
+    "id": 341,
+    "term": "girl",
+    "translation": "девочка",
+    "example": "The girl is reading a book.",
+    "example_translation": "Девочка читает книгу."
+  },
+  {
+    "id": 342,
+    "term": "girlfriend",
+    "translation": "девушка",
+    "example": "He loves his girlfriend.",
+    "example_translation": "Он любит свою девушку."
+  },
+  {
+    "id": 343,
+    "term": "give",
+    "translation": "давать",
+    "example": "Please give me the pen.",
+    "example_translation": "Пожалуйста, дай мне ручку."
+  },
+  {
+    "id": 344,
+    "term": "given",
+    "translation": "данный",
+    "example": "Given the circumstances, we should wait.",
+    "example_translation": "Учитывая обстоятельства, нам следует подождать."
+  },
+  {
+    "id": 345,
+    "term": "glad",
+    "translation": "рад",
+    "example": "I am glad to see you.",
+    "example_translation": "Я рад тебя видеть."
+  },
+  {
+    "id": 346,
+    "term": "glance",
+    "translation": "взгляд",
+    "example": "He took a quick glance at the clock.",
+    "example_translation": "Он быстро взглянул на часы."
+  },
+  {
+    "id": 347,
+    "term": "glare",
+    "translation": "смотреть сердито",
+    "example": "She glared at him angrily.",
+    "example_translation": "Она сердито на него посмотрела."
+  },
+  {
+    "id": 348,
+    "term": "glass",
+    "translation": "стекло",
+    "example": "Be careful with the glass.",
+    "example_translation": "Будь осторожен со стеклом."
+  },
+  {
+    "id": 349,
+    "term": "go",
+    "translation": "идти",
+    "example": "We will go to the park.",
+    "example_translation": "Мы пойдём в парк."
+  },
+  {
+    "id": 350,
+    "term": "God",
+    "translation": "Бог",
+    "example": "Many people believe in God.",
+    "example_translation": "Многие люди верят в Бога."
+  },
+  {
+    "id": 351,
+    "term": "gone",
+    "translation": "ушёл",
+    "example": "He has gone to work.",
+    "example_translation": "Он ушёл на работу."
+  },
+  {
+    "id": 352,
+    "term": "gonna",
+    "translation": "собираюсь",
+    "example": "I’m gonna call you later.",
+    "example_translation": "Я собираюсь позвонить тебе позже."
+  },
+  {
+    "id": 353,
+    "term": "good",
+    "translation": "хороший",
+    "example": "This is a good idea.",
+    "example_translation": "Это хорошая идея."
+  },
+  {
+    "id": 354,
+    "term": "got",
+    "translation": "получил",
+    "example": "I got your message.",
+    "example_translation": "Я получил твоё сообщение."
+  },
+  {
+    "id": 355,
+    "term": "gotten",
+    "translation": "полученный",
+    "example": "He has gotten better at playing piano.",
+    "example_translation": "Он стал лучше играть на пианино."
+  },
+  {
+    "id": 356,
+    "term": "grab",
+    "translation": "хватать",
+    "example": "Grab your coat before leaving.",
+    "example_translation": "Хватай своё пальто перед выходом."
+  },
+  {
+    "id": 357,
+    "term": "great",
+    "translation": "отличный",
+    "example": "You did a great job!",
+    "example_translation": "Ты отлично справился!"
+  },
+  {
+    "id": 358,
+    "term": "green",
+    "translation": "зелёный",
+    "example": "The grass is green.",
+    "example_translation": "Трава зелёная."
+  },
+  {
+    "id": 359,
+    "term": "greet",
+    "translation": "приветствовать",
+    "example": "They greeted us warmly.",
+    "example_translation": "Они тепло нас поприветствовали."
+  },
+  {
+    "id": 360,
+    "term": "grey",
+    "translation": "серый",
+    "example": "The sky is grey today.",
+    "example_translation": "Сегодня небо серое."
+  },
+  {
+    "id": 361,
+    "term": "grin",
+    "translation": "ухмылка",
+    "example": "He gave a big grin.",
+    "example_translation": "Он широко ухмыльнулся."
+  },
+  {
+    "id": 362,
+    "term": "grip",
+    "translation": "схватывать",
+    "example": "Hold the rope with a strong grip.",
+    "example_translation": "Держи верёвку крепко."
+  },
+  {
+    "id": 363,
+    "term": "groan",
+    "translation": "стон",
+    "example": "He let out a groan of pain.",
+    "example_translation": "Он издал стон от боли."
+  },
+  {
+    "id": 364,
+    "term": "ground",
+    "translation": "земля",
+    "example": "The ball is on the ground.",
+    "example_translation": "Мяч на земле."
+  },
+  {
+    "id": 365,
+    "term": "group",
+    "translation": "группа",
+    "example": "We work in a group.",
+    "example_translation": "Мы работаем в группе."
+  },
+  {
+    "id": 366,
+    "term": "grow",
+    "translation": "расти",
+    "example": "Plants grow quickly in spring.",
+    "example_translation": "Растения быстро растут весной."
+  },
+  {
+    "id": 367,
+    "term": "guard",
+    "translation": "охранять",
+    "example": "The guard stood by the door.",
+    "example_translation": "Охранник стоял у двери."
+  },
+  {
+    "id": 368,
+    "term": "guess",
+    "translation": "угадывать",
+    "example": "Can you guess the answer?",
+    "example_translation": "Можешь угадать ответ?"
+  },
+  {
+    "id": 369,
+    "term": "gun",
+    "translation": "оружие",
+    "example": "He owns a hunting gun.",
+    "example_translation": "У него есть охотничье оружие."
+  },
+  {
+    "id": 370,
+    "term": "guy",
+    "translation": "парень",
+    "example": "That guy is very friendly.",
+    "example_translation": "Тот парень очень дружелюбный."
+  },
+  {
+    "id": 371,
+    "term": "had",
+    "translation": "имел",
+    "example": "She had a cat when she was young.",
+    "example_translation": "У неё была кошка, когда она была маленькой."
+  },
+  {
+    "id": 372,
+    "term": "hadn't",
+    "translation": "не имел",
+    "example": "He hadn't finished his homework.",
+    "example_translation": "Он не закончил своё домашнее задание."
+  },
+  {
+    "id": 373,
+    "term": "hair",
+    "translation": "волосы",
+    "example": "Her hair is long and black.",
+    "example_translation": "У неё длинные чёрные волосы."
+  },
+  {
+    "id": 374,
+    "term": "half",
+    "translation": "половина",
+    "example": "I ate half of the cake.",
+    "example_translation": "Я съел половину пирога."
+  },
+  {
+    "id": 375,
+    "term": "hall",
+    "translation": "зал",
+    "example": "We met in the hall.",
+    "example_translation": "Мы встретились в зале."
+  },
+  {
+    "id": 376,
+    "term": "hallway",
+    "translation": "коридор",
+    "example": "She walked down the hallway.",
+    "example_translation": "Она шла по коридору."
+  },
+  {
+    "id": 377,
+    "term": "hand",
+    "translation": "рука",
+    "example": "He raised his hand.",
+    "example_translation": "Он поднял руку."
+  },
+  {
+    "id": 378,
+    "term": "handle",
+    "translation": "рукоятка",
+    "example": "Be careful with the handle.",
+    "example_translation": "Будь осторожен с рукояткой."
+  },
+  {
+    "id": 379,
+    "term": "hang",
+    "translation": "висеть",
+    "example": "Clothes hang in the closet.",
+    "example_translation": "Одежда висит в шкафу."
+  },
+  {
+    "id": 380,
+    "term": "happen",
+    "translation": "происходить",
+    "example": "What will happen next?",
+    "example_translation": "Что произойдет дальше?"
+  },
+  {
+    "id": 381,
+    "term": "happy",
+    "translation": "счастливый",
+    "example": "I am very happy today.",
+    "example_translation": "Я очень счастлив сегодня."
+  },
+  {
+    "id": 382,
+    "term": "hard",
+    "translation": "тяжёлый",
+    "example": "This task is hard.",
+    "example_translation": "Это задание тяжёлое."
+  },
+  {
+    "id": 383,
+    "term": "has",
+    "translation": "имеет",
+    "example": "She has a new car.",
+    "example_translation": "У неё есть новая машина."
+  },
+  {
+    "id": 384,
+    "term": "hate",
+    "translation": "ненавидеть",
+    "example": "I hate waiting in lines.",
+    "example_translation": "Я ненавижу стоять в очередях."
+  },
+  {
+    "id": 385,
+    "term": "have",
+    "translation": "иметь",
+    "example": "They have two dogs.",
+    "example_translation": "У них есть две собаки."
+  },
+  {
+    "id": 386,
+    "term": "haven't",
+    "translation": "не имеют",
+    "example": "We haven't seen that movie.",
+    "example_translation": "Мы не видели этот фильм."
+  },
+  {
+    "id": 387,
+    "term": "he",
+    "translation": "он",
+    "example": "He is my brother.",
+    "example_translation": "Он мой брат."
+  },
+  {
+    "id": 388,
+    "term": "he'd",
+    "translation": "он бы",
+    "example": "He'd like to come with us.",
+    "example_translation": "Он бы хотел пойти с нами."
+  },
+  {
+    "id": 389,
+    "term": "he's",
+    "translation": "он есть",
+    "example": "He's very tall.",
+    "example_translation": "Он очень высокий."
+  },
+  {
+    "id": 390,
+    "term": "head",
+    "translation": "голова",
+    "example": "My head hurts.",
+    "example_translation": "У меня болит голова."
+  },
+  {
+    "id": 391,
+    "term": "hear",
+    "translation": "слышать",
+    "example": "Can you hear the music?",
+    "example_translation": "Ты слышишь музыку?"
+  },
+  {
+    "id": 392,
+    "term": "heard",
+    "translation": "слышал",
+    "example": "I heard a noise last night.",
+    "example_translation": "Я слышал шум прошлой ночью."
+  },
+  {
+    "id": 393,
+    "term": "heart",
+    "translation": "сердце",
+    "example": "My heart beats fast.",
+    "example_translation": "Моё сердце бьётся быстро."
+  },
+  {
+    "id": 394,
+    "term": "heavy",
+    "translation": "тяжёлый",
+    "example": "The box is heavy.",
+    "example_translation": "Коробка тяжёлая."
+  },
+  {
+    "id": 395,
+    "term": "held",
+    "translation": "держал",
+    "example": "He held the baby gently.",
+    "example_translation": "Он нежно держал ребёнка."
+  },
+  {
+    "id": 396,
+    "term": "hell",
+    "translation": "ад",
+    "example": "This heat is like hell.",
+    "example_translation": "Эта жара как ад."
+  },
+  {
+    "id": 397,
+    "term": "hello",
+    "translation": "привет",
+    "example": "Hello! How are you?",
+    "example_translation": "Привет! Как дела?"
+  },
+  {
+    "id": 398,
+    "term": "help",
+    "translation": "помощь",
+    "example": "Can you help me?",
+    "example_translation": "Ты можешь мне помочь?"
+  },
+  {
+    "id": 399,
+    "term": "her",
+    "translation": "её",
+    "example": "I gave her a book.",
+    "example_translation": "Я дал ей книгу."
+  },
+  {
+    "id": 400,
+    "term": "here",
+    "translation": "здесь",
+    "example": "I am here now.",
+    "example_translation": "Я здесь сейчас."
+  },
+  {
+    "id": 401,
+    "term": "herself",
+    "translation": "сама",
+    "example": "She did it herself.",
+    "example_translation": "Она сделала это сама."
+  },
+  {
+    "id": 402,
+    "term": "hey",
+    "translation": "эй",
+    "example": "Hey! Wait for me!",
+    "example_translation": "Эй! Подожди меня!"
+  },
+  {
+    "id": 403,
+    "term": "hi",
+    "translation": "привет",
+    "example": "Hi! Nice to meet you.",
+    "example_translation": "Привет! Приятно познакомиться."
+  },
+  {
+    "id": 404,
+    "term": "hide",
+    "translation": "прятать",
+    "example": "He tried to hide the gift.",
+    "example_translation": "Он пытался спрятать подарок."
+  },
+  {
+    "id": 405,
+    "term": "high",
+    "translation": "высокий",
+    "example": "The mountain is very high.",
+    "example_translation": "Гора очень высокая."
+  },
+  {
+    "id": 406,
+    "term": "him",
+    "translation": "его",
+    "example": "I saw him yesterday.",
+    "example_translation": "Я видел его вчера."
+  },
+  {
+    "id": 407,
+    "term": "himself",
+    "translation": "сам",
+    "example": "He fixed the car himself.",
+    "example_translation": "Он сам починил машину."
+  },
+  {
+    "id": 408,
+    "term": "his",
+    "translation": "его",
+    "example": "This is his book.",
+    "example_translation": "Это его книга."
+  },
+  {
+    "id": 409,
+    "term": "hit",
+    "translation": "ударять",
+    "example": "He hit the ball hard.",
+    "example_translation": "Он сильно ударил по мячу."
+  },
+  {
+    "id": 410,
+    "term": "hold",
+    "translation": "держать",
+    "example": "Hold my hand.",
+    "example_translation": "Держи меня за руку."
+  },
+  {
+    "id": 411,
+    "term": "home",
+    "translation": "дом",
+    "example": "I am going home.",
+    "example_translation": "Я иду домой."
+  },
+  {
+    "id": 412,
+    "term": "hope",
+    "translation": "надеяться",
+    "example": "I hope you succeed.",
+    "example_translation": "Я надеюсь, что ты преуспеешь."
+  },
+  {
+    "id": 413,
+    "term": "horse",
+    "translation": "лошадь",
+    "example": "The horse runs fast.",
+    "example_translation": "Лошадь быстро бегает."
+  },
+  {
+    "id": 414,
+    "term": "hospital",
+    "translation": "больница",
+    "example": "She works at the hospital.",
+    "example_translation": "Она работает в больнице."
+  },
+  {
+    "id": 415,
+    "term": "hot",
+    "translation": "жаркий",
+    "example": "It is hot today.",
+    "example_translation": "Сегодня жарко."
+  },
+  {
+    "id": 416,
+    "term": "hour",
+    "translation": "час",
+    "example": "It takes an hour to get there.",
+    "example_translation": "Добраться туда занимает час."
+  },
+  {
+    "id": 417,
+    "term": "house",
+    "translation": "дом",
+    "example": "They live in a big house.",
+    "example_translation": "Они живут в большом доме."
+  },
+  {
+    "id": 418,
+    "term": "how",
+    "translation": "как",
+    "example": "How are you?",
+    "example_translation": "Как ты?"
+  },
+  {
+    "id": 419,
+    "term": "however",
+    "translation": "однако",
+    "example": "I wanted to go; however, I was tired.",
+    "example_translation": "Я хотел пойти, однако был уставшим."
+  },
+  {
+    "id": 420,
+    "term": "hug",
+    "translation": "обнимать",
+    "example": "She gave me a warm hug.",
+    "example_translation": "Она тепло меня обняла."
+  },
+  {
+    "id": 421,
+    "term": "huge",
+    "translation": "огромный",
+    "example": "The building is huge.",
+    "example_translation": "Здание огромное."
+  },
+  {
+    "id": 422,
+    "term": "huh",
+    "translation": "что?",
+    "example": "Huh? I didn't hear you.",
+    "example_translation": "Что? Я тебя не услышал."
+  },
+  {
+    "id": 423,
+    "term": "human",
+    "translation": "человек",
+    "example": "We are all human.",
+    "example_translation": "Мы все люди."
+  },
+  {
+    "id": 424,
+    "term": "hundred",
+    "translation": "сто",
+    "example": "There are a hundred pages in the book.",
+    "example_translation": "В книге сто страниц."
+  },
+  {
+    "id": 425,
+    "term": "hung",
+    "translation": "висел",
+    "example": "The picture hung on the wall.",
+    "example_translation": "Картина висела на стене."
+  },
+  {
+    "id": 426,
+    "term": "hurry",
+    "translation": "спешить",
+    "example": "Hurry up or we'll be late.",
+    "example_translation": "Поторопись, или мы опоздаем."
+  },
+  {
+    "id": 427,
+    "term": "hurt",
+    "translation": "болеть",
+    "example": "My leg hurts.",
+    "example_translation": "У меня болит нога."
+  },
+  {
+    "id": 428,
+    "term": "I",
+    "translation": "я",
+    "example": "I like chocolate.",
+    "example_translation": "Я люблю шоколад."
+  },
+  {
+    "id": 429,
+    "term": "I'd",
+    "translation": "я бы",
+    "example": "I'd like some coffee.",
+    "example_translation": "Я бы хотел кофе."
+  },
+  {
+    "id": 430,
+    "term": "I'll",
+    "translation": "я буду",
+    "example": "I'll call you later.",
+    "example_translation": "Я позвоню тебе позже."
+  },
+  {
+    "id": 431,
+    "term": "I'm",
+    "translation": "я есть",
+    "example": "I'm happy today.",
+    "example_translation": "Я сегодня счастлив."
+  },
+  {
+    "id": 432,
+    "term": "I've",
+    "translation": "я имею",
+    "example": "I've finished my work.",
+    "example_translation": "Я закончил свою работу."
+  },
+  {
+    "id": 433,
+    "term": "ice",
+    "translation": "лед",
+    "example": "The lake is covered with ice.",
+    "example_translation": "Озеро покрыто льдом."
+  },
+  {
+    "id": 434,
+    "term": "idea",
+    "translation": "идея",
+    "example": "That's a great idea!",
+    "example_translation": "Это отличная идея!"
+  },
+  {
+    "id": 435,
+    "term": "if",
+    "translation": "если",
+    "example": "If it rains, we'll stay inside.",
+    "example_translation": "Если пойдет дождь, мы останемся внутри."
+  },
+  {
+    "id": 436,
+    "term": "ignore",
+    "translation": "игнорировать",
+    "example": "Please ignore the noise.",
+    "example_translation": "Пожалуйста, игнорируй шум."
+  },
+  {
+    "id": 437,
+    "term": "imagine",
+    "translation": "представлять",
+    "example": "Imagine a world without war.",
+    "example_translation": "Представь мир без войны."
+  },
+  {
+    "id": 438,
+    "term": "immediately",
+    "translation": "немедленно",
+    "example": "Call me immediately.",
+    "example_translation": "Позвони мне немедленно."
+  },
+  {
+    "id": 439,
+    "term": "important",
+    "translation": "важный",
+    "example": "Health is important.",
+    "example_translation": "Здоровье важно."
+  },
+  {
+    "id": 440,
+    "term": "in",
+    "translation": "в",
+    "example": "She is in the room.",
+    "example_translation": "Она в комнате."
+  },
+  {
+    "id": 441,
+    "term": "inside",
+    "translation": "внутри",
+    "example": "The keys are inside the box.",
+    "example_translation": "Ключи внутри коробки."
+  },
+  {
+    "id": 442,
+    "term": "instead",
+    "translation": "вместо",
+    "example": "Let's walk instead of driving.",
+    "example_translation": "Давай пойдем пешком вместо того, чтобы ехать."
+  },
+  {
+    "id": 443,
+    "term": "interest",
+    "translation": "интерес",
+    "example": "He has a great interest in music.",
+    "example_translation": "У него большой интерес к музыке."
+  },
+  {
+    "id": 444,
+    "term": "interrupt",
+    "translation": "прерывать",
+    "example": "Don't interrupt me.",
+    "example_translation": "Не перебивай меня."
+  },
+  {
+    "id": 445,
+    "term": "into",
+    "translation": "в",
+    "example": "She walked into the room.",
+    "example_translation": "Она вошла в комнату."
+  },
+  {
+    "id": 446,
+    "term": "is",
+    "translation": "есть",
+    "example": "He is my friend.",
+    "example_translation": "Он мой друг."
+  },
+  {
+    "id": 447,
+    "term": "isn't",
+    "translation": "не есть",
+    "example": "This isn't your book.",
+    "example_translation": "Это не твоя книга."
+  },
+  {
+    "id": 448,
+    "term": "it",
+    "translation": "оно",
+    "example": "It is raining.",
+    "example_translation": "Идёт дождь."
+  },
+  {
+    "id": 449,
+    "term": "it's",
+    "translation": "это есть",
+    "example": "It's a sunny day.",
+    "example_translation": "Сегодня солнечный день."
+  },
+  {
+    "id": 450,
+    "term": "its",
+    "translation": "его, её",
+    "example": "The cat licked its paw.",
+    "example_translation": "Кошка лизала свою лапу."
+  },
+  {
+    "id": 451,
+    "term": "jacket",
+    "translation": "куртка",
+    "example": "Put on your jacket; it's cold.",
+    "example_translation": "Надень куртку, холодно."
+  },
+  {
+    "id": 452,
+    "term": "jeans",
+    "translation": "джинсы",
+    "example": "I bought new jeans.",
+    "example_translation": "Я купил новые джинсы."
+  },
+  {
+    "id": 453,
+    "term": "jerk",
+    "translation": "придурок",
+    "example": "Don't be a jerk.",
+    "example_translation": "Не будь придурком."
+  },
+  {
+    "id": 454,
+    "term": "job",
+    "translation": "работа",
+    "example": "I have a new job.",
+    "example_translation": "У меня новая работа."
+  },
+  {
+    "id": 455,
+    "term": "join",
+    "translation": "присоединяться",
+    "example": "Join us for dinner.",
+    "example_translation": "Присоединяйся к нам на ужин."
+  },
+  {
+    "id": 456,
+    "term": "joke",
+    "translation": "шутка",
+    "example": "That was a funny joke.",
+    "example_translation": "Это была забавная шутка."
+  },
+  {
+    "id": 457,
+    "term": "jump",
+    "translation": "прыгать",
+    "example": "The cat can jump high.",
+    "example_translation": "Кошка может высоко прыгать."
+  },
+  {
+    "id": 458,
+    "term": "just",
+    "translation": "только",
+    "example": "I just arrived.",
+    "example_translation": "Я только что приехал."
+  },
+  {
+    "id": 459,
+    "term": "keep",
+    "translation": "держать",
+    "example": "Keep the door closed.",
+    "example_translation": "Держи дверь закрытой."
+  },
+  {
+    "id": 460,
+    "term": "kept",
+    "translation": "хранил",
+    "example": "He kept the secret.",
+    "example_translation": "Он хранил секрет."
+  },
+  {
+    "id": 461,
+    "term": "key",
+    "translation": "ключ",
+    "example": "Where is the key?",
+    "example_translation": "Где ключ?"
+  },
+  {
+    "id": 462,
+    "term": "kick",
+    "translation": "бить ногой",
+    "example": "Don't kick the ball too hard.",
+    "example_translation": "Не бей мяч слишком сильно."
+  },
+  {
+    "id": 463,
+    "term": "kid",
+    "translation": "ребёнок",
+    "example": "The kids are playing outside.",
+    "example_translation": "Дети играют на улице."
+  },
+  {
+    "id": 464,
+    "term": "kill",
+    "translation": "убивать",
+    "example": "The movie is about a spy who kills enemies.",
+    "example_translation": "Фильм о шпионе, который убивает врагов."
+  },
+  {
+    "id": 465,
+    "term": "kind",
+    "translation": "добрый",
+    "example": "She is very kind.",
+    "example_translation": "Она очень добрая."
+  },
+  {
+    "id": 466,
+    "term": "kiss",
+    "translation": "целовать",
+    "example": "They shared a sweet kiss.",
+    "example_translation": "Они поделились нежным поцелуем."
+  },
+  {
+    "id": 467,
+    "term": "kitchen",
+    "translation": "кухня",
+    "example": "I cooked dinner in the kitchen.",
+    "example_translation": "Я приготовил ужин на кухне."
+  },
+  {
+    "id": 468,
+    "term": "knee",
+    "translation": "колено",
+    "example": "I hurt my knee playing soccer.",
+    "example_translation": "Я повредил колено, играя в футбол."
+  },
+  {
+    "id": 469,
+    "term": "knew",
+    "translation": "знал",
+    "example": "I knew the answer.",
+    "example_translation": "Я знал ответ."
+  },
+  {
+    "id": 470,
+    "term": "knock",
+    "translation": "стучать",
+    "example": "Please knock before entering.",
+    "example_translation": "Пожалуйста, стучи перед входом."
+  },
+  {
+    "id": 471,
+    "term": "know",
+    "translation": "знать",
+    "example": "I know the answer.",
+    "example_translation": "Я знаю ответ."
+  },
+  {
+    "id": 472,
+    "term": "known",
+    "translation": "известный",
+    "example": "She is a known artist.",
+    "example_translation": "Она известный художник."
+  },
+  {
+    "id": 473,
+    "term": "lady",
+    "translation": "леди",
+    "example": "The lady smiled kindly.",
+    "example_translation": "Леди улыбнулась доброжелательно."
+  },
+  {
+    "id": 474,
+    "term": "land",
+    "translation": "земля",
+    "example": "They landed safely.",
+    "example_translation": "Они благополучно приземлились."
+  },
+  {
+    "id": 475,
+    "term": "large",
+    "translation": "большой",
+    "example": "The elephant is large.",
+    "example_translation": "Слон большой."
+  },
+  {
+    "id": 476,
+    "term": "last",
+    "translation": "последний",
+    "example": "This is the last chance.",
+    "example_translation": "Это последний шанс."
+  },
+  {
+    "id": 477,
+    "term": "late",
+    "translation": "поздний",
+    "example": "He was late for the meeting.",
+    "example_translation": "Он опоздал на встречу."
+  },
+  {
+    "id": 478,
+    "term": "laugh",
+    "translation": "смеяться",
+    "example": "We laugh at jokes.",
+    "example_translation": "Мы смеёмся над шутками."
+  },
+  {
+    "id": 479,
+    "term": "lay",
+    "translation": "класть",
+    "example": "She lay the book on the table.",
+    "example_translation": "Она положила книгу на стол."
+  },
+  {
+    "id": 480,
+    "term": "lead",
+    "translation": "вести",
+    "example": "He will lead the team.",
+    "example_translation": "Он будет вести команду."
+  },
+  {
+    "id": 481,
+    "term": "lean",
+    "translation": "наклоняться",
+    "example": "Lean to the left.",
+    "example_translation": "Наклонись влево."
+  },
+  {
+    "id": 482,
+    "term": "learn",
+    "translation": "учиться",
+    "example": "I want to learn English.",
+    "example_translation": "Я хочу учить английский."
+  },
+  {
+    "id": 483,
+    "term": "least",
+    "translation": "минимум",
+    "example": "That is the least I can do.",
+    "example_translation": "Это минимум, что я могу сделать."
+  },
+  {
+    "id": 484,
+    "term": "leave",
+    "translation": "уходить",
+    "example": "Leave the room quietly.",
+    "example_translation": "Выйди из комнаты тихо."
+  },
+  {
+    "id": 485,
+    "term": "led",
+    "translation": "вёл",
+    "example": "She led the group.",
+    "example_translation": "Она вела группу."
+  },
+  {
+    "id": 486,
+    "term": "left",
+    "translation": "левый",
+    "example": "He writes with his left hand.",
+    "example_translation": "Он пишет левой рукой."
+  },
+  {
+    "id": 487,
+    "term": "leg",
+    "translation": "нога",
+    "example": "My leg is sore.",
+    "example_translation": "У меня болит нога."
+  },
+  {
+    "id": 488,
+    "term": "less",
+    "translation": "меньше",
+    "example": "I have less time today.",
+    "example_translation": "У меня сегодня меньше времени."
+  },
+  {
+    "id": 489,
+    "term": "let",
+    "translation": "позволять",
+    "example": "Let me help you.",
+    "example_translation": "Позволь мне помочь тебе."
+  },
+  {
+    "id": 490,
+    "term": "letter",
+    "translation": "письмо",
+    "example": "I received a letter yesterday.",
+    "example_translation": "Вчера я получил письмо."
+  },
+  {
+    "id": 491,
+    "term": "lie",
+    "translation": "ложь",
+    "example": "Telling a lie is wrong.",
+    "example_translation": "Говорить ложь — плохо."
+  },
+  {
+    "id": 492,
+    "term": "life",
+    "translation": "жизнь",
+    "example": "Life is beautiful.",
+    "example_translation": "Жизнь прекрасна."
+  },
+  {
+    "id": 493,
+    "term": "lift",
+    "translation": "поднимать",
+    "example": "Can you lift this box?",
+    "example_translation": "Ты можешь поднять эту коробку?"
+  },
+  {
+    "id": 494,
+    "term": "light",
+    "translation": "свет",
+    "example": "The light is bright.",
+    "example_translation": "Свет яркий."
+  },
+  {
+    "id": 495,
+    "term": "like",
+    "translation": "нравиться",
+    "example": "I like this song.",
+    "example_translation": "Мне нравится эта песня."
+  },
+  {
+    "id": 496,
+    "term": "line",
+    "translation": "линия",
+    "example": "Draw a straight line.",
+    "example_translation": "Нарисуй прямую линию."
+  },
+  {
+    "id": 497,
+    "term": "lip",
+    "translation": "губа",
+    "example": "She bit her lip nervously.",
+    "example_translation": "Она нервно прикусила губу."
+  },
+  {
+    "id": 498,
+    "term": "listen",
+    "translation": "слушать",
+    "example": "Listen carefully.",
+    "example_translation": "Слушай внимательно."
+  },
+  {
+    "id": 499,
+    "term": "little",
+    "translation": "маленький",
+    "example": "The puppy is little.",
+    "example_translation": "Щенок маленький."
+  },
+  {
+    "id": 500,
+    "term": "live",
+    "translation": "жить",
+    "example": "I live in the city.",
+    "example_translation": "Я живу в городе."
+  },
+  {
+    "id": 501,
+    "term": "lock",
+    "translation": "замок",
+    "example": "Lock the door before leaving.",
+    "example_translation": "Запри дверь перед уходом."
+  },
+  {
+    "id": 502,
+    "term": "locker",
+    "translation": "шкафчик",
+    "example": "She put her books in the locker.",
+    "example_translation": "Она положила книги в шкафчик."
+  },
+  {
+    "id": 503,
+    "term": "long",
+    "translation": "длинный",
+    "example": "The river is long.",
+    "example_translation": "Река длинная."
+  },
+  {
+    "id": 504,
+    "term": "look",
+    "translation": "смотреть",
+    "example": "Look at the sky.",
+    "example_translation": "Посмотри на небо."
+  },
+  {
+    "id": 505,
+    "term": "lose",
+    "translation": "терять",
+    "example": "Don't lose your keys.",
+    "example_translation": "Не теряй ключи."
+  },
+  {
+    "id": 506,
+    "term": "lost",
+    "translation": "потерянный",
+    "example": "I lost my phone.",
+    "example_translation": "Я потерял телефон."
+  },
+  {
+    "id": 507,
+    "term": "lot",
+    "translation": "много",
+    "example": "He has a lot of friends.",
+    "example_translation": "У него много друзей."
+  },
+  {
+    "id": 508,
+    "term": "loud",
+    "translation": "громкий",
+    "example": "The music is loud.",
+    "example_translation": "Музыка громкая."
+  },
+  {
+    "id": 509,
+    "term": "love",
+    "translation": "любить",
+    "example": "I love my family.",
+    "example_translation": "Я люблю свою семью."
+  },
+  {
+    "id": 510,
+    "term": "low",
+    "translation": "низкий",
+    "example": "The shelf is low.",
+    "example_translation": "Полка низкая."
+  },
+  {
+    "id": 511,
+    "term": "lunch",
+    "translation": "обед",
+    "example": "We have lunch at noon.",
+    "example_translation": "Мы обедаем в полдень."
+  },
+  {
+    "id": 512,
+    "term": "mad",
+    "translation": "злой",
+    "example": "She was mad at me.",
+    "example_translation": "Она была зла на меня."
+  },
+  {
+    "id": 513,
+    "term": "made",
+    "translation": "сделанный",
+    "example": "He made a cake.",
+    "example_translation": "Он сделал торт."
+  },
+  {
+    "id": 514,
+    "term": "make",
+    "translation": "делать",
+    "example": "Make your bed.",
+    "example_translation": "Заправь свою кровать."
+  },
+  {
+    "id": 515,
+    "term": "man",
+    "translation": "мужчина",
+    "example": "The man is tall.",
+    "example_translation": "Мужчина высокий."
+  },
+  {
+    "id": 516,
+    "term": "manage",
+    "translation": "справляться",
+    "example": "She can manage the project.",
+    "example_translation": "Она может справиться с проектом."
+  },
+  {
+    "id": 517,
+    "term": "many",
+    "translation": "много",
+    "example": "There are many books here.",
+    "example_translation": "Здесь много книг."
+  },
+  {
+    "id": 518,
+    "term": "mark",
+    "translation": "отметка",
+    "example": "He made a mark on the paper.",
+    "example_translation": "Он сделал отметку на бумаге."
+  },
+  {
+    "id": 519,
+    "term": "marry",
+    "translation": "жениться",
+    "example": "They plan to marry next year.",
+    "example_translation": "Они планируют пожениться в следующем году."
+  },
+  {
+    "id": 520,
+    "term": "match",
+    "translation": "спичка",
+    "example": "This match is lit.",
+    "example_translation": "Эта спичка зажжена."
+  },
+  {
+    "id": 521,
+    "term": "matter",
+    "translation": "иметь значение",
+    "example": "It doesn't matter.",
+    "example_translation": "Это не имеет значения."
+  },
+  {
+    "id": 522,
+    "term": "may",
+    "translation": "может",
+    "example": "May I come in?",
+    "example_translation": "Можно войти?"
+  },
+  {
+    "id": 523,
+    "term": "maybe",
+    "translation": "возможно",
+    "example": "Maybe it will rain today.",
+    "example_translation": "Возможно, сегодня пойдёт дождь."
+  },
+  {
+    "id": 524,
+    "term": "me",
+    "translation": "мне",
+    "example": "Can you help me?",
+    "example_translation": "Ты можешь помочь мне?"
+  },
+  {
+    "id": 525,
+    "term": "mean",
+    "translation": "значить",
+    "example": "What does this word mean?",
+    "example_translation": "Что значит это слово?"
+  },
+  {
+    "id": 526,
+    "term": "meant",
+    "translation": "значил",
+    "example": "I meant to call you.",
+    "example_translation": "Я хотел позвонить тебе."
+  },
+  {
+    "id": 527,
+    "term": "meet",
+    "translation": "встречать",
+    "example": "Let's meet tomorrow.",
+    "example_translation": "Давай встретимся завтра."
+  },
+  {
+    "id": 528,
+    "term": "memory",
+    "translation": "память",
+    "example": "I have a good memory.",
+    "example_translation": "У меня хорошая память."
+  },
+  {
+    "id": 529,
+    "term": "men",
+    "translation": "мужчины",
+    "example": "The men are working outside.",
+    "example_translation": "Мужчины работают на улице."
+  },
+  {
+    "id": 530,
+    "term": "mention",
+    "translation": "упоминать",
+    "example": "Did you mention my name?",
+    "example_translation": "Ты упомянул моё имя?"
+  },
+  {
+    "id": 531,
+    "term": "met",
+    "translation": "встретил",
+    "example": "I met her at the party.",
+    "example_translation": "Я встретил её на вечеринке."
+  },
+  {
+    "id": 532,
+    "term": "middle",
+    "translation": "середина",
+    "example": "The book is in the middle of the table.",
+    "example_translation": "Книга на середине стола."
+  },
+  {
+    "id": 533,
+    "term": "might",
+    "translation": "мог бы",
+    "example": "He might come later.",
+    "example_translation": "Он может прийти позже."
+  },
+  {
+    "id": 534,
+    "term": "mind",
+    "translation": "ум",
+    "example": "Keep your mind focused.",
+    "example_translation": "Держи ум сосредоточенным."
+  },
+  {
+    "id": 535,
+    "term": "mine",
+    "translation": "мой",
+    "example": "This book is mine.",
+    "example_translation": "Эта книга моя."
+  },
+  {
+    "id": 536,
+    "term": "minute",
+    "translation": "минута",
+    "example": "Wait a minute, please.",
+    "example_translation": "Подожди минуту, пожалуйста."
+  },
+  {
+    "id": 537,
+    "term": "mirror",
+    "translation": "зеркало",
+    "example": "Look in the mirror.",
+    "example_translation": "Посмотри в зеркало."
+  },
+  {
+    "id": 538,
+    "term": "miss",
+    "translation": "скучать",
+    "example": "I miss my family.",
+    "example_translation": "Я скучаю по своей семье."
+  },
+  {
+    "id": 539,
+    "term": "mom",
+    "translation": "мама",
+    "example": "My mom is kind.",
+    "example_translation": "Моя мама добрая."
+  },
+  {
+    "id": 540,
+    "term": "moment",
+    "translation": "момент",
+    "example": "Wait a moment.",
+    "example_translation": "Подожди момент."
+  },
+  {
+    "id": 541,
+    "term": "money",
+    "translation": "деньги",
+    "example": "He has a lot of money.",
+    "example_translation": "У него много денег."
+  },
+  {
+    "id": 542,
+    "term": "month",
+    "translation": "месяц",
+    "example": "My birthday is next month.",
+    "example_translation": "Мой день рождения в следующем месяце."
+  },
+  {
+    "id": 543,
+    "term": "mood",
+    "translation": "настроение",
+    "example": "She is in a good mood.",
+    "example_translation": "У неё хорошее настроение."
+  },
+  {
+    "id": 544,
+    "term": "more",
+    "translation": "больше",
+    "example": "I want more coffee.",
+    "example_translation": "Я хочу больше кофе."
+  },
+  {
+    "id": 545,
+    "term": "morning",
+    "translation": "утро",
+    "example": "Good morning!",
+    "example_translation": "Доброе утро!"
+  },
+  {
+    "id": 546,
+    "term": "most",
+    "translation": "большинство",
+    "example": "Most people like music.",
+    "example_translation": "Большинству людей нравится музыка."
+  },
+  {
+    "id": 547,
+    "term": "mother",
+    "translation": "мать",
+    "example": "My mother is kind.",
+    "example_translation": "Моя мать добрая."
+  },
+  {
+    "id": 548,
+    "term": "mouth",
+    "translation": "рот",
+    "example": "Open your mouth wide.",
+    "example_translation": "Открой рот широко."
+  },
+  {
+    "id": 549,
+    "term": "move",
+    "translation": "двигаться",
+    "example": "Please move the chair.",
+    "example_translation": "Пожалуйста, передвинь стул."
+  },
+  {
+    "id": 550,
+    "term": "movie",
+    "translation": "фильм",
+    "example": "We watched a movie last night.",
+    "example_translation": "Мы смотрели фильм прошлой ночью."
+  },
+  {
+    "id": 551,
+    "term": "Mr.",
+    "translation": "мистер",
+    "example": "Mr. Smith is here.",
+    "example_translation": "Мистер Смит здесь."
+  },
+  {
+    "id": 552,
+    "term": "Mrs.",
+    "translation": "миссис",
+    "example": "Mrs. Johnson is my teacher.",
+    "example_translation": "Миссис Джонсон — моя учительница."
+  },
+  {
+    "id": 553,
+    "term": "much",
+    "translation": "много",
+    "example": "There is much water in the glass.",
+    "example_translation": "В стакане много воды."
+  },
+  {
+    "id": 554,
+    "term": "mum",
+    "translation": "мама",
+    "example": "My mum cooks well.",
+    "example_translation": "Моя мама хорошо готовит."
+  },
+  {
+    "id": 555,
+    "term": "mumble",
+    "translation": "бормотать",
+    "example": "He mumbled his answer.",
+    "example_translation": "Он пробормотал свой ответ."
+  },
+  {
+    "id": 556,
+    "term": "music",
+    "translation": "музыка",
+    "example": "I love listening to music.",
+    "example_translation": "Я люблю слушать музыку."
+  },
+  {
+    "id": 557,
+    "term": "must",
+    "translation": "должен",
+    "example": "You must finish your homework.",
+    "example_translation": "Ты должен закончить домашнее задание."
+  },
+  {
+    "id": 558,
+    "term": "mutter",
+    "translation": "бормотать",
+    "example": "She muttered something quietly.",
+    "example_translation": "Она тихо что-то пробормотала."
+  },
+  {
+    "id": 559,
+    "term": "my",
+    "translation": "мой",
+    "example": "My car is new.",
+    "example_translation": "Моя машина новая."
+  },
+  {
+    "id": 560,
+    "term": "myself",
+    "translation": "себя",
+    "example": "I did it myself.",
+    "example_translation": "Я сделал это сам."
+  },
+  {
+    "id": 561,
+    "term": "name",
+    "translation": "имя",
+    "example": "What is your name?",
+    "example_translation": "Как тебя зовут?"
+  },
+  {
+    "id": 562,
+    "term": "near",
+    "translation": "близко",
+    "example": "The school is near my house.",
+    "example_translation": "Школа рядом с моим домом."
+  },
+  {
+    "id": 563,
+    "term": "nearly",
+    "translation": "почти",
+    "example": "It is nearly time to go.",
+    "example_translation": "Почти время идти."
+  },
+  {
+    "id": 564,
+    "term": "neck",
+    "translation": "шея",
+    "example": "He wore a scarf around his neck.",
+    "example_translation": "Он носил шарф на шее."
+  },
+  {
+    "id": 565,
+    "term": "need",
+    "translation": "нуждаться",
+    "example": "I need some help.",
+    "example_translation": "Мне нужна помощь."
+  },
+  {
+    "id": 566,
+    "term": "nervous",
+    "translation": "нервный",
+    "example": "She felt nervous before the exam.",
+    "example_translation": "Она нервничала перед экзаменом."
+  },
+  {
+    "id": 567,
+    "term": "never",
+    "translation": "никогда",
+    "example": "I never eat spicy food.",
+    "example_translation": "Я никогда не ем острую еду."
+  },
+  {
+    "id": 568,
+    "term": "new",
+    "translation": "новый",
+    "example": "This is a new phone.",
+    "example_translation": "Это новый телефон."
+  },
+  {
+    "id": 569,
+    "term": "next",
+    "translation": "следующий",
+    "example": "Next week is my vacation.",
+    "example_translation": "Следующая неделя — мои каникулы."
+  },
+  {
+    "id": 570,
+    "term": "nice",
+    "translation": "приятный",
+    "example": "It's a nice day.",
+    "example_translation": "Приятный день."
+  },
+  {
+    "id": 571,
+    "term": "night",
+    "translation": "ночь",
+    "example": "Good night!",
+    "example_translation": "Спокойной ночи!"
+  },
+  {
+    "id": 572,
+    "term": "no",
+    "translation": "нет",
+    "example": "No, thank you.",
+    "example_translation": "Нет, спасибо."
+  },
+  {
+    "id": 573,
+    "term": "nod",
+    "translation": "кивать",
+    "example": "She gave a nod of approval.",
+    "example_translation": "Она кивнула в знак одобрения."
+  },
+  {
+    "id": 574,
+    "term": "noise",
+    "translation": "шум",
+    "example": "There is too much noise here.",
+    "example_translation": "Здесь слишком много шума."
+  },
+  {
+    "id": 575,
+    "term": "none",
+    "translation": "никакой",
+    "example": "None of the answers are correct.",
+    "example_translation": "Ни один из ответов не правильный."
+  },
+  {
+    "id": 576,
+    "term": "normal",
+    "translation": "нормальный",
+    "example": "It's a normal situation.",
+    "example_translation": "Это нормальная ситуация."
+  },
+  {
+    "id": 577,
+    "term": "nose",
+    "translation": "нос",
+    "example": "My nose is cold.",
+    "example_translation": "У меня холодный нос."
+  },
+  {
+    "id": 578,
+    "term": "not",
+    "translation": "не",
+    "example": "I do not like it.",
+    "example_translation": "Мне это не нравится."
+  },
+  {
+    "id": 579,
+    "term": "note",
+    "translation": "заметка",
+    "example": "Write a note for me.",
+    "example_translation": "Напиши для меня заметку."
+  },
+  {
+    "id": 580,
+    "term": "nothing",
+    "translation": "ничего",
+    "example": "I have nothing to say.",
+    "example_translation": "Мне нечего сказать."
+  },
+  {
+    "id": 581,
+    "term": "notice",
+    "translation": "замечать",
+    "example": "I didn't notice the time.",
+    "example_translation": "Я не заметил время."
+  },
+  {
+    "id": 582,
+    "term": "now",
+    "translation": "сейчас",
+    "example": "I am busy now.",
+    "example_translation": "Я сейчас занят."
+  },
+  {
+    "id": 583,
+    "term": "number",
+    "translation": "номер",
+    "example": "My phone number is here.",
+    "example_translation": "Мой номер телефона здесь."
+  },
+  {
+    "id": 584,
+    "term": "obviously",
+    "translation": "очевидно",
+    "example": "Obviously, he is tired.",
+    "example_translation": "Очевидно, он устал."
+  },
+  {
+    "id": 585,
+    "term": "of",
+    "translation": "из",
+    "example": "A cup of tea.",
+    "example_translation": "Чашка чая."
+  },
+  {
+    "id": 586,
+    "term": "off",
+    "translation": "выключено",
+    "example": "Turn off the light.",
+    "example_translation": "Выключи свет."
+  },
+  {
+    "id": 587,
+    "term": "offer",
+    "translation": "предлагать",
+    "example": "They offer good prices.",
+    "example_translation": "Они предлагают хорошие цены."
+  },
+  {
+    "id": 588,
+    "term": "office",
+    "translation": "офис",
+    "example": "I work in an office.",
+    "example_translation": "Я работаю в офисе."
+  },
+  {
+    "id": 589,
+    "term": "often",
+    "translation": "часто",
+    "example": "I often go to the gym.",
+    "example_translation": "Я часто хожу в спортзал."
+  },
+  {
+    "id": 590,
+    "term": "oh",
+    "translation": "ох",
+    "example": "Oh, I didn't know that.",
+    "example_translation": "Ох, я не знал этого."
+  },
+  {
+    "id": 591,
+    "term": "okay",
+    "translation": "хорошо",
+    "example": "Okay, let's start.",
+    "example_translation": "Хорошо, давай начнём."
+  },
+  {
+    "id": 592,
+    "term": "old",
+    "translation": "старый",
+    "example": "My old car is broken.",
+    "example_translation": "Моя старая машина сломалась."
+  },
+  {
+    "id": 593,
+    "term": "on",
+    "translation": "на",
+    "example": "The book is on the table.",
+    "example_translation": "Книга на столе."
+  },
+  {
+    "id": 594,
+    "term": "once",
+    "translation": "однажды",
+    "example": "Once upon a time, there was a princess.",
+    "example_translation": "Жила-была однажды принцесса."
+  },
+  {
+    "id": 595,
+    "term": "one",
+    "translation": "один",
+    "example": "She has one cat.",
+    "example_translation": "У неё один кот."
+  },
+  {
+    "id": 596,
+    "term": "only",
+    "translation": "только",
+    "example": "This is the only option.",
+    "example_translation": "Это единственный вариант."
+  },
+  {
+    "id": 597,
+    "term": "onto",
+    "translation": "на",
+    "example": "He climbed onto the roof.",
+    "example_translation": "Он залез на крышу."
+  },
+  {
+    "id": 598,
+    "term": "open",
+    "translation": "открывать",
+    "example": "Please open the door.",
+    "example_translation": "Пожалуйста, открой дверь."
+  },
+  {
+    "id": 599,
+    "term": "or",
+    "translation": "или",
+    "example": "Do you want tea or coffee?",
+    "example_translation": "Ты хочешь чай или кофе?"
+  },
+  {
+    "id": 600,
+    "term": "order",
+    "translation": "заказ",
+    "example": "I placed an order online.",
+    "example_translation": "Я сделал заказ онлайн."
+  },
+  {
+    "id": 601,
+    "term": "other",
+    "translation": "другой",
+    "example": "I have other plans.",
+    "example_translation": "У меня другие планы."
+  },
+  {
+    "id": 602,
+    "term": "our",
+    "translation": "наш",
+    "example": "This is our house.",
+    "example_translation": "Это наш дом."
+  },
+  {
+    "id": 603,
+    "term": "out",
+    "translation": "вне",
+    "example": "She went out to play.",
+    "example_translation": "Она вышла поиграть."
+  },
+  {
+    "id": 604,
+    "term": "outside",
+    "translation": "снаружи",
+    "example": "The kids are playing outside.",
+    "example_translation": "Дети играют снаружи."
+  },
+  {
+    "id": 605,
+    "term": "over",
+    "translation": "над",
+    "example": "The bird flew over the tree.",
+    "example_translation": "Птица пролетела над деревом."
+  },
+  {
+    "id": 606,
+    "term": "own",
+    "translation": "собственный",
+    "example": "He has his own car.",
+    "example_translation": "У него своя машина."
+  },
+  {
+    "id": 607,
+    "term": "pack",
+    "translation": "упаковывать",
+    "example": "Please pack your bag.",
+    "example_translation": "Пожалуйста, упакуй сумку."
+  },
+  {
+    "id": 608,
+    "term": "pain",
+    "translation": "боль",
+    "example": "I have a pain in my leg.",
+    "example_translation": "У меня боль в ноге."
+  },
+  {
+    "id": 609,
+    "term": "paint",
+    "translation": "красить",
+    "example": "She likes to paint pictures.",
+    "example_translation": "Ей нравится рисовать картины."
+  },
+  {
+    "id": 610,
+    "term": "pair",
+    "translation": "пара",
+    "example": "I bought a new pair of shoes.",
+    "example_translation": "Я купил новую пару обуви."
+  },
+  {
+    "id": 611,
+    "term": "pants",
+    "translation": "штаны",
+    "example": "He wears blue pants.",
+    "example_translation": "Он носит синие штаны."
+  },
+  {
+    "id": 612,
+    "term": "paper",
+    "translation": "бумага",
+    "example": "I need some paper for notes.",
+    "example_translation": "Мне нужна бумага для заметок."
+  },
+  {
+    "id": 613,
+    "term": "parents",
+    "translation": "родители",
+    "example": "My parents are kind.",
+    "example_translation": "Мои родители добрые."
+  },
+  {
+    "id": 614,
+    "term": "park",
+    "translation": "парк",
+    "example": "We walked in the park.",
+    "example_translation": "Мы гуляли в парке."
+  },
+  {
+    "id": 615,
+    "term": "part",
+    "translation": "часть",
+    "example": "This is an important part.",
+    "example_translation": "Это важная часть."
+  },
+  {
+    "id": 616,
+    "term": "party",
+    "translation": "вечеринка",
+    "example": "They had a birthday party.",
+    "example_translation": "У них была вечеринка по случаю дня рождения."
+  },
+  {
+    "id": 617,
+    "term": "pass",
+    "translation": "проходить",
+    "example": "Please pass the salt.",
+    "example_translation": "Пожалуйста, передай соль."
+  },
+  {
+    "id": 618,
+    "term": "past",
+    "translation": "прошлый",
+    "example": "The past is behind us.",
+    "example_translation": "Прошлое позади нас."
+  },
+  {
+    "id": 619,
+    "term": "pause",
+    "translation": "пауза",
+    "example": "Let's take a pause.",
+    "example_translation": "Давайте сделаем паузу."
+  },
+  {
+    "id": 620,
+    "term": "pay",
+    "translation": "платить",
+    "example": "I will pay the bill.",
+    "example_translation": "Я заплачу счёт."
+  },
+  {
+    "id": 621,
+    "term": "people",
+    "translation": "люди",
+    "example": "People are waiting outside.",
+    "example_translation": "Люди ждут снаружи."
+  },
+  {
+    "id": 622,
+    "term": "perfect",
+    "translation": "идеальный",
+    "example": "This cake is perfect.",
+    "example_translation": "Этот торт идеальный."
+  },
+  {
+    "id": 623,
+    "term": "perhaps",
+    "translation": "возможно",
+    "example": "Perhaps it will rain.",
+    "example_translation": "Возможно, пойдёт дождь."
+  },
+  {
+    "id": 624,
+    "term": "person",
+    "translation": "человек",
+    "example": "She is a kind person.",
+    "example_translation": "Она добрый человек."
+  },
+  {
+    "id": 625,
+    "term": "phone",
+    "translation": "телефон",
+    "example": "Call me on my phone.",
+    "example_translation": "Позвони мне на телефон."
+  },
+  {
+    "id": 626,
+    "term": "pick",
+    "translation": "выбирать",
+    "example": "Pick a card.",
+    "example_translation": "Выбери карту."
+  },
+  {
+    "id": 627,
+    "term": "picture",
+    "translation": "картина",
+    "example": "Look at this picture.",
+    "example_translation": "Посмотри на эту картину."
+  },
+  {
+    "id": 628,
+    "term": "piece",
+    "translation": "кусок",
+    "example": "I want a piece of cake.",
+    "example_translation": "Я хочу кусок торта."
+  },
+  {
+    "id": 629,
+    "term": "pink",
+    "translation": "розовый",
+    "example": "She wore a pink dress.",
+    "example_translation": "Она надела розовое платье."
+  },
+  {
+    "id": 630,
+    "term": "piss",
+    "translation": "писать",
+    "example": "I need to piss.",
+    "example_translation": "Мне нужно пописать."
+  },
+  {
+    "id": 631,
+    "term": "place",
+    "translation": "место",
+    "example": "This is a nice place.",
+    "example_translation": "Это хорошее место."
+  },
+  {
+    "id": 632,
+    "term": "plan",
+    "translation": "план",
+    "example": "We have a plan for today.",
+    "example_translation": "У нас есть план на сегодня."
+  },
+  {
+    "id": 633,
+    "term": "play",
+    "translation": "играть",
+    "example": "Children play outside.",
+    "example_translation": "Дети играют на улице."
+  },
+  {
+    "id": 634,
+    "term": "please",
+    "translation": "пожалуйста",
+    "example": "Please, help me.",
+    "example_translation": "Пожалуйста, помоги мне."
+  },
+  {
+    "id": 635,
+    "term": "pocket",
+    "translation": "карман",
+    "example": "He put the keys in his pocket.",
+    "example_translation": "Он положил ключи в карман."
+  },
+  {
+    "id": 636,
+    "term": "point",
+    "translation": "точка",
+    "example": "You made a good point.",
+    "example_translation": "Ты сделал хорошее замечание."
+  },
+  {
+    "id": 637,
+    "term": "police",
+    "translation": "полиция",
+    "example": "The police arrived quickly.",
+    "example_translation": "Полиция приехала быстро."
+  },
+  {
+    "id": 638,
+    "term": "pop",
+    "translation": "вспыхивать",
+    "example": "The balloon will pop.",
+    "example_translation": "Шарик лопнет."
+  },
+  {
+    "id": 639,
+    "term": "position",
+    "translation": "позиция",
+    "example": "He took a position in the game.",
+    "example_translation": "Он занял позицию в игре."
+  },
+  {
+    "id": 640,
+    "term": "possible",
+    "translation": "возможный",
+    "example": "It is possible to win.",
+    "example_translation": "Возможно выиграть."
+  },
+  {
+    "id": 641,
+    "term": "power",
+    "translation": "сила",
+    "example": "He has great power.",
+    "example_translation": "У него большая сила."
+  },
+  {
+    "id": 642,
+    "term": "practically",
+    "translation": "практически",
+    "example": "It's practically finished.",
+    "example_translation": "Это практически закончено."
+  },
+  {
+    "id": 643,
+    "term": "present",
+    "translation": "подарок",
+    "example": "She gave me a present.",
+    "example_translation": "Она дала мне подарок."
+  },
+  {
+    "id": 644,
+    "term": "press",
+    "translation": "нажимать",
+    "example": "Press the button.",
+    "example_translation": "Нажми кнопку."
+  },
+  {
+    "id": 645,
+    "term": "pretend",
+    "translation": "притворяться",
+    "example": "He pretends to be asleep.",
+    "example_translation": "Он притворяется спящим."
+  },
+  {
+    "id": 646,
+    "term": "pretty",
+    "translation": "симпатичный",
+    "example": "She is pretty.",
+    "example_translation": "Она симпатичная."
+  },
+  {
+    "id": 647,
+    "term": "probably",
+    "translation": "вероятно",
+    "example": "He will probably come.",
+    "example_translation": "Он вероятно придёт."
+  },
+  {
+    "id": 648,
+    "term": "problem",
+    "translation": "проблема",
+    "example": "We have a problem.",
+    "example_translation": "У нас проблема."
+  },
+  {
+    "id": 649,
+    "term": "promise",
+    "translation": "обещать",
+    "example": "I promise to help you.",
+    "example_translation": "Я обещаю помочь тебе."
+  },
+  {
+    "id": 650,
+    "term": "pull",
+    "translation": "тянуть",
+    "example": "Pull the door open.",
+    "example_translation": "Потяни дверь на себя."
+  },
+  {
+    "id": 651,
+    "term": "punch",
+    "translation": "удар",
+    "example": "He threw a punch.",
+    "example_translation": "Он нанес удар."
+  },
+  {
+    "id": 652,
+    "term": "push",
+    "translation": "толкать",
+    "example": "Push the cart.",
+    "example_translation": "Толкни тележку."
+  },
+  {
+    "id": 653,
+    "term": "put",
+    "translation": "класть",
+    "example": "Put the book on the table.",
+    "example_translation": "Положи книгу на стол."
+  },
+  {
+    "id": 654,
+    "term": "question",
+    "translation": "вопрос",
+    "example": "I have a question.",
+    "example_translation": "У меня есть вопрос."
+  },
+  {
+    "id": 655,
+    "term": "quick",
+    "translation": "быстрый",
+    "example": "Be quick!",
+    "example_translation": "Поторопись!"
+  },
+  {
+    "id": 656,
+    "term": "quickly",
+    "translation": "быстро",
+    "example": "He runs quickly.",
+    "example_translation": "Он бегает быстро."
+  },
+  {
+    "id": 657,
+    "term": "quiet",
+    "translation": "тихий",
+    "example": "The room is quiet.",
+    "example_translation": "В комнате тихо."
+  },
+  {
+    "id": 658,
+    "term": "quietly",
+    "translation": "тихо",
+    "example": "She spoke quietly.",
+    "example_translation": "Она говорила тихо."
+  },
+  {
+    "id": 659,
+    "term": "quite",
+    "translation": "довольно",
+    "example": "It's quite cold today.",
+    "example_translation": "Сегодня довольно холодно."
+  },
+  {
+    "id": 660,
+    "term": "race",
+    "translation": "гонка",
+    "example": "They watched the car race.",
+    "example_translation": "Они смотрели гонку автомобилей."
+  },
+  {
+    "id": 661,
+    "term": "rain",
+    "translation": "дождь",
+    "example": "It will rain tomorrow.",
+    "example_translation": "Завтра пойдёт дождь."
+  },
+  {
+    "id": 662,
+    "term": "raise",
+    "translation": "поднимать",
+    "example": "Raise your hand.",
+    "example_translation": "Подними руку."
+  },
+  {
+    "id": 663,
+    "term": "ran",
+    "translation": "бежал",
+    "example": "He ran fast.",
+    "example_translation": "Он бежал быстро."
+  },
+  {
+    "id": 664,
+    "term": "rang",
+    "translation": "звонил",
+    "example": "The phone rang loudly.",
+    "example_translation": "Телефон громко звонил."
+  },
+  {
+    "id": 665,
+    "term": "rather",
+    "translation": "скорее",
+    "example": "I would rather stay home.",
+    "example_translation": "Я бы лучше остался дома."
+  },
+  {
+    "id": 666,
+    "term": "reach",
+    "translation": "достигать",
+    "example": "Reach for the stars.",
+    "example_translation": "Достигай звёзд."
+  },
+  {
+    "id": 667,
+    "term": "read",
+    "translation": "читать",
+    "example": "I like to read books.",
+    "example_translation": "Мне нравится читать книги."
+  },
+  {
+    "id": 668,
+    "term": "ready",
+    "translation": "готов",
+    "example": "Are you ready?",
+    "example_translation": "Ты готов?"
+  },
+  {
+    "id": 669,
+    "term": "real",
+    "translation": "реальный",
+    "example": "This is a real diamond.",
+    "example_translation": "Это настоящий алмаз."
+  },
+  {
+    "id": 670,
+    "term": "realize",
+    "translation": "осознавать",
+    "example": "I realize my mistake.",
+    "example_translation": "Я осознаю свою ошибку."
+  },
+  {
+    "id": 671,
+    "term": "really",
+    "translation": "действительно",
+    "example": "I really like it.",
+    "example_translation": "Мне это действительно нравится."
+  },
+  {
+    "id": 672,
+    "term": "reason",
+    "translation": "причина",
+    "example": "What is the reason?",
+    "example_translation": "Какая причина?"
+  },
+  {
+    "id": 673,
+    "term": "recognize",
+    "translation": "узнавать",
+    "example": "I recognize that song.",
+    "example_translation": "Я узнаю эту песню."
+  },
+  {
+    "id": 674,
+    "term": "red",
+    "translation": "красный",
+    "example": "The apple is red.",
+    "example_translation": "Яблоко красное."
+  },
+  {
+    "id": 675,
+    "term": "relationship",
+    "translation": "отношения",
+    "example": "They have a good relationship.",
+    "example_translation": "У них хорошие отношения."
+  },
+  {
+    "id": 676,
+    "term": "relax",
+    "translation": "расслабляться",
+    "example": "Relax and enjoy.",
+    "example_translation": "Расслабься и наслаждайся."
+  },
+  {
+    "id": 677,
+    "term": "remain",
+    "translation": "оставаться",
+    "example": "Please remain calm.",
+    "example_translation": "Пожалуйста, оставайтесь спокойны."
+  },
+  {
+    "id": 678,
+    "term": "remember",
+    "translation": "помнить",
+    "example": "I remember your name.",
+    "example_translation": "Я помню твоё имя."
+  },
+  {
+    "id": 679,
+    "term": "remind",
+    "translation": "напоминать",
+    "example": "Please remind me tomorrow.",
+    "example_translation": "Пожалуйста, напомни мне завтра."
+  },
+  {
+    "id": 680,
+    "term": "repeat",
+    "translation": "повторять",
+    "example": "Can you repeat that?",
+    "example_translation": "Можешь повторить это?"
+  },
+  {
+    "id": 681,
+    "term": "reply",
+    "translation": "отвечать",
+    "example": "He didn’t reply to me.",
+    "example_translation": "Он мне не ответил."
+  },
+  {
+    "id": 682,
+    "term": "respond",
+    "translation": "реагировать",
+    "example": "She didn’t respond quickly.",
+    "example_translation": "Она не отреагировала быстро."
+  },
+  {
+    "id": 683,
+    "term": "rest",
+    "translation": "отдыхать",
+    "example": "Take some rest.",
+    "example_translation": "Отдохни немного."
+  },
+  {
+    "id": 684,
+    "term": "return",
+    "translation": "возвращаться",
+    "example": "I will return soon.",
+    "example_translation": "Я скоро вернусь."
+  },
+  {
+    "id": 685,
+    "term": "ride",
+    "translation": "ездить",
+    "example": "I like to ride a bike.",
+    "example_translation": "Мне нравится ездить на велосипеде."
+  },
+  {
+    "id": 686,
+    "term": "right",
+    "translation": "правый",
+    "example": "Turn right here.",
+    "example_translation": "Поверни здесь направо."
+  },
+  {
+    "id": 687,
+    "term": "ring",
+    "translation": "звонить",
+    "example": "The phone will ring soon.",
+    "example_translation": "Телефон скоро зазвонит."
+  },
+  {
+    "id": 688,
+    "term": "road",
+    "translation": "дорога",
+    "example": "This road is long.",
+    "example_translation": "Эта дорога длинная."
+  },
+  {
+    "id": 689,
+    "term": "rock",
+    "translation": "камень",
+    "example": "He threw a rock.",
+    "example_translation": "Он бросил камень."
+  },
+  {
+    "id": 690,
+    "term": "roll",
+    "translation": "катиться",
+    "example": "The ball will roll.",
+    "example_translation": "Мяч покатится."
+  },
+  {
+    "id": 691,
+    "term": "room",
+    "translation": "комната",
+    "example": "My room is clean.",
+    "example_translation": "Моя комната чистая."
+  },
+  {
+    "id": 692,
+    "term": "rose",
+    "translation": "роза",
+    "example": "She gave me a rose.",
+    "example_translation": "Она дала мне розу."
+  },
+  {
+    "id": 693,
+    "term": "round",
+    "translation": "круглый",
+    "example": "The table is round.",
+    "example_translation": "Стол круглый."
+  },
+  {
+    "id": 694,
+    "term": "rub",
+    "translation": "тереть",
+    "example": "Rub your hands.",
+    "example_translation": "Потри руки."
+  },
+  {
+    "id": 695,
+    "term": "run",
+    "translation": "бежать",
+    "example": "I run every morning.",
+    "example_translation": "Я бегаю каждое утро."
+  },
+  {
+    "id": 696,
+    "term": "rush",
+    "translation": "спешить",
+    "example": "Don’t rush too much.",
+    "example_translation": "Не спеши слишком сильно."
+  },
+  {
+    "id": 697,
+    "term": "sad",
+    "translation": "грустный",
+    "example": "She feels sad today.",
+    "example_translation": "Сегодня она грустная."
+  },
+  {
+    "id": 698,
+    "term": "safe",
+    "translation": "безопасный",
+    "example": "Stay safe outside.",
+    "example_translation": "Будь в безопасности на улице."
+  },
+  {
+    "id": 699,
+    "term": "said",
+    "translation": "сказал",
+    "example": "He said hello.",
+    "example_translation": "Он сказал привет."
+  },
+  {
+    "id": 700,
+    "term": "same",
+    "translation": "тот же",
+    "example": "We have the same idea.",
+    "example_translation": "У нас одна и та же идея."
+  },
+  {
+    "id": 701,
+    "term": "sat",
+    "translation": "сидел",
+    "example": "He sat by the window.",
+    "example_translation": "Он сидел у окна."
+  },
+  {
+    "id": 702,
+    "term": "save",
+    "translation": "сохранять",
+    "example": "Save your work.",
+    "example_translation": "Сохрани свою работу."
+  },
+  {
+    "id": 703,
+    "term": "saw",
+    "translation": "видел",
+    "example": "I saw a bird.",
+    "example_translation": "Я видел птицу."
+  },
+  {
+    "id": 704,
+    "term": "say",
+    "translation": "говорить",
+    "example": "What did you say?",
+    "example_translation": "Что ты сказал?"
+  },
+  {
+    "id": 705,
+    "term": "scare",
+    "translation": "пугать",
+    "example": "Don’t scare me!",
+    "example_translation": "Не пугай меня!"
+  },
+  {
+    "id": 706,
+    "term": "school",
+    "translation": "школа",
+    "example": "She goes to school.",
+    "example_translation": "Она ходит в школу."
+  },
+  {
+    "id": 707,
+    "term": "scream",
+    "translation": "кричать",
+    "example": "She screamed loudly.",
+    "example_translation": "Она громко кричала."
+  },
+  {
+    "id": 708,
+    "term": "search",
+    "translation": "искать",
+    "example": "I search for my keys.",
+    "example_translation": "Я ищу свои ключи."
+  },
+  {
+    "id": 709,
+    "term": "seat",
+    "translation": "место",
+    "example": "Take a seat.",
+    "example_translation": "Займи место."
+  },
+  {
+    "id": 710,
+    "term": "second",
+    "translation": "второй",
+    "example": "This is the second time.",
+    "example_translation": "Это второй раз."
+  },
+  {
+    "id": 711,
+    "term": "see",
+    "translation": "видеть",
+    "example": "I see a cat.",
+    "example_translation": "Я вижу кошку."
+  },
+  {
+    "id": 712,
+    "term": "seem",
+    "translation": "казаться",
+    "example": "It seems easy.",
+    "example_translation": "Это кажется лёгким."
+  },
+  {
+    "id": 713,
+    "term": "seen",
+    "translation": "увиденный",
+    "example": "I have seen that movie.",
+    "example_translation": "Я видел этот фильм."
+  },
+  {
+    "id": 714,
+    "term": "self",
+    "translation": "сам",
+    "example": "Believe in yourself.",
+    "example_translation": "Верь в себя."
+  },
+  {
+    "id": 715,
+    "term": "send",
+    "translation": "отправлять",
+    "example": "Send me a message.",
+    "example_translation": "Отправь мне сообщение."
+  },
+  {
+    "id": 716,
+    "term": "sense",
+    "translation": "чувство",
+    "example": "I have a sense of danger.",
+    "example_translation": "У меня есть чувство опасности."
+  },
+  {
+    "id": 717,
+    "term": "sent",
+    "translation": "отправил",
+    "example": "I sent the email.",
+    "example_translation": "Я отправил письмо."
+  },
+  {
+    "id": 718,
+    "term": "serious",
+    "translation": "серьёзный",
+    "example": "This is a serious problem.",
+    "example_translation": "Это серьёзная проблема."
+  },
+  {
+    "id": 719,
+    "term": "seriously",
+    "translation": "серьёзно",
+    "example": "She spoke seriously.",
+    "example_translation": "Она говорила серьёзно."
+  },
+  {
+    "id": 720,
+    "term": "set",
+    "translation": "устанавливать",
+    "example": "Set the table, please.",
+    "example_translation": "Поставь стол, пожалуйста."
+  },
+  {
+    "id": 721,
+    "term": "settle",
+    "translation": "урегулировать",
+    "example": "They settle their differences.",
+    "example_translation": "Они урегулировали свои разногласия."
+  },
+  {
+    "id": 722,
+    "term": "seven",
+    "translation": "семь",
+    "example": "I have seven books.",
+    "example_translation": "У меня семь книг."
+  },
+  {
+    "id": 723,
+    "term": "several",
+    "translation": "несколько",
+    "example": "She has several friends.",
+    "example_translation": "У неё несколько друзей."
+  },
+  {
+    "id": 724,
+    "term": "shadow",
+    "translation": "тень",
+    "example": "A shadow fell on me.",
+    "example_translation": "На меня упала тень."
+  },
+  {
+    "id": 725,
+    "term": "shake",
+    "translation": "трясуть",
+    "example": "Please don’t shake the bottle.",
+    "example_translation": "Пожалуйста, не тряси бутылку."
+  },
+  {
+    "id": 726,
+    "term": "share",
+    "translation": "делиться",
+    "example": "Let’s share the cake.",
+    "example_translation": "Давай поделимся тортом."
+  },
+  {
+    "id": 727,
+    "term": "she",
+    "translation": "она",
+    "example": "She is my sister.",
+    "example_translation": "Она моя сестра."
+  },
+  {
+    "id": 728,
+    "term": "she'd",
+    "translation": "она бы",
+    "example": "She'd like to come.",
+    "example_translation": "Она бы хотела прийти."
+  },
+  {
+    "id": 729,
+    "term": "she's",
+    "translation": "она есть",
+    "example": "She's very kind.",
+    "example_translation": "Она очень добрая."
+  },
+  {
+    "id": 730,
+    "term": "shift",
+    "translation": "смена",
+    "example": "He works the night shift.",
+    "example_translation": "Он работает в ночную смену."
+  },
+  {
+    "id": 731,
+    "term": "shirt",
+    "translation": "рубашка",
+    "example": "He wore a blue shirt.",
+    "example_translation": "Он надел синюю рубашку."
+  },
+  {
+    "id": 732,
+    "term": "shit",
+    "translation": "дерьмо",
+    "example": "This is a bad situation.",
+    "example_translation": "Это плохая ситуация."
+  },
+  {
+    "id": 733,
+    "term": "shock",
+    "translation": "шок",
+    "example": "He was in shock after news.",
+    "example_translation": "Он был в шоке после новости."
+  },
+  {
+    "id": 734,
+    "term": "shoe",
+    "translation": "ботинок",
+    "example": "I lost one shoe.",
+    "example_translation": "Я потерял один ботинок."
+  },
+  {
+    "id": 735,
+    "term": "shook",
+    "translation": "тряслся",
+    "example": "She shook the bottle.",
+    "example_translation": "Она потрясла бутылку."
+  },
+  {
+    "id": 736,
+    "term": "shop",
+    "translation": "магазин",
+    "example": "We went to the shop.",
+    "example_translation": "Мы ходили в магазин."
+  },
+  {
+    "id": 737,
+    "term": "short",
+    "translation": "короткий",
+    "example": "The skirt is short.",
+    "example_translation": "Юбка короткая."
+  },
+  {
+    "id": 738,
+    "term": "shot",
+    "translation": "выстрел",
+    "example": "He took a shot at goal.",
+    "example_translation": "Он сделал удар по воротам."
+  },
+  {
+    "id": 739,
+    "term": "should",
+    "translation": "должен",
+    "example": "You should study more.",
+    "example_translation": "Тебе следует больше учиться."
+  },
+  {
+    "id": 740,
+    "term": "shoulder",
+    "translation": "плечо",
+    "example": "He hurt his shoulder.",
+    "example_translation": "Он повредил плечо."
+  },
+  {
+    "id": 741,
+    "term": "shouldn't",
+    "translation": "не должен",
+    "example": "You shouldn't lie.",
+    "example_translation": "Тебе не следует лгать."
+  },
+  {
+    "id": 742,
+    "term": "shout",
+    "translation": "кричать",
+    "example": "Don’t shout in the library.",
+    "example_translation": "Не кричи в библиотеке."
+  },
+  {
+    "id": 743,
+    "term": "shove",
+    "translation": "толкать",
+    "example": "Don’t shove me.",
+    "example_translation": "Не толкай меня."
+  },
+  {
+    "id": 744,
+    "term": "show",
+    "translation": "показывать",
+    "example": "Show me your work.",
+    "example_translation": "Покажи мне свою работу."
+  },
+  {
+    "id": 745,
+    "term": "shower",
+    "translation": "душ",
+    "example": "I take a shower every day.",
+    "example_translation": "Я принимаю душ каждый день."
+  },
+  {
+    "id": 746,
+    "term": "shrug",
+    "translation": "пожимать плечами",
+    "example": "He shrugged and left.",
+    "example_translation": "Он пожал плечами и ушёл."
+  },
+  {
+    "id": 747,
+    "term": "shut",
+    "translation": "закрывать",
+    "example": "Please shut the door.",
+    "example_translation": "Пожалуйста, закрой дверь."
+  },
+  {
+    "id": 748,
+    "term": "sick",
+    "translation": "больной",
+    "example": "She feels sick today.",
+    "example_translation": "Она сегодня больна."
+  },
+  {
+    "id": 749,
+    "term": "side",
+    "translation": "сторона",
+    "example": "Stand by my side.",
+    "example_translation": "Встань рядом со мной."
+  },
+  {
+    "id": 750,
+    "term": "sigh",
+    "translation": "вздыхать",
+    "example": "He sighed with relief.",
+    "example_translation": "Он вздохнул с облегчением."
+  },
+  {
+    "id": 751,
+    "term": "sight",
+    "translation": "зрение",
+    "example": "The sight was beautiful.",
+    "example_translation": "Вид был красивым."
+  },
+  {
+    "id": 752,
+    "term": "sign",
+    "translation": "знак",
+    "example": "Look at the sign.",
+    "example_translation": "Посмотри на знак."
+  },
+  {
+    "id": 753,
+    "term": "silence",
+    "translation": "тишина",
+    "example": "There was silence in the room.",
+    "example_translation": "В комнате была тишина."
+  },
+  {
+    "id": 754,
+    "term": "silent",
+    "translation": "молчаливый",
+    "example": "Be silent during the exam.",
+    "example_translation": "Будь молчаливым во время экзамена."
+  },
+  {
+    "id": 755,
+    "term": "simply",
+    "translation": "просто",
+    "example": "It’s simply amazing.",
+    "example_translation": "Это просто удивительно."
+  },
+  {
+    "id": 756,
+    "term": "since",
+    "translation": "с тех пор",
+    "example": "I haven’t seen him since.",
+    "example_translation": "Я не видел его с тех пор."
+  },
+  {
+    "id": 757,
+    "term": "single",
+    "translation": "одинокий",
+    "example": "He is a single man.",
+    "example_translation": "Он одинокий мужчина."
+  },
+  {
+    "id": 758,
+    "term": "sir",
+    "translation": "сэр",
+    "example": "Yes, sir!",
+    "example_translation": "Да, сэр!"
+  },
+  {
+    "id": 759,
+    "term": "sister",
+    "translation": "сестра",
+    "example": "My sister is kind.",
+    "example_translation": "Моя сестра добрая."
+  },
+  {
+    "id": 760,
+    "term": "sit",
+    "translation": "сидеть",
+    "example": "Please sit down.",
+    "example_translation": "Пожалуйста, сядь."
+  },
+  {
+    "id": 761,
+    "term": "situation",
+    "translation": "ситуация",
+    "example": "This is a difficult situation.",
+    "example_translation": "Это сложная ситуация."
+  },
+  {
+    "id": 762,
+    "term": "six",
+    "translation": "шесть",
+    "example": "I have six apples.",
+    "example_translation": "У меня шесть яблок."
+  },
+  {
+    "id": 763,
+    "term": "skin",
+    "translation": "кожа",
+    "example": "Her skin is soft.",
+    "example_translation": "Её кожа мягкая."
+  },
+  {
+    "id": 764,
+    "term": "sky",
+    "translation": "небо",
+    "example": "The sky is blue.",
+    "example_translation": "Небо голубое."
+  },
+  {
+    "id": 765,
+    "term": "slam",
+    "translation": "хлопать",
+    "example": "He slammed the door.",
+    "example_translation": "Он хлопнул дверью."
+  },
+  {
+    "id": 766,
+    "term": "sleep",
+    "translation": "спать",
+    "example": "I need to sleep early.",
+    "example_translation": "Мне нужно рано спать."
+  },
+  {
+    "id": 767,
+    "term": "slightly",
+    "translation": "слегка",
+    "example": "The soup is slightly salty.",
+    "example_translation": "Суп слегка солёный."
+  },
+  {
+    "id": 768,
+    "term": "slip",
+    "translation": "скользить",
+    "example": "Be careful not to slip.",
+    "example_translation": "Будь осторожен, чтобы не поскользнуться."
+  },
+  {
+    "id": 769,
+    "term": "slow",
+    "translation": "медленный",
+    "example": "The car is slow.",
+    "example_translation": "Машина медленная."
+  },
+  {
+    "id": 770,
+    "term": "slowly",
+    "translation": "медленно",
+    "example": "He walks slowly.",
+    "example_translation": "Он медленно идёт."
+  },
+  {
+    "id": 771,
+    "term": "small",
+    "translation": "маленький",
+    "example": "This room is small.",
+    "example_translation": "Эта комната маленькая."
+  },
+  {
+    "id": 772,
+    "term": "smell",
+    "translation": "пахнуть",
+    "example": "It smells good here.",
+    "example_translation": "Здесь хорошо пахнет."
+  },
+  {
+    "id": 773,
+    "term": "smile",
+    "translation": "улыбка",
+    "example": "She has a nice smile.",
+    "example_translation": "У неё красивая улыбка."
+  },
+  {
+    "id": 774,
+    "term": "smirk",
+    "translation": "ухмылка",
+    "example": "He gave a sly smirk.",
+    "example_translation": "Он дал хитрую ухмылку."
+  },
+  {
+    "id": 775,
+    "term": "smoke",
+    "translation": "дым",
+    "example": "There is smoke outside.",
+    "example_translation": "Снаружи дым."
+  },
+  {
+    "id": 776,
+    "term": "snap",
+    "translation": "щёлкать",
+    "example": "He snapped the stick.",
+    "example_translation": "Он щёлкнул палкой."
+  },
+  {
+    "id": 777,
+    "term": "so",
+    "translation": "так",
+    "example": "She is so kind.",
+    "example_translation": "Она такая добрая."
+  },
+  {
+    "id": 778,
+    "term": "soft",
+    "translation": "мягкий",
+    "example": "The pillow is soft.",
+    "example_translation": "Подушка мягкая."
+  },
+  {
+    "id": 779,
+    "term": "softly",
+    "translation": "тихо",
+    "example": "She spoke softly.",
+    "example_translation": "Она говорила тихо."
+  },
+  {
+    "id": 780,
+    "term": "some",
+    "translation": "некоторые",
+    "example": "I need some water.",
+    "example_translation": "Мне нужна немного воды."
+  },
+  {
+    "id": 781,
+    "term": "somehow",
+    "translation": "как-то",
+    "example": "Somehow, I lost my keys.",
+    "example_translation": "Как-то я потерял ключи."
+  },
+  {
+    "id": 782,
+    "term": "someone",
+    "translation": "кто-то",
+    "example": "Someone is at the door.",
+    "example_translation": "Кто-то у двери."
+  },
+  {
+    "id": 783,
+    "term": "something",
+    "translation": "что-то",
+    "example": "I want something to eat.",
+    "example_translation": "Я хочу что-то поесть."
+  },
+  {
+    "id": 784,
+    "term": "sometimes",
+    "translation": "иногда",
+    "example": "Sometimes I go there.",
+    "example_translation": "Иногда я туда хожу."
+  },
+  {
+    "id": 785,
+    "term": "somewhere",
+    "translation": "где-то",
+    "example": "She is somewhere outside.",
+    "example_translation": "Она где-то снаружи."
+  },
+  {
+    "id": 786,
+    "term": "son",
+    "translation": "сын",
+    "example": "They have a son.",
+    "example_translation": "У них есть сын."
+  },
+  {
+    "id": 787,
+    "term": "song",
+    "translation": "песня",
+    "example": "I like this song.",
+    "example_translation": "Мне нравится эта песня."
+  },
+  {
+    "id": 788,
+    "term": "soon",
+    "translation": "скоро",
+    "example": "I will come soon.",
+    "example_translation": "Я скоро приду."
+  },
+  {
+    "id": 789,
+    "term": "sorry",
+    "translation": "извините",
+    "example": "Sorry for being late.",
+    "example_translation": "Извини за опоздание."
+  },
+  {
+    "id": 790,
+    "term": "sort",
+    "translation": "вид",
+    "example": "This sort of problem is common.",
+    "example_translation": "Такого рода проблема распространена."
+  },
+  {
+    "id": 791,
+    "term": "sound",
+    "translation": "звук",
+    "example": "I heard a loud sound.",
+    "example_translation": "Я услышал громкий звук."
+  },
+  {
+    "id": 792,
+    "term": "space",
+    "translation": "пространство",
+    "example": "There is space for everyone.",
+    "example_translation": "Для всех есть место."
+  },
+  {
+    "id": 793,
+    "term": "speak",
+    "translation": "говорить",
+    "example": "Please speak slowly.",
+    "example_translation": "Пожалуйста, говори медленно."
+  },
+  {
+    "id": 794,
+    "term": "spend",
+    "translation": "тратить",
+    "example": "I spend money wisely.",
+    "example_translation": "Я трачу деньги разумно."
+  },
+  {
+    "id": 795,
+    "term": "spent",
+    "translation": "потратил",
+    "example": "He spent all his money.",
+    "example_translation": "Он потратил все свои деньги."
+  },
+  {
+    "id": 796,
+    "term": "spoke",
+    "translation": "говорил",
+    "example": "She spoke clearly.",
+    "example_translation": "Она говорила чётко."
+  },
+  {
+    "id": 797,
+    "term": "spot",
+    "translation": "место",
+    "example": "That is a nice spot.",
+    "example_translation": "Это хорошее место."
+  },
+  {
+    "id": 798,
+    "term": "stair",
+    "translation": "ступенька",
+    "example": "Watch your step on the stair.",
+    "example_translation": "Смотри под ноги на ступеньке."
+  },
+  {
+    "id": 799,
+    "term": "stand",
+    "translation": "стоять",
+    "example": "Please stand here.",
+    "example_translation": "Пожалуйста, стой здесь."
+  },
+  {
+    "id": 800,
+    "term": "star",
+    "translation": "звезда",
+    "example": "The star shines brightly.",
+    "example_translation": "Звезда ярко светит."
+  },
+  {
+    "id": 801,
+    "term": "stare",
+    "translation": "пристально смотреть",
+    "example": "Don’t stare at me.",
+    "example_translation": "Не пристально смотри на меня."
+  },
+  {
+    "id": 802,
+    "term": "start",
+    "translation": "начинать",
+    "example": "Let’s start the game.",
+    "example_translation": "Давайте начнём игру."
+  },
+  {
+    "id": 803,
+    "term": "state",
+    "translation": "штат",
+    "example": "California is a large state.",
+    "example_translation": "Калифорния — большой штат."
+  },
+  {
+    "id": 804,
+    "term": "stay",
+    "translation": "оставаться",
+    "example": "Please stay here.",
+    "example_translation": "Пожалуйста, оставайся здесь."
+  },
+  {
+    "id": 805,
+    "term": "step",
+    "translation": "шаг",
+    "example": "Take a step forward.",
+    "example_translation": "Сделай шаг вперёд."
+  },
+  {
+    "id": 806,
+    "term": "stick",
+    "translation": "палка",
+    "example": "He found a stick in the yard.",
+    "example_translation": "Он нашёл палку во дворе."
+  },
+  {
+    "id": 807,
+    "term": "still",
+    "translation": "всё ещё",
+    "example": "She is still sleeping.",
+    "example_translation": "Она всё ещё спит."
+  },
+  {
+    "id": 808,
+    "term": "stomach",
+    "translation": "живот",
+    "example": "My stomach hurts.",
+    "example_translation": "У меня болит живот."
+  },
+  {
+    "id": 809,
+    "term": "stood",
+    "translation": "стоял",
+    "example": "He stood by the door.",
+    "example_translation": "Он стоял у двери."
+  },
+  {
+    "id": 810,
+    "term": "stop",
+    "translation": "остановиться",
+    "example": "Stop talking now.",
+    "example_translation": "Перестань сейчас говорить."
+  },
+  {
+    "id": 811,
+    "term": "store",
+    "translation": "магазин",
+    "example": "I went to the store.",
+    "example_translation": "Я ходил в магазин."
+  },
+  {
+    "id": 812,
+    "term": "story",
+    "translation": "история",
+    "example": "Tell me a story.",
+    "example_translation": "Расскажи мне историю."
+  },
+  {
+    "id": 813,
+    "term": "straight",
+    "translation": "прямой",
+    "example": "The road is straight.",
+    "example_translation": "Дорога прямая."
+  },
+  {
+    "id": 814,
+    "term": "strange",
+    "translation": "странный",
+    "example": "That’s a strange noise.",
+    "example_translation": "Это странный звук."
+  },
+  {
+    "id": 815,
+    "term": "street",
+    "translation": "улица",
+    "example": "She lives on this street.",
+    "example_translation": "Она живёт на этой улице."
+  },
+  {
+    "id": 816,
+    "term": "strong",
+    "translation": "сильный",
+    "example": "He is very strong.",
+    "example_translation": "Он очень сильный."
+  },
+  {
+    "id": 817,
+    "term": "struggle",
+    "translation": "борьба",
+    "example": "She had a struggle with the task.",
+    "example_translation": "У неё была борьба с задачей."
+  },
+  {
+    "id": 818,
+    "term": "stuck",
+    "translation": "застрявший",
+    "example": "My car got stuck in mud.",
+    "example_translation": "Моя машина застряла в грязи."
+  },
+  {
+    "id": 819,
+    "term": "student",
+    "translation": "студент",
+    "example": "He is a student at university.",
+    "example_translation": "Он студент университета."
+  },
+  {
+    "id": 820,
+    "term": "study",
+    "translation": "учиться",
+    "example": "I study English every day.",
+    "example_translation": "Я учу английский каждый день."
+  },
+  {
+    "id": 821,
+    "term": "stuff",
+    "translation": "вещи",
+    "example": "I need to pack my stuff.",
+    "example_translation": "Мне нужно упаковать свои вещи."
+  },
+  {
+    "id": 822,
+    "term": "stupid",
+    "translation": "глупый",
+    "example": "That was a stupid mistake.",
+    "example_translation": "Это была глупая ошибка."
+  },
+  {
+    "id": 823,
+    "term": "such",
+    "translation": "такой",
+    "example": "She is such a good friend.",
+    "example_translation": "Она такая хорошая подруга."
+  },
+  {
+    "id": 824,
+    "term": "suck",
+    "translation": "сосать",
+    "example": "Babies suck milk.",
+    "example_translation": "Младенцы сосут молоко."
+  },
+  {
+    "id": 825,
+    "term": "sudden",
+    "translation": "внезапный",
+    "example": "There was a sudden noise.",
+    "example_translation": "Был внезапный шум."
+  },
+  {
+    "id": 826,
+    "term": "suddenly",
+    "translation": "внезапно",
+    "example": "Suddenly, it started raining.",
+    "example_translation": "Внезапно начался дождь."
+  },
+  {
+    "id": 827,
+    "term": "suggest",
+    "translation": "предлагать",
+    "example": "I suggest we leave now.",
+    "example_translation": "Я предлагаю уйти сейчас."
+  },
+  {
+    "id": 828,
+    "term": "summer",
+    "translation": "лето",
+    "example": "Summer is hot here.",
+    "example_translation": "Лето здесь жаркое."
+  },
+  {
+    "id": 829,
+    "term": "sun",
+    "translation": "солнце",
+    "example": "The sun is bright today.",
+    "example_translation": "Сегодня солнце яркое."
+  },
+  {
+    "id": 830,
+    "term": "suppose",
+    "translation": "предполагать",
+    "example": "I suppose it’s true.",
+    "example_translation": "Я предполагаю, что это правда."
+  },
+  {
+    "id": 831,
+    "term": "sure",
+    "translation": "уверенный",
+    "example": "Are you sure?",
+    "example_translation": "Ты уверен?"
+  },
+  {
+    "id": 832,
+    "term": "surprise",
+    "translation": "сюрприз",
+    "example": "She gave me a surprise gift.",
+    "example_translation": "Она подарила мне сюрприз."
+  },
+  {
+    "id": 833,
+    "term": "surround",
+    "translation": "окружать",
+    "example": "The trees surround the house.",
+    "example_translation": "Деревья окружают дом."
+  },
+  {
+    "id": 834,
+    "term": "sweet",
+    "translation": "сладкий",
+    "example": "This cake is sweet.",
+    "example_translation": "Этот торт сладкий."
+  },
+  {
+    "id": 835,
+    "term": "table",
+    "translation": "стол",
+    "example": "The book is on the table.",
+    "example_translation": "Книга на столе."
+  },
+  {
+    "id": 836,
+    "term": "take",
+    "translation": "брать",
+    "example": "Take an umbrella with you.",
+    "example_translation": "Возьми зонт с собой."
+  },
+  {
+    "id": 837,
+    "term": "taken",
+    "translation": "взятый",
+    "example": "The book was taken by him.",
+    "example_translation": "Книга была взята им."
+  },
+  {
+    "id": 838,
+    "term": "talk",
+    "translation": "разговаривать",
+    "example": "Let’s talk later.",
+    "example_translation": "Давай поговорим позже."
+  },
+  {
+    "id": 839,
+    "term": "tall",
+    "translation": "высокий",
+    "example": "He is very tall.",
+    "example_translation": "Он очень высокий."
+  },
+  {
+    "id": 840,
+    "term": "teacher",
+    "translation": "учитель",
+    "example": "My teacher is kind.",
+    "example_translation": "Мой учитель добрый."
+  },
+  {
+    "id": 841,
+    "term": "team",
+    "translation": "команда",
+    "example": "Our team won the game.",
+    "example_translation": "Наша команда выиграла игру."
+  },
+  {
+    "id": 842,
+    "term": "tear",
+    "translation": "слеза",
+    "example": "I wiped a tear from my eye.",
+    "example_translation": "Я вытер слезу с глаза."
+  },
+  {
+    "id": 843,
+    "term": "teeth",
+    "translation": "зубы",
+    "example": "She has white teeth.",
+    "example_translation": "У неё белые зубы."
+  },
+  {
+    "id": 844,
+    "term": "tell",
+    "translation": "рассказывать",
+    "example": "Please tell me a story.",
+    "example_translation": "Пожалуйста, расскажи мне историю."
+  },
+  {
+    "id": 845,
+    "term": "ten",
+    "translation": "десять",
+    "example": "I have ten fingers.",
+    "example_translation": "У меня десять пальцев."
+  },
+  {
+    "id": 846,
+    "term": "than",
+    "translation": "чем",
+    "example": "She is taller than me.",
+    "example_translation": "Она выше меня."
+  },
+  {
+    "id": 847,
+    "term": "thank",
+    "translation": "благодарить",
+    "example": "I thank you for help.",
+    "example_translation": "Я благодарю тебя за помощь."
+  },
+  {
+    "id": 848,
+    "term": "that",
+    "translation": "тот",
+    "example": "That is my book.",
+    "example_translation": "Это моя книга."
+  },
+  {
+    "id": 849,
+    "term": "that's",
+    "translation": "это есть",
+    "example": "That's a great idea.",
+    "example_translation": "Это отличная идея."
+  },
+  {
+    "id": 850,
+    "term": "the",
+    "translation": "(заменено на: person)",
+    "example": "Person cat is sleeping.",
+    "example_translation": "Кот спит."
+  },
+  {
+    "id": 851,
+    "term": "their",
+    "translation": "их",
+    "example": "Their house is big.",
+    "example_translation": "Их дом большой."
+  },
+  {
+    "id": 852,
+    "term": "them",
+    "translation": "их",
+    "example": "I saw them yesterday.",
+    "example_translation": "Я видел их вчера."
+  },
+  {
+    "id": 853,
+    "term": "themselves",
+    "translation": "сами",
+    "example": "They did it themselves.",
+    "example_translation": "Они сделали это сами."
+  },
+  {
+    "id": 854,
+    "term": "then",
+    "translation": "тогда",
+    "example": "We went there then.",
+    "example_translation": "Мы пошли туда тогда."
+  },
+  {
+    "id": 855,
+    "term": "there",
+    "translation": "там",
+    "example": "There is a park here.",
+    "example_translation": "Здесь есть парк."
+  },
+  {
+    "id": 856,
+    "term": "there's",
+    "translation": "там есть",
+    "example": "There's a dog outside.",
+    "example_translation": "Снаружи есть собака."
+  },
+  {
+    "id": 857,
+    "term": "these",
+    "translation": "эти",
+    "example": "These books are mine.",
+    "example_translation": "Эти книги мои."
+  },
+  {
+    "id": 858,
+    "term": "they",
+    "translation": "они",
+    "example": "They are my friends.",
+    "example_translation": "Они мои друзья."
+  },
+  {
+    "id": 859,
+    "term": "they'd",
+    "translation": "они бы",
+    "example": "They'd like to join us.",
+    "example_translation": "Они бы хотели присоединиться к нам."
+  },
+  {
+    "id": 860,
+    "term": "they're",
+    "translation": "они есть",
+    "example": "They're coming soon.",
+    "example_translation": "Они скоро придут."
+  },
+  {
+    "id": 861,
+    "term": "thick",
+    "translation": "толстый",
+    "example": "This book is thick.",
+    "example_translation": "Эта книга толстая."
+  },
+  {
+    "id": 862,
+    "term": "thing",
+    "translation": "вещь",
+    "example": "This thing is useful.",
+    "example_translation": "Эта вещь полезная."
+  },
+  {
+    "id": 863,
+    "term": "think",
+    "translation": "думать",
+    "example": "I think it's right.",
+    "example_translation": "Я думаю, это правильно."
+  },
+  {
+    "id": 864,
+    "term": "third",
+    "translation": "третий",
+    "example": "He finished third.",
+    "example_translation": "Он занял третье место."
+  },
+  {
+    "id": 865,
+    "term": "this",
+    "translation": "этот",
+    "example": "This is my pen.",
+    "example_translation": "Это моя ручка."
+  },
+  {
+    "id": 866,
+    "term": "those",
+    "translation": "те",
+    "example": "Those cars are fast.",
+    "example_translation": "Те машины быстрые."
+  },
+  {
+    "id": 867,
+    "term": "though",
+    "translation": "хотя",
+    "example": "Though it was cold, we went out.",
+    "example_translation": "Хотя было холодно, мы вышли."
+  },
+  {
+    "id": 868,
+    "term": "thought",
+    "translation": "мысль",
+    "example": "I had a good thought.",
+    "example_translation": "У меня была хорошая мысль."
+  },
+  {
+    "id": 869,
+    "term": "three",
+    "translation": "три",
+    "example": "I have three cats.",
+    "example_translation": "У меня три кота."
+  },
+  {
+    "id": 870,
+    "term": "threw",
+    "translation": "бросил",
+    "example": "He threw the ball.",
+    "example_translation": "Он бросил мяч."
+  },
+  {
+    "id": 871,
+    "term": "throat",
+    "translation": "горло",
+    "example": "My throat hurts.",
+    "example_translation": "У меня болит горло."
+  },
+  {
+    "id": 872,
+    "term": "through",
+    "translation": "через",
+    "example": "We walked through the park.",
+    "example_translation": "Мы прошли через парк."
+  },
+  {
+    "id": 873,
+    "term": "throw",
+    "translation": "бросать",
+    "example": "Throw the ball to me.",
+    "example_translation": "Брось мяч мне."
+  },
+  {
+    "id": 874,
+    "term": "tie",
+    "translation": "галстук",
+    "example": "He wears a tie.",
+    "example_translation": "Он носит галстук."
+  },
+  {
+    "id": 875,
+    "term": "tight",
+    "translation": "плотный",
+    "example": "The lid is tight.",
+    "example_translation": "Крышка плотно закрыта."
+  },
+  {
+    "id": 876,
+    "term": "time",
+    "translation": "время",
+    "example": "What time is it?",
+    "example_translation": "Который час?"
+  },
+  {
+    "id": 877,
+    "term": "tiny",
+    "translation": "крошечный",
+    "example": "Look at that tiny bug.",
+    "example_translation": "Посмотри на того крошечного жука."
+  },
+  {
+    "id": 878,
+    "term": "tire",
+    "translation": "шина",
+    "example": "My tire is flat.",
+    "example_translation": "У меня спустило колесо."
+  },
+  {
+    "id": 879,
+    "term": "to",
+    "translation": "(заменено на: apple)",
+    "example": "Apple school is near.",
+    "example_translation": "Школа рядом."
+  },
+  {
+    "id": 880,
+    "term": "today",
+    "translation": "сегодня",
+    "example": "Today is Monday.",
+    "example_translation": "Сегодня понедельник."
+  },
+  {
+    "id": 881,
+    "term": "together",
+    "translation": "вместе",
+    "example": "We work together.",
+    "example_translation": "Мы работаем вместе."
+  },
+  {
+    "id": 882,
+    "term": "told",
+    "translation": "сказал",
+    "example": "He told me a secret.",
+    "example_translation": "Он рассказал мне секрет."
+  },
+  {
+    "id": 883,
+    "term": "tomorrow",
+    "translation": "завтра",
+    "example": "Tomorrow is a holiday.",
+    "example_translation": "Завтра праздник."
+  },
+  {
+    "id": 884,
+    "term": "tone",
+    "translation": "тон",
+    "example": "Her tone was polite.",
+    "example_translation": "Её тон был вежливым."
+  },
+  {
+    "id": 885,
+    "term": "tongue",
+    "translation": "язык",
+    "example": "He bit his tongue.",
+    "example_translation": "Он прикусил язык."
+  },
+  {
+    "id": 886,
+    "term": "tonight",
+    "translation": "сегодня вечером",
+    "example": "I will call you tonight.",
+    "example_translation": "Я позвоню тебе сегодня вечером."
+  },
+  {
+    "id": 887,
+    "term": "too",
+    "translation": "тоже",
+    "example": "She wants to come too.",
+    "example_translation": "Она тоже хочет прийти."
+  },
+  {
+    "id": 888,
+    "term": "took",
+    "translation": "взял",
+    "example": "He took my book.",
+    "example_translation": "Он взял мою книгу."
+  },
+  {
+    "id": 889,
+    "term": "top",
+    "translation": "верх",
+    "example": "He climbed to the top.",
+    "example_translation": "Он забрался на вершину."
+  },
+  {
+    "id": 890,
+    "term": "totally",
+    "translation": "полностью",
+    "example": "I totally agree.",
+    "example_translation": "Я полностью согласен."
+  },
+  {
+    "id": 891,
+    "term": "touch",
+    "translation": "трогать",
+    "example": "Don't touch that!",
+    "example_translation": "Не трогай это!"
+  },
+  {
+    "id": 892,
+    "term": "toward",
+    "translation": "по направлению",
+    "example": "He walked toward the door.",
+    "example_translation": "Он шел по направлению к двери."
+  },
+  {
+    "id": 893,
+    "term": "town",
+    "translation": "город",
+    "example": "I live in a small town.",
+    "example_translation": "Я живу в маленьком городе."
+  },
+  {
+    "id": 894,
+    "term": "track",
+    "translation": "трек",
+    "example": "The train is on the track.",
+    "example_translation": "Поезд на рельсах."
+  },
+  {
+    "id": 895,
+    "term": "trail",
+    "translation": "тропа",
+    "example": "We followed the trail.",
+    "example_translation": "Мы шли по тропе."
+  },
+  {
+    "id": 896,
+    "term": "train",
+    "translation": "поезд",
+    "example": "I took the train to work.",
+    "example_translation": "Я поехал на работу на поезде."
+  },
+  {
+    "id": 897,
+    "term": "tree",
+    "translation": "дерево",
+    "example": "There is a tree in the yard.",
+    "example_translation": "Во дворе стоит дерево."
+  },
+  {
+    "id": 898,
+    "term": "trip",
+    "translation": "поездка",
+    "example": "We planned a trip to Paris.",
+    "example_translation": "Мы запланировали поездку в Париж."
+  },
+  {
+    "id": 899,
+    "term": "trouble",
+    "translation": "проблема",
+    "example": "He is in trouble.",
+    "example_translation": "У него проблемы."
+  },
+  {
+    "id": 900,
+    "term": "true",
+    "translation": "правда",
+    "example": "This is true.",
+    "example_translation": "Это правда."
+  },
+  {
+    "id": 901,
+    "term": "trust",
+    "translation": "доверять",
+    "example": "I trust you.",
+    "example_translation": "Я тебе доверяю."
+  },
+  {
+    "id": 902,
+    "term": "truth",
+    "translation": "правда",
+    "example": "Tell me the truth.",
+    "example_translation": "Скажи мне правду."
+  },
+  {
+    "id": 903,
+    "term": "try",
+    "translation": "пытаться",
+    "example": "Try your best.",
+    "example_translation": "Старайся изо всех сил."
+  },
+  {
+    "id": 904,
+    "term": "turn",
+    "translation": "поворачивать",
+    "example": "Turn left here.",
+    "example_translation": "Поверни здесь налево."
+  },
+  {
+    "id": 905,
+    "term": "TV",
+    "translation": "телевизор",
+    "example": "I watch TV every night.",
+    "example_translation": "Я смотрю телевизор каждый вечер."
+  },
+  {
+    "id": 906,
+    "term": "twenty",
+    "translation": "двадцать",
+    "example": "She is twenty years old.",
+    "example_translation": "Ей двадцать лет."
+  },
+  {
+    "id": 907,
+    "term": "two",
+    "translation": "два",
+    "example": "I have two cats.",
+    "example_translation": "У меня два кота."
+  },
+  {
+    "id": 908,
+    "term": "type",
+    "translation": "тип",
+    "example": "What type of music do you like?",
+    "example_translation": "Какой тип музыки тебе нравится?"
+  },
+  {
+    "id": 909,
+    "term": "uncle",
+    "translation": "дядя",
+    "example": "My uncle is funny.",
+    "example_translation": "Мой дядя смешной."
+  },
+  {
+    "id": 910,
+    "term": "under",
+    "translation": "под",
+    "example": "The cat is under the table.",
+    "example_translation": "Кот под столом."
+  },
+  {
+    "id": 911,
+    "term": "understand",
+    "translation": "понимать",
+    "example": "I understand the lesson.",
+    "example_translation": "Я понимаю урок."
+  },
+  {
+    "id": 912,
+    "term": "until",
+    "translation": "до",
+    "example": "Wait until I come.",
+    "example_translation": "Подожди, пока я приду."
+  },
+  {
+    "id": 913,
+    "term": "up",
+    "translation": "вверх",
+    "example": "Look up at the sky.",
+    "example_translation": "Посмотри вверх на небо."
+  },
+  {
+    "id": 914,
+    "term": "upon",
+    "translation": "на",
+    "example": "Once upon a time...",
+    "example_translation": "Однажды..."
+  },
+  {
+    "id": 915,
+    "term": "us",
+    "translation": "нас",
+    "example": "They invited us.",
+    "example_translation": "Они пригласили нас."
+  },
+  {
+    "id": 916,
+    "term": "use",
+    "translation": "использовать",
+    "example": "I use a computer.",
+    "example_translation": "Я использую компьютер."
+  },
+  {
+    "id": 917,
+    "term": "usual",
+    "translation": "обычный",
+    "example": "It's my usual place.",
+    "example_translation": "Это моё обычное место."
+  },
+  {
+    "id": 918,
+    "term": "usually",
+    "translation": "обычно",
+    "example": "I usually wake up early.",
+    "example_translation": "Я обычно просыпаюсь рано."
+  },
+  {
+    "id": 919,
+    "term": "very",
+    "translation": "очень",
+    "example": "She is very kind.",
+    "example_translation": "Она очень добрая."
+  },
+  {
+    "id": 920,
+    "term": "visit",
+    "translation": "посещать",
+    "example": "I will visit my friend.",
+    "example_translation": "Я навещу своего друга."
+  },
+  {
+    "id": 921,
+    "term": "voice",
+    "translation": "голос",
+    "example": "Her voice is soft.",
+    "example_translation": "Её голос мягкий."
+  },
+  {
+    "id": 922,
+    "term": "wait",
+    "translation": "ждать",
+    "example": "Please wait for me.",
+    "example_translation": "Пожалуйста, подожди меня."
+  },
+  {
+    "id": 923,
+    "term": "wake",
+    "translation": "просыпаться",
+    "example": "I wake up at 7 am.",
+    "example_translation": "Я просыпаюсь в 7 утра."
+  },
+  {
+    "id": 924,
+    "term": "walk",
+    "translation": "ходить",
+    "example": "Let's walk to the park.",
+    "example_translation": "Давай пойдем в парк пешком."
+  },
+  {
+    "id": 925,
+    "term": "wall",
+    "translation": "стена",
+    "example": "The picture is on the wall.",
+    "example_translation": "Картина на стене."
+  },
+  {
+    "id": 926,
+    "term": "want",
+    "translation": "хотеть",
+    "example": "I want some water.",
+    "example_translation": "Я хочу воды."
+  },
+  {
+    "id": 927,
+    "term": "warm",
+    "translation": "тёплый",
+    "example": "The soup is warm.",
+    "example_translation": "Суп тёплый."
+  },
+  {
+    "id": 928,
+    "term": "warn",
+    "translation": "предупреждать",
+    "example": "I warn you about danger.",
+    "example_translation": "Я предупреждаю тебя об опасности."
+  },
+  {
+    "id": 929,
+    "term": "was",
+    "translation": "был",
+    "example": "He was at home yesterday.",
+    "example_translation": "Он был дома вчера."
+  },
+  {
+    "id": 930,
+    "term": "wasn't",
+    "translation": "не был",
+    "example": "She wasn't at school.",
+    "example_translation": "Она не была в школе."
+  },
+  {
+    "id": 931,
+    "term": "watch",
+    "translation": "смотреть",
+    "example": "I watch movies on weekends.",
+    "example_translation": "Я смотрю фильмы по выходным."
+  },
+  {
+    "id": 932,
+    "term": "water",
+    "translation": "вода",
+    "example": "Drink plenty of water.",
+    "example_translation": "Пей много воды."
+  },
+  {
+    "id": 933,
+    "term": "wave",
+    "translation": "волна",
+    "example": "We saw a big wave.",
+    "example_translation": "Мы увидели большую волну."
+  },
+  {
+    "id": 934,
+    "term": "way",
+    "translation": "путь",
+    "example": "This is the way to the park.",
+    "example_translation": "Это путь к парку."
+  },
+  {
+    "id": 935,
+    "term": "we",
+    "translation": "мы",
+    "example": "We are friends.",
+    "example_translation": "Мы друзья."
+  },
+  {
+    "id": 936,
+    "term": "we'll",
+    "translation": "мы будем",
+    "example": "We'll meet tomorrow.",
+    "example_translation": "Мы встретимся завтра."
+  },
+  {
+    "id": 937,
+    "term": "we're",
+    "translation": "мы есть",
+    "example": "We're ready to go.",
+    "example_translation": "Мы готовы идти."
+  },
+  {
+    "id": 938,
+    "term": "we've",
+    "translation": "мы имеем",
+    "example": "We've finished the work.",
+    "example_translation": "Мы закончили работу."
+  },
+  {
+    "id": 939,
+    "term": "wear",
+    "translation": "носить",
+    "example": "I wear a jacket.",
+    "example_translation": "Я ношу куртку."
+  },
+  {
+    "id": 940,
+    "term": "week",
+    "translation": "неделя",
+    "example": "I work five days a week.",
+    "example_translation": "Я работаю пять дней в неделю."
+  },
+  {
+    "id": 941,
+    "term": "weird",
+    "translation": "странный",
+    "example": "That movie was weird.",
+    "example_translation": "Тот фильм был странным."
+  },
+  {
+    "id": 942,
+    "term": "well",
+    "translation": "хорошо",
+    "example": "She sings well.",
+    "example_translation": "Она хорошо поет."
+  },
+  {
+    "id": 943,
+    "term": "went",
+    "translation": "пошел",
+    "example": "He went to the store.",
+    "example_translation": "Он пошел в магазин."
+  },
+  {
+    "id": 944,
+    "term": "were",
+    "translation": "были",
+    "example": "They were happy.",
+    "example_translation": "Они были счастливы."
+  },
+  {
+    "id": 945,
+    "term": "weren't",
+    "translation": "не были",
+    "example": "We weren't late.",
+    "example_translation": "Мы не опоздали."
+  },
+  {
+    "id": 946,
+    "term": "wet",
+    "translation": "мокрый",
+    "example": "My clothes are wet.",
+    "example_translation": "Моя одежда мокрая."
+  },
+  {
+    "id": 947,
+    "term": "what",
+    "translation": "что",
+    "example": "What is your name?",
+    "example_translation": "Как тебя зовут?"
+  },
+  {
+    "id": 948,
+    "term": "what's",
+    "translation": "что есть",
+    "example": "What's the time?",
+    "example_translation": "Который час?"
+  },
+  {
+    "id": 949,
+    "term": "whatever",
+    "translation": "что бы ни",
+    "example": "Do whatever you want.",
+    "example_translation": "Делай что хочешь."
+  },
+  {
+    "id": 950,
+    "term": "when",
+    "translation": "когда",
+    "example": "When is your birthday?",
+    "example_translation": "Когда у тебя день рождения?"
+  },
+  {
+    "id": 951,
+    "term": "where",
+    "translation": "где",
+    "example": "Where is the library?",
+    "example_translation": "Где библиотека?"
+  },
+  {
+    "id": 952,
+    "term": "whether",
+    "translation": "ли",
+    "example": "She asked whether I was ready.",
+    "example_translation": "Она спросила, готов ли я."
+  },
+  {
+    "id": 953,
+    "term": "which",
+    "translation": "который",
+    "example": "Which book do you want?",
+    "example_translation": "Какую книгу ты хочешь?"
+  },
+  {
+    "id": 954,
+    "term": "while",
+    "translation": "пока",
+    "example": "Wait here while I get help.",
+    "example_translation": "Подожди здесь, пока я помогу."
+  },
+  {
+    "id": 955,
+    "term": "whisper",
+    "translation": "шептать",
+    "example": "They whisper in class.",
+    "example_translation": "Они шепчутся в классе."
+  },
+  {
+    "id": 956,
+    "term": "white",
+    "translation": "белый",
+    "example": "The snow is white.",
+    "example_translation": "Снег белый."
+  },
+  {
+    "id": 957,
+    "term": "who",
+    "translation": "кто",
+    "example": "Who is that?",
+    "example_translation": "Кто это?"
+  },
+  {
+    "id": 958,
+    "term": "whole",
+    "translation": "целый",
+    "example": "I ate the whole cake.",
+    "example_translation": "Я съел весь торт."
+  },
+  {
+    "id": 959,
+    "term": "why",
+    "translation": "почему",
+    "example": "Why are you sad?",
+    "example_translation": "Почему ты грустный?"
+  },
+  {
+    "id": 960,
+    "term": "wide",
+    "translation": "широкий",
+    "example": "The river is wide.",
+    "example_translation": "Река широкая."
+  },
+  {
+    "id": 961,
+    "term": "wife",
+    "translation": "жена",
+    "example": "My wife is kind.",
+    "example_translation": "Моя жена добрая."
+  },
+  {
+    "id": 962,
+    "term": "will",
+    "translation": "буду",
+    "example": "Will you help me?",
+    "example_translation": "Ты поможешь мне?"
+  },
+  {
+    "id": 963,
+    "term": "wind",
+    "translation": "ветер",
+    "example": "The wind is strong today.",
+    "example_translation": "Сегодня сильный ветер."
+  },
+  {
+    "id": 964,
+    "term": "window",
+    "translation": "окно",
+    "example": "Open the window, please.",
+    "example_translation": "Открой окно, пожалуйста."
+  },
+  {
+    "id": 965,
+    "term": "wipe",
+    "translation": "вытирать",
+    "example": "Wipe your hands.",
+    "example_translation": "Вытри руки."
+  },
+  {
+    "id": 966,
+    "term": "wish",
+    "translation": "желать",
+    "example": "I wish you happiness.",
+    "example_translation": "Желаю тебе счастья."
+  },
+  {
+    "id": 967,
+    "term": "with",
+    "translation": "с",
+    "example": "She is with her friends.",
+    "example_translation": "Она с друзьями."
+  },
+  {
+    "id": 968,
+    "term": "within",
+    "translation": "в пределах",
+    "example": "Within a week, it will be ready.",
+    "example_translation": "В течение недели это будет готово."
+  },
+  {
+    "id": 969,
+    "term": "without",
+    "translation": "без",
+    "example": "I can't live without you.",
+    "example_translation": "Я не могу жить без тебя."
+  },
+  {
+    "id": 970,
+    "term": "woke",
+    "translation": "проснулся",
+    "example": "I woke late today.",
+    "example_translation": "Я проснулся поздно сегодня."
+  },
+  {
+    "id": 971,
+    "term": "woman",
+    "translation": "женщина",
+    "example": "The woman is smiling.",
+    "example_translation": "Женщина улыбается."
+  },
+  {
+    "id": 972,
+    "term": "women",
+    "translation": "женщины",
+    "example": "Women often support each other.",
+    "example_translation": "Женщины часто поддерживают друг друга."
+  },
+  {
+    "id": 973,
+    "term": "won't",
+    "translation": "не будет",
+    "example": "I won't be late.",
+    "example_translation": "Я не опоздаю."
+  },
+  {
+    "id": 974,
+    "term": "wonder",
+    "translation": "думать",
+    "example": "I wonder what he is doing.",
+    "example_translation": "Мне интересно, что он делает."
+  },
+  {
+    "id": 975,
+    "term": "wood",
+    "translation": "дерево",
+    "example": "The table is made of wood.",
+    "example_translation": "Стол сделан из дерева."
+  },
+  {
+    "id": 976,
+    "term": "word",
+    "translation": "слово",
+    "example": "That is a difficult word.",
+    "example_translation": "Это трудное слово."
+  },
+  {
+    "id": 977,
+    "term": "wore",
+    "translation": "носил",
+    "example": "She wore a red dress.",
+    "example_translation": "Она носила красное платье."
+  },
+  {
+    "id": 978,
+    "term": "work",
+    "translation": "работать",
+    "example": "I work every day.",
+    "example_translation": "Я работаю каждый день."
+  },
+  {
+    "id": 979,
+    "term": "world",
+    "translation": "мир",
+    "example": "The world is big.",
+    "example_translation": "Мир большой."
+  },
+  {
+    "id": 980,
+    "term": "worry",
+    "translation": "волноваться",
+    "example": "Don't worry about it.",
+    "example_translation": "Не волнуйся об этом."
+  },
+  {
+    "id": 981,
+    "term": "worse",
+    "translation": "хуже",
+    "example": "Today is worse than yesterday.",
+    "example_translation": "Сегодня хуже, чем вчера."
+  },
+  {
+    "id": 982,
+    "term": "would",
+    "translation": "бы",
+    "example": "I would help you.",
+    "example_translation": "Я бы помог тебе."
+  },
+  {
+    "id": 983,
+    "term": "wouldn't",
+    "translation": "не будет",
+    "example": "I wouldn't do that.",
+    "example_translation": "Я бы так не сделал."
+  },
+  {
+    "id": 984,
+    "term": "wow",
+    "translation": "вау",
+    "example": "Wow, that's amazing!",
+    "example_translation": "Вау, это удивительно!"
+  },
+  {
+    "id": 985,
+    "term": "wrap",
+    "translation": "заворачивать",
+    "example": "Please wrap the gift.",
+    "example_translation": "Пожалуйста, заверни подарок."
+  },
+  {
+    "id": 986,
+    "term": "write",
+    "translation": "писать",
+    "example": "I write letters often.",
+    "example_translation": "Я часто пишу письма."
+  },
+  {
+    "id": 987,
+    "term": "wrong",
+    "translation": "неправильно",
+    "example": "You are wrong.",
+    "example_translation": "Ты неправ."
+  },
+  {
+    "id": 988,
+    "term": "yeah",
+    "translation": "да",
+    "example": "Yeah, I agree.",
+    "example_translation": "Да, я согласен."
+  },
+  {
+    "id": 989,
+    "term": "year",
+    "translation": "год",
+    "example": "She is 20 years old this year.",
+    "example_translation": "Ей 20 лет в этом году."
+  },
+  {
+    "id": 990,
+    "term": "yell",
+    "translation": "кричать",
+    "example": "Don't yell at me!",
+    "example_translation": "Не кричи на меня!"
+  },
+  {
+    "id": 991,
+    "term": "yes",
+    "translation": "да",
+    "example": "Yes, I understand.",
+    "example_translation": "Да, я понимаю."
+  },
+  {
+    "id": 992,
+    "term": "yet",
+    "translation": "еще",
+    "example": "I haven't finished yet.",
+    "example_translation": "Я еще не закончил."
+  },
+  {
+    "id": 993,
+    "term": "you",
+    "translation": "ты",
+    "example": "You are my friend.",
+    "example_translation": "Ты мой друг."
+  },
+  {
+    "id": 994,
+    "term": "you'd",
+    "translation": "ты бы",
+    "example": "You'd like this movie.",
+    "example_translation": "Тебе понравится этот фильм."
+  },
+  {
+    "id": 995,
+    "term": "you'll",
+    "translation": "ты будешь",
+    "example": "You'll do great.",
+    "example_translation": "Ты справишься отлично."
+  },
+  {
+    "id": 996,
+    "term": "you're",
+    "translation": "ты есть",
+    "example": "You're very kind.",
+    "example_translation": "Ты очень добрый."
+  },
+  {
+    "id": 997,
+    "term": "you've",
+    "translation": "ты имеешь",
+    "example": "You've done a good job.",
+    "example_translation": "Ты хорошо поработал."
+  },
+  {
+    "id": 998,
+    "term": "young",
+    "translation": "молодой",
+    "example": "He is very young.",
+    "example_translation": "Он очень молодой."
+  },
+  {
+    "id": 999,
+    "term": "your",
+    "translation": "твой",
+    "example": "Is this your book?",
+    "example_translation": "Это твоя книга?"
+  },
+  {
+    "id": 1000,
+    "term": "yourself",
+    "translation": "себя",
+    "example": "Take care of yourself.",
+    "example_translation": "Береги себя."
+  }
+]
