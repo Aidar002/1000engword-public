@@ -1,15 +1,16 @@
-class_name WordManager
 extends Node
 
 # Константы для режимов показа
 const SHOW_ENGLISH: int = 0
 const SHOW_RUSSIAN: int = 1
 
-var all_words: Dictionary = {}       # id: Word
-var unremembered_ids: Array = []     # ID не запомненных слов
-var remembered_ids: Array = []       # ID запомненных слов
-var current_batch: Array = []        # Текущая партия из 10 слов (ID)
-var current_batch_queue: Array = []  # Очередь показа
+var all_words: Dictionary = {}
+var unremembered_ids: Array = []
+var remembered_ids: Array = []
+var current_batch: Array = []
+var current_batch_queue: Array = []
+var current_word_id: int = -1
+var current_show_mode: int = -1
 
 func _ready():
 	load_words()
@@ -25,17 +26,18 @@ func load_words():
 			entry["term"],
 			entry["translation"],
 			entry["example"],
-			entry["example_translation"]  # Новое поле
+			entry["example_translation"]
 		)
 		all_words[word.id] = word
 		unremembered_ids.append(word.id)
 	
 	file.close()
-	load_progress()  # Загружаем прогресс после инициализации слов
+	load_progress()
 
 func initialize_session():
 	current_batch = get_random_batch(10)
 	reshuffle_batch_queue()
+	next_word()
 
 func get_random_batch(size: int) -> Array:
 	if unremembered_ids.size() <= size:
@@ -54,57 +56,34 @@ func reshuffle_batch_queue():
 	current_batch_queue = current_batch.duplicate()
 	current_batch_queue.shuffle()
 
-func get_next_word() -> Dictionary:
+func next_word() -> Word:
 	if current_batch_queue.is_empty():
-		return {}
+		return null
 	
-	var word_id = current_batch_queue[0]
-	var word = all_words[word_id]
+	current_word_id = current_batch_queue[0]
+	var word = all_words[current_word_id]
 	
 	# Определяем режим показа (50/50, но не повторяем последний режим)
-	var show_mode = SHOW_ENGLISH if randf() > 0.5 else SHOW_RUSSIAN
-	if word.last_shown_as == show_mode:
-		show_mode = 1 - show_mode  # Инвертируем режим
+	current_show_mode = SHOW_ENGLISH if randf() > 0.5 else SHOW_RUSSIAN
+	if word.last_shown_as == current_show_mode:
+		current_show_mode = 1 - current_show_mode
 	
-	word.last_shown_as = show_mode
-	return {
-		"word": word,
-		"show_mode": show_mode
-	}
+	word.last_shown_as = current_show_mode
+	return word
 
 func process_answer(user_knew: bool):
-	if current_batch_queue.is_empty():
-		return
+	var word = all_words[current_word_id]
 	
-	var word_id = current_batch_queue[0]
-	var word = all_words[word_id]
-	
-	# Обработка ответа
 	if user_knew:
 		word.remember_count += 1
 		
 		# Проверяем, запомнено ли слово
 		if word.remember_count >= 3:
-			remember_word(word_id)
+			remember_word(current_word_id)
 	else:
 		word.remember_count = max(0, word.remember_count - 1)
 	
-	# Обновление очереди
-	current_batch_queue.pop_front()
-	
-	if user_knew && word.remember_count < 3:
-		# Возвращаем слово в конец очереди для повторения
-		current_batch_queue.append(word_id)
-	elif !user_knew:
-		# Для сложных слов добавляем дополнительные повторения
-		current_batch_queue.append(word_id)
-		if word.remember_count == 0:  # Если ошибка на нулевом счетчике
-			current_batch_queue.append(word_id)  # Дополнительное повторение
-	
-	# Обновляем партию, если нужно
-	if current_batch_queue.size() < 5 && unremembered_ids.size() > 0:
-		refill_batch()
-	
+	# Сохраняем прогресс
 	save_progress()
 
 func remember_word(word_id: int):
@@ -112,29 +91,19 @@ func remember_word(word_id: int):
 	unremembered_ids.erase(word_id)
 	current_batch.erase(word_id)
 	
+	# Удаляем слово из очереди
+	current_batch_queue.erase(word_id)
+	
 	# Добавляем новое слово в партию
 	if unremembered_ids.size() > 0:
 		var new_id = get_new_word_for_batch()
 		if new_id != -1:
 			current_batch.append(new_id)
+			# Добавляем в конец очереди, чтобы не прерывать текущий показ
 			current_batch_queue.append(new_id)
 
-func refill_batch():
-	var needed = 10 - current_batch.size()
-	if needed <= 0 || unremembered_ids.size() == 0:
-		return
-	
-	var new_words = []
-	for id in unremembered_ids:
-		if !current_batch.has(id) && !current_batch_queue.has(id):
-			new_words.append(id)
-		if new_words.size() >= needed:
-			break
-	
-	current_batch.append_array(new_words)
-	current_batch_queue.append_array(new_words)
-
 func get_new_word_for_batch() -> int:
+	# Ищем слово, которого еще нет в текущей партии
 	var candidates = []
 	for id in unremembered_ids:
 		if !current_batch.has(id):
@@ -146,10 +115,18 @@ func get_new_word_for_batch() -> int:
 	candidates.shuffle()
 	return candidates[0]
 
+func complete_word():
+	# Удаляем текущее слово из начала очереди
+	current_batch_queue.pop_front()
+	
+	# Если очередь закончилась - переформируем
+	if current_batch_queue.is_empty() && !current_batch.is_empty():
+		reshuffle_batch_queue()
+
 func save_progress():
 	var config = ConfigFile.new()
 	
-	# Сохраняем ID слов и их прогресс
+	# Сохраняем прогресс по каждому слову
 	for word_id in all_words:
 		var word = all_words[word_id]
 		config.set_value("words", str(word_id), {
@@ -161,6 +138,7 @@ func save_progress():
 	config.set_value("progress", "remembered_ids", remembered_ids)
 	config.set_value("progress", "unremembered_ids", unremembered_ids)
 	config.set_value("progress", "current_batch", current_batch)
+	config.set_value("progress", "current_batch_queue", current_batch_queue)
 	
 	config.save("user://progress.cfg")
 
@@ -181,16 +159,17 @@ func load_progress():
 	remembered_ids = config.get_value("progress", "remembered_ids", [])
 	unremembered_ids = config.get_value("progress", "unremembered_ids", [])
 	current_batch = config.get_value("progress", "current_batch", [])
+	current_batch_queue = config.get_value("progress", "current_batch_queue", [])
 	
-	# Корректируем списки на случай изменений в словаре
+	# Корректируем списки
 	for id in remembered_ids:
-		if !all_words.has(id):
+		if !all_words.has(id) || unremembered_ids.has(id):
 			remembered_ids.erase(id)
 	
 	for id in unremembered_ids:
 		if !all_words.has(id) || remembered_ids.has(id):
 			unremembered_ids.erase(id)
 	
-	# Инициализируем очередь, если она пуста
+	# Если очередь пуста, но есть слова в партии
 	if current_batch_queue.is_empty() && !current_batch.is_empty():
 		reshuffle_batch_queue()

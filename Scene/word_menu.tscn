@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bvywnum5u8sgf"]
+[gd_scene load_steps=2 format=3 uid="uid://bvywnum5u8sgf"]
+
+[ext_resource type="Script" uid="uid://bvymlbvplm8l8" path="res://Scene/word_menu.gd" id="1_te1vy"]
 
 [node name="WordMenu" type="Control"]
 layout_mode = 3
@@ -7,46 +9,119 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_te1vy")
 
-[node name="ChoiceButton" type="HBoxContainer" parent="."]
+[node name="TermLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -175.0
-offset_top = 133.0
-offset_right = 175.0
-offset_bottom = 193.0
+offset_left = -66.0
+offset_top = -166.0
+offset_right = 66.0
+offset_bottom = -142.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 50
-
-[node name="YesButton" type="Button" parent="ChoiceButton"]
-custom_minimum_size = Vector2(150, 60)
-layout_mode = 2
-text = "запомнил"
-
-[node name="NoButton" type="Button" parent="ChoiceButton"]
-custom_minimum_size = Vector2(150, 60)
-layout_mode = 2
-text = "не запомнил"
-
-[node name="Sentence" type="RichTextLabel" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -178.0
-offset_top = -54.0
-offset_right = 178.0
-offset_bottom = 54.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/normal_font_size = 20
-text = "WORD"
+text = "EngWord"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="ExampleLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = -139.0
+offset_right = 66.0
+offset_bottom = -115.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "EngSentence"
+horizontal_alignment = 1
+
+[node name="TranslationExampleLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = -112.0
+offset_right = 66.0
+offset_bottom = -88.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "RusSentence"
+horizontal_alignment = 1
+
+[node name="TranslationTermLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = -86.0
+offset_right = 66.0
+offset_bottom = -62.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "RusWord"
+horizontal_alignment = 1
+
+[node name="ProgressLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = -58.0
+offset_right = 66.0
+offset_bottom = -34.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "progress"
+horizontal_alignment = 1
+
+[node name="ButtonsContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -72.5
+offset_top = -20.0
+offset_right = 72.5
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Known" type="Button" parent="ButtonsContainer"]
+layout_mode = 2
+text = "ЗНАЮ	"
+
+[node name="UnKnown" type="Button" parent="ButtonsContainer"]
+layout_mode = 2
+text = "НЕ ЗНАЮ"
+
+[node name="NextButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 237.0
+offset_top = 521.0
+offset_right = 310.0
+offset_bottom = 552.0
+text = "Дальше"
+
+[connection signal="pressed" from="ButtonsContainer/Known" to="." method="_on_known_pressed"]
+[connection signal="pressed" from="ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]
+[connection signal="pressed" from="NextButton" to="." method="_on_next_pressed"]

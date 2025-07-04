@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-GlobalWordManager="*res://Globals/WordManager.gd"
+WordsManager="*res://Globals/WordsManager.gd"
 
 [display]
 
