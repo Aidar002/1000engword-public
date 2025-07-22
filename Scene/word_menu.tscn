@@ -122,6 +122,20 @@ offset_right = 310.0
 offset_bottom = 552.0
 text = "Дальше"
 
+[node name="GlobalProgressLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 234.0
+offset_top = 33.0
+offset_right = 307.0
+offset_bottom = 56.0
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 173.0
+offset_top = 72.0
+offset_right = 375.0
+offset_bottom = 99.0
+
 [connection signal="pressed" from="ButtonsContainer/Known" to="." method="_on_known_pressed"]
 [connection signal="pressed" from="ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]
 [connection signal="pressed" from="NextButton" to="." method="_on_next_pressed"]

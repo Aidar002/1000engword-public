@@ -8,6 +8,8 @@ extends Control
 @onready var progress_label = $ProgressLabel
 @onready var buttons_container = $ButtonsContainer
 @onready var next_button = $NextButton
+@onready var global_progress_label = $GlobalProgressLabel
+@onready var progress_bar: ProgressBar = $ProgressBar
 
 var current_word: Word = null
 var show_mode: int = -1
@@ -21,7 +23,8 @@ func _ready():
 	# Начало сессии
 	WordsManager.initialize_session()
 	show_word()
-
+	update_progress_display()
+	
 func show_word():
 	current_word = WordsManager.next_word()
 	
@@ -64,15 +67,18 @@ func show_translation():
 func _on_known_pressed():
 	WordsManager.process_answer(true)
 	show_translation()
-
+	update_progress_display()
+	
 func _on_unknown_pressed():
 	WordsManager.process_answer(false)
 	show_translation()
-
+	update_progress_display()
+	
 func _on_next_pressed():
 	WordsManager.complete_word()
 	show_word()
-
+	update_progress_display()
+	
 func show_completion_message():
 	term_label.text = "Поздравляем!"
 	example_label.text = "Вы изучили все слова в этой сессии"
@@ -86,3 +92,16 @@ func show_completion_message():
 	await get_tree().create_timer(3.0).timeout
 	WordsManager.initialize_session()
 	show_word()
+
+# Новая функция для обновления прогресса
+func update_progress_display():
+	var total_words = 1000
+	var learned_words = WordsManager.remembered_ids.size()
+	# Скрываем при нулевом прогрессе
+	var visible = learned_words > 0
+	global_progress_label.visible = visible
+	progress_bar.visible = visible
+	
+	if visible:
+		global_progress_label.text = "Прогресс: %d/%d" % [learned_words, total_words]
+		progress_bar.value = (learned_words / float(total_words)) * 100
