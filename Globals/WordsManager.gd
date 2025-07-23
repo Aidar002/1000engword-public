@@ -12,6 +12,12 @@ var current_batch_queue: Array = []
 var current_word_id: int = -1
 var current_show_mode: int = -1
 
+# Система повторения
+var words_learned_since_last_review := 0
+const WORDS_BEFORE_REVIEW := 10
+var review_mode: bool = false
+var review_batch: Array = []
+
 func _ready():
 	load_words()
 	initialize_session()
@@ -35,9 +41,28 @@ func load_words():
 	load_progress()
 
 func initialize_session():
-	current_batch = get_random_batch(10)
+	start_normal_session()
+
+func start_normal_session():
+	review_mode = false
+	while current_batch.size() < 10 and unremembered_ids.size() > 0:
+		var new_word_id = get_new_word_for_batch()
+		if new_word_id != -1:
+			current_batch.append(new_word_id)
 	reshuffle_batch_queue()
-	next_word()
+
+func start_review_session():
+	if remembered_ids.size() == 0:
+		return
+	
+	review_mode = true
+	review_batch = get_random_review_words(10)
+	words_learned_since_last_review = 0
+
+func get_random_review_words(count: int) -> Array:
+	var candidates = remembered_ids.duplicate()
+	candidates.shuffle()
+	return candidates.slice(0, min(count, candidates.size()))
 
 func get_random_batch(size: int) -> Array:
 	if unremembered_ids.size() <= size:
@@ -56,14 +81,23 @@ func reshuffle_batch_queue():
 	current_batch_queue = current_batch.duplicate()
 	current_batch_queue.shuffle()
 
-func next_word() -> Word:
-	if current_batch_queue.is_empty():
-		return null
+func get_next_word() -> Word:
+	if review_mode:
+		if review_batch.is_empty():
+			end_review_session()
+			return get_next_word()
+		
+		current_word_id = review_batch.pop_front()
+	else:
+		if current_batch_queue.is_empty():
+			reshuffle_batch_queue()
+		
+		if current_batch_queue.is_empty():
+			return null
+		
+		current_word_id = current_batch_queue[0]
 	
-	current_word_id = current_batch_queue[0]
 	var word = all_words[current_word_id]
-	
-	# Определяем режим показа (50/50, но не повторяем последний режим)
 	current_show_mode = SHOW_ENGLISH if randf() > 0.5 else SHOW_RUSSIAN
 	if word.last_shown_as == current_show_mode:
 		current_show_mode = 1 - current_show_mode
@@ -74,36 +108,49 @@ func next_word() -> Word:
 func process_answer(user_knew: bool):
 	var word = all_words[current_word_id]
 	
-	if user_knew:
-		word.remember_count += 1
-		
-		# Проверяем, запомнено ли слово
-		if word.remember_count >= 3:
-			remember_word(current_word_id)
+	if review_mode:
+		if user_knew:
+			word.remember_count += 1
+		else:
+			move_word_to_unremembered(current_word_id)
 	else:
-		word.remember_count = max(0, word.remember_count - 1)
+		if user_knew:
+			word.remember_count += 1
+			if word.remember_count >= 3:
+				remember_word(current_word_id)
+				words_learned_since_last_review += 1
+				
+				if words_learned_since_last_review >= WORDS_BEFORE_REVIEW:
+					start_review_session()
+		else:
+			word.remember_count = max(0, word.remember_count - 1)
 	
-	# Сохраняем прогресс
+	complete_word()
 	save_progress()
+
+func complete_word():
+	if not review_mode:
+		current_batch_queue.pop_front()
+		
+		var word = all_words[current_word_id]
+		if word.remember_count >= 3 and current_word_id in current_batch:
+			current_batch.erase(current_word_id)
+			if unremembered_ids.size() > 0:
+				var new_id = get_new_word_for_batch()
+				if new_id != -1:
+					current_batch.append(new_id)
+					current_batch_queue.append(new_id)
 
 func remember_word(word_id: int):
 	remembered_ids.append(word_id)
 	unremembered_ids.erase(word_id)
-	current_batch.erase(word_id)
-	
-	# Удаляем слово из очереди
-	current_batch_queue.erase(word_id)
-	
-	# Добавляем новое слово в партию
-	if unremembered_ids.size() > 0:
-		var new_id = get_new_word_for_batch()
-		if new_id != -1:
-			current_batch.append(new_id)
-			# Добавляем в конец очереди, чтобы не прерывать текущий показ
-			current_batch_queue.append(new_id)
+
+func move_word_to_unremembered(word_id):
+	remembered_ids.erase(word_id)
+	unremembered_ids.append(word_id)
+	all_words[word_id].remember_count = 0
 
 func get_new_word_for_batch() -> int:
-	# Ищем слово, которого еще нет в текущей партии
 	var candidates = []
 	for id in unremembered_ids:
 		if !current_batch.has(id):
@@ -115,18 +162,13 @@ func get_new_word_for_batch() -> int:
 	candidates.shuffle()
 	return candidates[0]
 
-func complete_word():
-	# Удаляем текущее слово из начала очереди
-	current_batch_queue.pop_front()
-	
-	# Если очередь закончилась - переформируем
-	if current_batch_queue.is_empty() && !current_batch.is_empty():
-		reshuffle_batch_queue()
+func end_review_session():
+	review_mode = false
+	initialize_session()
 
 func save_progress():
 	var config = ConfigFile.new()
 	
-	# Сохраняем прогресс по каждому слову
 	for word_id in all_words:
 		var word = all_words[word_id]
 		config.set_value("words", str(word_id), {
@@ -134,11 +176,13 @@ func save_progress():
 			"last_shown_as": word.last_shown_as
 		})
 	
-	# Сохраняем списки
 	config.set_value("progress", "remembered_ids", remembered_ids)
 	config.set_value("progress", "unremembered_ids", unremembered_ids)
 	config.set_value("progress", "current_batch", current_batch)
 	config.set_value("progress", "current_batch_queue", current_batch_queue)
+	config.set_value("progress", "words_learned_since_last_review", words_learned_since_last_review)
+	config.set_value("progress", "review_mode", review_mode)
+	config.set_value("progress", "review_batch", review_batch)
 	
 	config.save("user://progress.cfg")
 
@@ -147,7 +191,6 @@ func load_progress():
 	if config.load("user://progress.cfg") != OK:
 		return
 	
-	# Загружаем прогресс по словам
 	for word_id in all_words:
 		var key = str(word_id)
 		if config.has_section_key("words", key):
@@ -155,21 +198,28 @@ func load_progress():
 			all_words[word_id].remember_count = data["remember_count"]
 			all_words[word_id].last_shown_as = data["last_shown_as"]
 	
-	# Загружаем списки
 	remembered_ids = config.get_value("progress", "remembered_ids", [])
 	unremembered_ids = config.get_value("progress", "unremembered_ids", [])
 	current_batch = config.get_value("progress", "current_batch", [])
 	current_batch_queue = config.get_value("progress", "current_batch_queue", [])
+	words_learned_since_last_review = config.get_value("progress", "words_learned_since_last_review", 0)
+	review_mode = config.get_value("progress", "review_mode", false)
+	review_batch = config.get_value("progress", "review_batch", [])
 	
 	# Корректируем списки
+	var to_remove_from_remembered = []
 	for id in remembered_ids:
 		if !all_words.has(id) || unremembered_ids.has(id):
-			remembered_ids.erase(id)
+			to_remove_from_remembered.append(id)
+	for id in to_remove_from_remembered:
+		remembered_ids.erase(id)
 	
+	var to_remove_from_unremembered = []
 	for id in unremembered_ids:
 		if !all_words.has(id) || remembered_ids.has(id):
-			unremembered_ids.erase(id)
+			to_remove_from_unremembered.append(id)
+	for id in to_remove_from_unremembered:
+		unremembered_ids.erase(id)
 	
-	# Если очередь пуста, но есть слова в партии
 	if current_batch_queue.is_empty() && !current_batch.is_empty():
 		reshuffle_batch_queue()

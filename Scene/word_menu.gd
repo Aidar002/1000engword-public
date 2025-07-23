@@ -10,6 +10,7 @@ extends Control
 @onready var next_button = $NextButton
 @onready var global_progress_label = $GlobalProgressLabel
 @onready var progress_bar: ProgressBar = $ProgressBar
+@onready var mode_label = $ModeLabel
 
 var current_word: Word = null
 var show_mode: int = -1
@@ -26,11 +27,16 @@ func _ready():
 	update_progress_display()
 	
 func show_word():
-	current_word = WordsManager.next_word()
+	current_word = WordsManager.get_next_word()
 	
 	if current_word == null:
 		show_completion_message()
 		return
+	
+	if WordsManager.review_mode:
+		mode_label.text = "Повторение (%d осталось)" % WordsManager.review_batch.size()
+	else:
+		mode_label.text = "Изучение новых слов"
 	
 	show_mode = WordsManager.current_show_mode
 	progress_label.text = "Прогресс: %d/3" % current_word.remember_count

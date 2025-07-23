@@ -136,6 +136,11 @@ offset_top = 72.0
 offset_right = 375.0
 offset_bottom = 99.0
 
+[node name="ModeLabel" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
 [connection signal="pressed" from="ButtonsContainer/Known" to="." method="_on_known_pressed"]
 [connection signal="pressed" from="ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]
 [connection signal="pressed" from="NextButton" to="." method="_on_next_pressed"]
