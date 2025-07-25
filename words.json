@@ -3677,9 +3677,9 @@
   {
 	"id": 526,
 	"term": "meant",
-	"translation": "значил",
-	"example": "I meant to call you.",
-	"example_translation": "Я хотел позвонить тебе."
+	"translation": "подразумевал",
+	"example": "I didn’t understand what she meant by that look.",
+	"example_translation": "Я не понял, что она подразумевала этим взглядом."
   },
   {
 	"id": 527,
@@ -5919,7 +5919,7 @@
 	"term": "than",
 	"translation": "чем",
 	"example": "She is taller than me.",
-	"example_translation": "Она выше меня."
+	"example_translation": "Она выше чем я."
   },
   {
 	"id": 847,

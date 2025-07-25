@@ -13,7 +13,7 @@ config_version=5
 config/name="1000EngWord"
 run/main_scene="uid://bvywnum5u8sgf"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://ch3jfedj3hwoe"
 
 [autoload]
 
@@ -23,8 +23,15 @@ WordsManager="*res://Globals/WordsManager.gd"
 
 window/size/viewport_width=540
 window/size/viewport_height=960
+window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+
+[gui]
+
+theme/custom_font="uid://cdhvdojxwc656"
 
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

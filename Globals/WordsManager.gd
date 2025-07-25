@@ -166,6 +166,11 @@ func end_review_session():
 	review_mode = false
 	initialize_session()
 
+func get_highlighted_example(word: Word) -> String:
+	var term = word.term if current_show_mode == SHOW_ENGLISH else word.translation
+	var example_str = word.example if current_show_mode == SHOW_ENGLISH else word.example_translation
+	return example_str.replace(term, "[u]%s[/u]" % term)
+	
 func save_progress():
 	var config = ConfigFile.new()
 	

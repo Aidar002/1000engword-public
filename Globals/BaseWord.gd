@@ -15,3 +15,4 @@ func _init(id: int, term: String, translation: String, example: String, example_
 	self.translation = translation
 	self.example = example
 	self.example_translation = example_translation
+	

@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://bvywnum5u8sgf"]
+[gd_scene load_steps=10 format=3 uid="uid://bvywnum5u8sgf"]
 
 [ext_resource type="Script" uid="uid://bvymlbvplm8l8" path="res://Scene/word_menu.gd" id="1_te1vy"]
+[ext_resource type="Texture2D" uid="uid://cktkx728sifdl" path="res://assets/eng_fon.jpg" id="2_amlhr"]
+[ext_resource type="Theme" uid="uid://df1vejs21ra0" path="res://assets/themes/fonts.tres" id="3_oi58f"]
+[ext_resource type="Texture2D" uid="uid://7idckuqknitm" path="res://assets/separator.png" id="4_8w1g5"]
+[ext_resource type="FontFile" uid="uid://cfbjcxhhhqtem" path="res://assets/шрифты/Inter_28pt-Italic.ttf" id="4_ngum2"]
+[ext_resource type="Texture2D" uid="uid://cbcuwg5g4xy3e" path="res://assets/knowButton.png" id="5_6hpak"]
+[ext_resource type="Texture2D" uid="uid://bbbngvxu6bmja" path="res://assets/NotknowButton.png" id="6_ngum2"]
+[ext_resource type="Texture2D" uid="uid://w2xj54bqaxhy" path="res://assets/NEXT.png" id="7_6hpak"]
+[ext_resource type="Script" uid="uid://bkeniw353hl5i" path="res://UIscripts/CustomButton.gd" id="7_twfgi"]
 
 [node name="WordMenu" type="Control"]
 layout_mode = 3
@@ -11,72 +19,157 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_te1vy")
 
-[node name="TermLabel" type="Label" parent="."]
+[node name="BG" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_amlhr")
+expand_mode = 1
+
+[node name="Eng" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TermLabel" type="Label" parent="Eng"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -66.0
-offset_top = -166.0
-offset_right = 66.0
-offset_bottom = -142.0
+offset_left = -155.0
+offset_top = -264.0
+offset_right = 155.0
+offset_bottom = -196.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("3_oi58f")
+theme_override_colors/font_outline_color = Color(0.0562916, 0.0562916, 0.0562916, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 55
 text = "EngWord"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ExampleLabel" type="Label" parent="."]
+[node name="ExampleLabel" type="RichTextLabel" parent="Eng"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -66.0
-offset_top = -139.0
-offset_right = 66.0
-offset_bottom = -115.0
+offset_left = -175.0
+offset_top = -178.0
+offset_right = 175.0
+offset_bottom = -61.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/default_color = Color(0.466667, 0.396078, 0.160784, 1)
+theme_override_fonts/normal_font = ExtResource("4_ngum2")
+theme_override_font_sizes/normal_font_size = 26
+bbcode_enabled = true
 text = "EngSentence"
 horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TranslationExampleLabel" type="Label" parent="."]
+[node name="Separator" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -66.0
-offset_top = -112.0
-offset_right = 66.0
-offset_bottom = -88.0
+offset_left = -216.0
+offset_top = -73.0
+offset_right = 217.0
+offset_bottom = 43.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "RusSentence"
+texture = ExtResource("4_8w1g5")
+expand_mode = 1
+
+[node name="ModeLabel" type="Label" parent="Separator"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -25.0
+offset_right = 150.0
+offset_bottom = 25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.427451, 0.376471, 0.0823529, 1)
+theme_override_font_sizes/font_size = 20
 horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TranslationTermLabel" type="Label" parent="."]
+[node name="Rus" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TranslationTermLabel" type="Label" parent="Rus"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -66.0
-offset_top = -86.0
-offset_right = 66.0
-offset_bottom = -62.0
+offset_left = -177.0
+offset_top = 54.0
+offset_right = 177.0
+offset_bottom = 122.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/font_color = Color(0.412983, 0.365705, 0.186245, 1)
+theme_override_colors/font_outline_color = Color(0.206361, 0.175372, 0.0513147, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 55
 text = "RusWord"
 horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TranslationExampleLabel" type="RichTextLabel" parent="Rus"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -198.0
+offset_top = 114.0
+offset_right = 198.0
+offset_bottom = 213.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0.466667, 0.396078, 0.160784, 1)
+theme_override_fonts/normal_font = ExtResource("4_ngum2")
+theme_override_font_sizes/normal_font_size = 25
+text = "RusSentence"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="ProgressLabel" type="Label" parent="."]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -84,62 +177,118 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -66.0
-offset_top = -58.0
+offset_top = -305.0
 offset_right = 66.0
-offset_bottom = -34.0
+offset_bottom = -281.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/font_color = Color(0.552941, 0.47451, 0, 1)
 text = "progress"
 horizontal_alignment = 1
 
-[node name="ButtonsContainer" type="HBoxContainer" parent="."]
+[node name="ButtonsContainer" type="Control" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -72.5
-offset_top = -20.0
-offset_right = 72.5
-offset_bottom = 20.0
+offset_left = -200.0
+offset_top = 284.0
+offset_right = 200.0
+offset_bottom = 384.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Known" type="Button" parent="ButtonsContainer"]
+[node name="Known" type="TextureButton" parent="ButtonsContainer"]
+custom_minimum_size = Vector2(200, 100)
 layout_mode = 2
-text = "ЗНАЮ	"
+offset_right = 200.0
+offset_bottom = 100.0
+texture_normal = ExtResource("5_6hpak")
+texture_pressed = ExtResource("5_6hpak")
+texture_hover = ExtResource("5_6hpak")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("7_twfgi")
 
-[node name="UnKnown" type="Button" parent="ButtonsContainer"]
+[node name="UnKnown" type="TextureButton" parent="ButtonsContainer"]
+custom_minimum_size = Vector2(200, 100)
 layout_mode = 2
-text = "НЕ ЗНАЮ"
+offset_left = 200.0
+offset_right = 400.0
+offset_bottom = 100.0
+texture_normal = ExtResource("6_ngum2")
+texture_pressed = ExtResource("6_ngum2")
+texture_hover = ExtResource("6_ngum2")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("7_twfgi")
 
-[node name="NextButton" type="Button" parent="."]
-layout_mode = 0
-offset_left = 237.0
-offset_top = 521.0
-offset_right = 310.0
-offset_bottom = 552.0
-text = "Дальше"
+[node name="NextButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -130.5
+offset_top = 214.0
+offset_right = 130.5
+offset_bottom = 260.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("7_6hpak")
+texture_pressed = ExtResource("7_6hpak")
+texture_hover = ExtResource("7_6hpak")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("7_twfgi")
+
+[node name="Label" type="Label" parent="NextButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -90.5
+offset_top = -18.5
+offset_right = 90.5
+offset_bottom = 18.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.545098, 0.482353, 0.207843, 1)
+theme_override_font_sizes/font_size = 20
+text = "Следующее слово"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="GlobalProgressLabel" type="Label" parent="."]
-layout_mode = 0
-offset_left = 234.0
-offset_top = 33.0
-offset_right = 307.0
-offset_bottom = 56.0
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -117.0
+offset_top = -431.0
+offset_right = 123.0
+offset_bottom = -397.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.439216, 0.368627, 0.0980392, 1)
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="ProgressBar" type="ProgressBar" parent="."]
+visible = false
 layout_mode = 0
-offset_left = 173.0
-offset_top = 72.0
-offset_right = 375.0
-offset_bottom = 99.0
-
-[node name="ModeLabel" type="Label" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 306.0
+offset_top = 47.0
+offset_right = 508.0
+offset_bottom = 74.0
 
 [connection signal="pressed" from="ButtonsContainer/Known" to="." method="_on_known_pressed"]
 [connection signal="pressed" from="ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]

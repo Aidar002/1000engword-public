@@ -1,16 +1,16 @@
 # ui_manager.gd
 extends Control
 
-@onready var term_label = $TermLabel
-@onready var example_label = $ExampleLabel
-@onready var translation_term_label = $TranslationTermLabel
-@onready var translation_example_label = $TranslationExampleLabel
-@onready var progress_label = $ProgressLabel
+@onready var term_label = %TermLabel
+@onready var example_label = %ExampleLabel
+@onready var translation_term_label = %TranslationTermLabel
+@onready var translation_example_label = %TranslationExampleLabel
+@onready var progress_label = %ProgressLabel
 @onready var buttons_container = $ButtonsContainer
 @onready var next_button = $NextButton
 @onready var global_progress_label = $GlobalProgressLabel
 @onready var progress_bar: ProgressBar = $ProgressBar
-@onready var mode_label = $ModeLabel
+@onready var mode_label = %ModeLabel
 
 var current_word: Word = null
 var show_mode: int = -1
@@ -48,12 +48,12 @@ func show_word():
 	# Показываем слово и пример в выбранном режиме
 	if show_mode == WordsManager.SHOW_ENGLISH:
 		term_label.text = current_word.term
-		example_label.text = current_word.example
+		example_label.text = WordsManager.get_highlighted_example(current_word)
 		translation_term_label.text = current_word.translation
 		translation_example_label.text = current_word.example_translation
 	else:
 		term_label.text = current_word.translation
-		example_label.text = current_word.example_translation
+		example_label.text = WordsManager.get_highlighted_example(current_word)
 		translation_term_label.text = current_word.term
 		translation_example_label.text = current_word.example
 	
@@ -104,10 +104,10 @@ func update_progress_display():
 	var total_words = 1000
 	var learned_words = WordsManager.remembered_ids.size()
 	# Скрываем при нулевом прогрессе
-	var visible = learned_words > 0
+	var visible = learned_words >= 0
 	global_progress_label.visible = visible
-	progress_bar.visible = visible
+	#progress_bar.visible = visible
 	
 	if visible:
-		global_progress_label.text = "Прогресс: %d/%d" % [learned_words, total_words]
-		progress_bar.value = (learned_words / float(total_words)) * 100
+		global_progress_label.text = "Выучено: %d/%d" % [learned_words, total_words]
+		#progress_bar.value = (learned_words / float(total_words)) * 100
