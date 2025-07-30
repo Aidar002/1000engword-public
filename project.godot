@@ -13,7 +13,11 @@ config_version=5
 config/name="1000EngWord"
 run/main_scene="uid://bvywnum5u8sgf"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="uid://ch3jfedj3hwoe"
+config/icon="uid://dciv58pt0f4pp"
+
+[audio]
+
+general/text_to_speech=true
 
 [autoload]
 

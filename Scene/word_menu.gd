@@ -11,9 +11,15 @@ extends Control
 @onready var global_progress_label = $GlobalProgressLabel
 @onready var progress_bar: ProgressBar = $ProgressBar
 @onready var mode_label = %ModeLabel
+@onready var sound_button_1 = %SoundButton1
+@onready var sound_button_2 = %SoundButton2
+
 
 var current_word: Word = null
 var show_mode: int = -1
+
+var voices = DisplayServer.tts_get_voices_for_language("en")
+var voice_id = voices[0]
 
 func _ready():
 	# Инициализация UI
@@ -25,6 +31,14 @@ func _ready():
 	WordsManager.initialize_session()
 	show_word()
 	update_progress_display()
+	
+	##для проверки модуля TTS для озвучки
+	#if Engine.has_singleton("GodotTTS"):
+		#tts = Engine.get_singleton("GodotTTS")
+		#tts.setRate(1.0)  # Скорость (0.5-2.0)
+		#tts.setPitch(1.0) # Высота голоса
+	#else:
+		#print("TTS не доступен :(")
 	
 func show_word():
 	current_word = WordsManager.get_next_word()
@@ -58,6 +72,7 @@ func show_word():
 		translation_example_label.text = current_word.example
 	
 	# Показываем кнопки ответа
+	show_sound_buttons()
 	buttons_container.show()
 	next_button.hide()
 
@@ -65,7 +80,10 @@ func show_translation():
 	# Показываем переводы
 	translation_term_label.show()
 	translation_example_label.show()
-	
+	if show_mode == WordsManager.SHOW_RUSSIAN:
+		sound_button_1.visible = false
+		sound_button_2.visible = true
+
 	# Скрываем кнопки ответа, показываем кнопку "Дальше"
 	buttons_container.hide()
 	next_button.show()
@@ -111,3 +129,17 @@ func update_progress_display():
 	if visible:
 		global_progress_label.text = "Выучено: %d/%d" % [learned_words, total_words]
 		#progress_bar.value = (learned_words / float(total_words)) * 100
+
+
+func _on_sound_button_pressed():
+	if !DisplayServer.tts_is_speaking():
+		DisplayServer.tts_speak(current_word.term, voice_id, 70, 1, 1)
+	pass
+
+func show_sound_buttons():
+	if show_mode == WordsManager.SHOW_ENGLISH:
+		sound_button_1.visible = true
+		sound_button_2.visible = false
+	if show_mode == WordsManager.SHOW_RUSSIAN:
+		sound_button_1.visible = false
+		sound_button_2.visible = false
