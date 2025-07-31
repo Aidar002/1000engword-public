@@ -133,7 +133,7 @@ func update_progress_display():
 
 func _on_sound_button_pressed():
 	if !DisplayServer.tts_is_speaking():
-		DisplayServer.tts_speak(current_word.term, voice_id, 70, 1, 1)
+		DisplayServer.tts_speak(current_word.term, voice_id, 100, 1, 1)
 	pass
 
 func show_sound_buttons():
