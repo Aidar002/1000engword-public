@@ -1,0 +1,35 @@
+[gd_scene load_steps=8 format=3 uid="uid://cx12ckpf52efw"]
+
+[ext_resource type="Script" uid="uid://bawskhbopks7q" path="res://Globals/sound_manager.gd" id="1_p1j27"]
+[ext_resource type="AudioStream" uid="uid://kb2ssv4rgxxi" path="res://assets/music/click_sound2.mp3" id="2_qs1xn"]
+[ext_resource type="AudioStream" uid="uid://c0nafk6xxcy37" path="res://assets/music/known_sound1.mp3" id="3_qs1xn"]
+[ext_resource type="AudioStream" uid="uid://bp4qcjhflkrpn" path="res://assets/music/Double-Rainbow-chosic.com_.mp3" id="4_lnc56"]
+[ext_resource type="AudioStream" uid="uid://bvdq2hkupnlhy" path="res://assets/music/Minimalist3.mp3" id="4_tnobj"]
+[ext_resource type="AudioStream" uid="uid://ug1r5xro16yf" path="res://assets/music/Golden-Hour-chosic.com_.mp3" id="5_qs1xn"]
+[ext_resource type="AudioStream" uid="uid://dd8fir4m6guym" path="res://assets/music/Wildflowers-chosic.com_.mp3" id="6_tnobj"]
+
+[node name="SoundManager" type="Node"]
+script = ExtResource("1_p1j27")
+
+[node name="no" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_qs1xn")
+
+[node name="yes" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_qs1xn")
+
+[node name="next" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_tnobj")
+
+[node name="bg_music" type="Node" parent="."]
+
+[node name="FonMusic1" type="AudioStreamPlayer" parent="bg_music"]
+stream = ExtResource("4_lnc56")
+volume_db = -15.0
+
+[node name="FonMusic2" type="AudioStreamPlayer" parent="bg_music"]
+stream = ExtResource("5_qs1xn")
+volume_db = -15.0
+
+[node name="FonMusic3" type="AudioStreamPlayer" parent="bg_music"]
+stream = ExtResource("6_tnobj")
+volume_db = -15.0

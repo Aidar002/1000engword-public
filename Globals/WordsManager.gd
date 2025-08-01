@@ -55,6 +55,7 @@ func start_review_session():
 	if remembered_ids.size() == 0:
 		return
 	
+	
 	review_mode = true
 	review_batch = get_random_review_words(10)
 	words_learned_since_last_review = 0

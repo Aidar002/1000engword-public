@@ -22,12 +22,14 @@ general/text_to_speech=true
 [autoload]
 
 WordsManager="*res://Globals/WordsManager.gd"
+SoundManager="*res://Globals/sound_manager.tscn"
 
 [display]
 
 window/size/viewport_width=540
 window/size/viewport_height=960
-window/stretch/mode="canvas_items"
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 window/handheld/orientation=1
 
 [gui]

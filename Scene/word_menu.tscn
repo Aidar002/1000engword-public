@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bvywnum5u8sgf"]
+[gd_scene load_steps=16 format=3 uid="uid://bvywnum5u8sgf"]
 
 [ext_resource type="Script" uid="uid://bvymlbvplm8l8" path="res://Scene/word_menu.gd" id="1_te1vy"]
 [ext_resource type="Texture2D" uid="uid://cktkx728sifdl" path="res://assets/eng_fon.jpg" id="2_amlhr"]
@@ -10,6 +10,14 @@
 [ext_resource type="Texture2D" uid="uid://bbbngvxu6bmja" path="res://assets/NotknowButton.png" id="6_ngum2"]
 [ext_resource type="Texture2D" uid="uid://w2xj54bqaxhy" path="res://assets/NEXT.png" id="7_6hpak"]
 [ext_resource type="Script" uid="uid://bkeniw353hl5i" path="res://UIscripts/CustomButton.gd" id="7_twfgi"]
+[ext_resource type="Material" uid="uid://bswt7s2ks251p" path="res://assets/themes/add_material.tres" id="8_av7h4"]
+[ext_resource type="Texture2D" uid="uid://bjr0nplcjamy3" path="res://assets/particle_textures/точка-белая-с-разм-краями.png" id="9_t0kbn"]
+[ext_resource type="Texture2D" uid="uid://cpn76b3qfqcx1" path="res://assets/music_button.png" id="13_t0kbn"]
+[ext_resource type="Texture2D" uid="uid://d1rh6byc88afn" path="res://assets/music_button_off.png" id="14_n1g1r"]
+
+[sub_resource type="Curve" id="Curve_n1g1r"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.386364, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
 
 [node name="WordMenu" type="Control"]
 layout_mode = 3
@@ -18,6 +26,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 script = ExtResource("1_te1vy")
 
 [node name="BG" type="TextureRect" parent="."]
@@ -81,7 +90,7 @@ size_flags_horizontal = 6
 theme = ExtResource("3_oi58f")
 theme_override_colors/font_outline_color = Color(0.0562916, 0.0562916, 0.0562916, 1)
 theme_override_constants/outline_size = 3
-theme_override_font_sizes/font_size = 55
+theme_override_font_sizes/font_size = 45
 text = "EngWord"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -134,15 +143,34 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -150.0
-offset_top = -25.0
+offset_top = -19.0
 offset_right = 150.0
-offset_bottom = 25.0
+offset_bottom = 31.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(0.427451, 0.376471, 0.0823529, 1)
+theme_override_colors/font_color = Color(0.843137, 0.596078, 0.203922, 1)
+theme_override_constants/outline_size = 0
+theme_override_fonts/font = ExtResource("4_ngum2")
 theme_override_font_sizes/font_size = 20
+text = "Режим повторения"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sparks" type="CPUParticles2D" parent="Separator/ModeLabel"]
+modulate = Color(0.868029, 0.563614, 0, 0.227451)
+material = ExtResource("8_av7h4")
+position = Vector2(150.5, 30)
+emitting = false
+amount = 10
+texture = ExtResource("9_t0kbn")
+speed_scale = 0.5
+emission_shape = 3
+emission_rect_extents = Vector2(200, 10)
+direction = Vector2(0, -1)
+gravity = Vector2(0, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 50.0
+scale_amount_curve = SubResource("Curve_n1g1r")
 
 [node name="Rus" type="Control" parent="."]
 layout_mode = 1
@@ -162,9 +190,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -198.0
-offset_top = 135.0
+offset_top = 156.0
 offset_right = 198.0
-offset_bottom = 234.0
+offset_bottom = 255.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/default_color = Color(0.466667, 0.396078, 0.160784, 1)
@@ -184,9 +212,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -35.0
-offset_top = 8.0
+offset_top = 29.0
 offset_right = 35.0
-offset_bottom = 98.0
+offset_bottom = 119.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 8
@@ -200,18 +228,23 @@ script = ExtResource("7_twfgi")
 
 [node name="TranslationTermLabel" type="Label" parent="Rus"]
 unique_name_in_owner = true
-layout_mode = 2
-offset_left = 158.0
-offset_top = 558.0
-offset_right = 382.0
-offset_bottom = 626.0
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -112.0
+offset_top = 112.0
+offset_right = 112.0
+offset_bottom = 180.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 6
 theme_override_colors/font_color = Color(0.412983, 0.365705, 0.186245, 1)
 theme_override_colors/font_outline_color = Color(0.206361, 0.175372, 0.0513147, 1)
 theme_override_constants/outline_size = 4
-theme_override_font_sizes/font_size = 55
+theme_override_font_sizes/font_size = 45
 text = "RusWord"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -242,9 +275,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -200.0
-offset_top = 284.0
+offset_top = 313.0
 offset_right = 200.0
-offset_bottom = 384.0
+offset_bottom = 413.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -281,9 +314,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -130.5
-offset_top = 231.0
+offset_top = 249.0
 offset_right = 130.5
-offset_bottom = 277.0
+offset_bottom = 295.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("7_6hpak")
@@ -314,17 +347,14 @@ vertical_alignment = 1
 
 [node name="GlobalProgressLabel" type="Label" parent="."]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = 5
 anchor_left = 0.5
-anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -117.0
-offset_top = -431.0
-offset_right = 123.0
-offset_bottom = -397.0
+offset_left = -120.0
+offset_top = 53.0
+offset_right = 120.0
+offset_bottom = 87.0
 grow_horizontal = 2
-grow_vertical = 2
 theme_override_colors/font_color = Color(0.439216, 0.368627, 0.0980392, 1)
 theme_override_font_sizes/font_size = 25
 horizontal_alignment = 1
@@ -338,8 +368,25 @@ offset_top = 47.0
 offset_right = 508.0
 offset_bottom = 74.0
 
+[node name="MusicButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -96.0
+offset_top = 33.0
+offset_right = -46.0
+offset_bottom = 83.0
+grow_horizontal = 0
+toggle_mode = true
+texture_normal = ExtResource("13_t0kbn")
+texture_pressed = ExtResource("14_n1g1r")
+ignore_texture_size = true
+stretch_mode = 0
+
 [connection signal="pressed" from="Eng/SoundButton1" to="." method="_on_sound_button_pressed"]
 [connection signal="pressed" from="Rus/SoundButton2" to="." method="_on_sound_button_pressed"]
 [connection signal="pressed" from="ButtonsContainer/Known" to="." method="_on_known_pressed"]
 [connection signal="pressed" from="ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]
 [connection signal="pressed" from="NextButton" to="." method="_on_next_pressed"]
+[connection signal="toggled" from="MusicButton" to="." method="_on_music_button_toggled"]

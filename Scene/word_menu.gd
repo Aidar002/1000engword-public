@@ -13,6 +13,7 @@ extends Control
 @onready var mode_label = %ModeLabel
 @onready var sound_button_1 = %SoundButton1
 @onready var sound_button_2 = %SoundButton2
+@onready var sparks = $Separator/ModeLabel/Sparks
 
 
 var current_word: Word = null
@@ -48,8 +49,10 @@ func show_word():
 		return
 	
 	if WordsManager.review_mode:
+		sparks.emitting = true
 		mode_label.text = "Повторение (%d осталось)" % WordsManager.review_batch.size()
 	else:
+		sparks.emitting = false
 		mode_label.text = "Изучение новых слов"
 	
 	show_mode = WordsManager.current_show_mode
@@ -89,16 +92,19 @@ func show_translation():
 	next_button.show()
 
 func _on_known_pressed():
+	SoundManager.play_yes_sound()
 	WordsManager.process_answer(true)
 	show_translation()
 	update_progress_display()
 	
 func _on_unknown_pressed():
+	SoundManager.play_no_sound()
 	WordsManager.process_answer(false)
 	show_translation()
 	update_progress_display()
 	
 func _on_next_pressed():
+	SoundManager.play_next_sound()
 	WordsManager.complete_word()
 	show_word()
 	update_progress_display()
@@ -122,11 +128,11 @@ func update_progress_display():
 	var total_words = 1000
 	var learned_words = WordsManager.remembered_ids.size()
 	# Скрываем при нулевом прогрессе
-	var visible = learned_words >= 0
-	global_progress_label.visible = visible
+	var p_visible = learned_words >= 0
+	global_progress_label.visible = p_visible
 	#progress_bar.visible = visible
 	
-	if visible:
+	if p_visible:
 		global_progress_label.text = "Выучено: %d/%d" % [learned_words, total_words]
 		#progress_bar.value = (learned_words / float(total_words)) * 100
 
@@ -143,3 +149,11 @@ func show_sound_buttons():
 	if show_mode == WordsManager.SHOW_RUSSIAN:
 		sound_button_1.visible = false
 		sound_button_2.visible = false
+
+
+func _on_music_button_toggled(toggled_on):
+	if toggled_on:
+		SoundManager.stop_tracks()
+	else:
+		SoundManager.play_tracks()
+	
