@@ -29,7 +29,7 @@ SoundManager="*res://Globals/sound_manager.tscn"
 window/size/viewport_width=540
 window/size/viewport_height=960
 window/stretch/mode="viewport"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep_height"
 window/handheld/orientation=1
 
 [gui]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://bvywnum5u8sgf"]
+[gd_scene load_steps=28 format=3 uid="uid://bvywnum5u8sgf"]
 
 [ext_resource type="Script" uid="uid://bvymlbvplm8l8" path="res://Scene/word_menu.gd" id="1_te1vy"]
 [ext_resource type="Texture2D" uid="uid://cktkx728sifdl" path="res://assets/eng_fon.jpg" id="2_amlhr"]
@@ -14,10 +14,152 @@
 [ext_resource type="Texture2D" uid="uid://bjr0nplcjamy3" path="res://assets/particle_textures/точка-белая-с-разм-краями.png" id="9_t0kbn"]
 [ext_resource type="Texture2D" uid="uid://cpn76b3qfqcx1" path="res://assets/music_button.png" id="13_t0kbn"]
 [ext_resource type="Texture2D" uid="uid://d1rh6byc88afn" path="res://assets/music_button_off.png" id="14_n1g1r"]
+[ext_resource type="Texture2D" uid="uid://colvbachtdu7k" path="res://assets/ShopTab/to_shop_button-min.png" id="15_swl3g"]
+[ext_resource type="Script" uid="uid://qyttbst0wi2l" path="res://Scene/shop_tab.gd" id="16_xy3o7"]
+[ext_resource type="Texture2D" uid="uid://gfa3xhp8spnt" path="res://assets/ShopTab/shop_bg-min.png" id="17_cwr8x"]
+[ext_resource type="Texture2D" uid="uid://cqwf05hnuspv1" path="res://assets/ShopTab/buy_full_button-min.png" id="18_yscxd"]
+[ext_resource type="Texture2D" uid="uid://bsh58dqobdmse" path="res://assets/ShopTab/donat_button-min.png" id="19_3s1qu"]
+[ext_resource type="Texture2D" uid="uid://dcwk8sq8i63rp" path="res://assets/ShopTab/exit_button-min.png" id="20_2tsxn"]
 
 [sub_resource type="Curve" id="Curve_n1g1r"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.386364, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
 point_count = 3
+
+[sub_resource type="Animation" id="Animation_3kbo5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ShopTab:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 960)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ShopTab/purchaseInfo:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ShopTab/purchaseInfo:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_7wexr"]
+resource_name = "shop_down"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ShopTab:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 960)]
+}
+
+[sub_resource type="Animation" id="Animation_4o6gv"]
+resource_name = "shop_up"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ShopTab:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 960), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_swl3g"]
+resource_name = "purchaseInfo_off"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ShopTab/purchaseInfo:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ShopTab/purchaseInfo:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_xy3o7"]
+resource_name = "purchaseInfo_on"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ShopTab/purchaseInfo:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ShopTab/purchaseInfo:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bs5s4"]
+_data = {
+&"RESET": SubResource("Animation_3kbo5"),
+&"purchaseInfo_off": SubResource("Animation_swl3g"),
+&"purchaseInfo_on": SubResource("Animation_xy3o7"),
+&"shop_down": SubResource("Animation_7wexr"),
+&"shop_up": SubResource("Animation_4o6gv")
+}
 
 [node name="WordMenu" type="Control"]
 layout_mode = 3
@@ -29,7 +171,15 @@ grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("1_te1vy")
 
-[node name="BG" type="TextureRect" parent="."]
+[node name="MainMenu" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BG" type="TextureRect" parent="MainMenu"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -39,7 +189,7 @@ grow_vertical = 2
 texture = ExtResource("2_amlhr")
 expand_mode = 1
 
-[node name="Eng" type="Control" parent="."]
+[node name="Eng" type="Control" parent="MainMenu"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -48,7 +198,7 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 
-[node name="SoundButton1" type="TextureButton" parent="Eng"]
+[node name="SoundButton1" type="TextureButton" parent="MainMenu/Eng"]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 1
@@ -72,7 +222,7 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("7_twfgi")
 
-[node name="TermLabel" type="Label" parent="Eng"]
+[node name="TermLabel" type="Label" parent="MainMenu/Eng"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -95,7 +245,7 @@ text = "EngWord"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ExampleLabel" type="RichTextLabel" parent="Eng"]
+[node name="ExampleLabel" type="RichTextLabel" parent="MainMenu/Eng"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -117,7 +267,7 @@ text = "EngSentence"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Separator" type="TextureRect" parent="."]
+[node name="Separator" type="TextureRect" parent="MainMenu"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -133,7 +283,7 @@ grow_vertical = 2
 texture = ExtResource("4_8w1g5")
 expand_mode = 1
 
-[node name="ModeLabel" type="Label" parent="Separator"]
+[node name="ModeLabel" type="Label" parent="MainMenu/Separator"]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(300, 50)
 layout_mode = 1
@@ -156,7 +306,8 @@ text = "Режим повторения"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Sparks" type="CPUParticles2D" parent="Separator/ModeLabel"]
+[node name="Sparks" type="CPUParticles2D" parent="MainMenu/Separator/ModeLabel"]
+unique_name_in_owner = true
 modulate = Color(0.868029, 0.563614, 0, 0.227451)
 material = ExtResource("8_av7h4")
 position = Vector2(150.5, 30)
@@ -172,7 +323,7 @@ initial_velocity_min = 50.0
 initial_velocity_max = 50.0
 scale_amount_curve = SubResource("Curve_n1g1r")
 
-[node name="Rus" type="Control" parent="."]
+[node name="Rus" type="Control" parent="MainMenu"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -181,7 +332,7 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 
-[node name="TranslationExampleLabel" type="RichTextLabel" parent="Rus"]
+[node name="TranslationExampleLabel" type="RichTextLabel" parent="MainMenu/Rus"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -202,7 +353,7 @@ text = "RusSentence"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="SoundButton2" type="TextureButton" parent="Rus"]
+[node name="SoundButton2" type="TextureButton" parent="MainMenu/Rus"]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(70, 90)
 layout_mode = 1
@@ -226,7 +377,7 @@ ignore_texture_size = true
 stretch_mode = 5
 script = ExtResource("7_twfgi")
 
-[node name="TranslationTermLabel" type="Label" parent="Rus"]
+[node name="TranslationTermLabel" type="Label" parent="MainMenu/Rus"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -249,7 +400,7 @@ text = "RusWord"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ProgressLabel" type="Label" parent="."]
+[node name="ProgressLabel" type="Label" parent="MainMenu"]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -267,7 +418,8 @@ theme_override_colors/font_color = Color(0.552941, 0.47451, 0, 1)
 text = "progress"
 horizontal_alignment = 1
 
-[node name="ButtonsContainer" type="Control" parent="."]
+[node name="ButtonsContainer" type="Control" parent="MainMenu"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -281,7 +433,7 @@ offset_bottom = 413.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Known" type="TextureButton" parent="ButtonsContainer"]
+[node name="Known" type="TextureButton" parent="MainMenu/ButtonsContainer"]
 custom_minimum_size = Vector2(200, 100)
 layout_mode = 2
 offset_right = 200.0
@@ -293,7 +445,7 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("7_twfgi")
 
-[node name="UnKnown" type="TextureButton" parent="ButtonsContainer"]
+[node name="UnKnown" type="TextureButton" parent="MainMenu/ButtonsContainer"]
 custom_minimum_size = Vector2(200, 100)
 layout_mode = 2
 offset_left = 200.0
@@ -306,7 +458,8 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("7_twfgi")
 
-[node name="NextButton" type="TextureButton" parent="."]
+[node name="NextButton" type="TextureButton" parent="MainMenu"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -326,7 +479,7 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("7_twfgi")
 
-[node name="Label" type="Label" parent="NextButton"]
+[node name="Label" type="Label" parent="MainMenu/NextButton"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -345,7 +498,8 @@ text = "Следующее слово"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="GlobalProgressLabel" type="Label" parent="."]
+[node name="GlobalProgressLabel" type="Label" parent="MainMenu"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -360,33 +514,277 @@ theme_override_font_sizes/font_size = 25
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ProgressBar" type="ProgressBar" parent="."]
-visible = false
-layout_mode = 0
-offset_left = 306.0
-offset_top = 47.0
-offset_right = 508.0
-offset_bottom = 74.0
-
-[node name="MusicButton" type="TextureButton" parent="."]
+[node name="MusicButton" type="TextureButton" parent="MainMenu"]
 layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -96.0
-offset_top = 33.0
-offset_right = -46.0
-offset_bottom = 83.0
-grow_horizontal = 0
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 173.0
+offset_top = 36.0
+offset_right = 223.0
+offset_bottom = 86.0
+grow_horizontal = 2
 toggle_mode = true
 texture_normal = ExtResource("13_t0kbn")
 texture_pressed = ExtResource("14_n1g1r")
 ignore_texture_size = true
 stretch_mode = 0
 
-[connection signal="pressed" from="Eng/SoundButton1" to="." method="_on_sound_button_pressed"]
-[connection signal="pressed" from="Rus/SoundButton2" to="." method="_on_sound_button_pressed"]
-[connection signal="pressed" from="ButtonsContainer/Known" to="." method="_on_known_pressed"]
-[connection signal="pressed" from="ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]
-[connection signal="pressed" from="NextButton" to="." method="_on_next_pressed"]
-[connection signal="toggled" from="MusicButton" to="." method="_on_music_button_toggled"]
+[node name="ToShopButton" type="TextureButton" parent="MainMenu"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 180.0
+offset_top = 85.0
+offset_right = 216.0
+offset_bottom = 119.0
+grow_horizontal = 2
+texture_normal = ExtResource("15_swl3g")
+texture_pressed = ExtResource("15_swl3g")
+texture_hover = ExtResource("15_swl3g")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("7_twfgi")
+
+[node name="ShopTab" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 960.0
+offset_bottom = 960.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("16_xy3o7")
+
+[node name="fader" type="ColorRect" parent="ShopTab"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.509804)
+
+[node name="TextureButton" type="TextureButton" parent="ShopTab/fader"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bg" type="TextureRect" parent="ShopTab"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -345.0
+offset_right = 200.0
+offset_bottom = 255.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_cwr8x")
+expand_mode = 1
+
+[node name="LabelStore" type="Label" parent="ShopTab/bg"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.5
+offset_top = -222.0
+offset_right = 98.5
+offset_bottom = -190.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.411765, 0.364706, 0.184314, 1)
+theme_override_colors/font_outline_color = Color(0.412152, 0.412152, 0.412152, 1)
+theme_override_font_sizes/font_size = 25
+text = "Поддержите нас"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BuyFullButton" type="TextureButton" parent="ShopTab"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -118.5
+offset_top = -188.0
+offset_right = 118.5
+offset_bottom = -93.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("18_yscxd")
+texture_pressed = ExtResource("18_yscxd")
+texture_hover = ExtResource("18_yscxd")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("7_twfgi")
+
+[node name="DonatButton" type="TextureButton" parent="ShopTab"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -118.5
+offset_top = -69.0
+offset_right = 118.5
+offset_bottom = 26.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("19_3s1qu")
+texture_pressed = ExtResource("19_3s1qu")
+texture_hover = ExtResource("19_3s1qu")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("7_twfgi")
+
+[node name="ExitButton" type="TextureButton" parent="ShopTab"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.0
+offset_top = 127.0
+offset_right = 49.0
+offset_bottom = 193.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("20_2tsxn")
+texture_pressed = ExtResource("20_2tsxn")
+texture_hover = ExtResource("20_2tsxn")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("7_twfgi")
+
+[node name="Button" type="Button" parent="ShopTab"]
+visible = false
+layout_mode = 0
+offset_left = 90.0
+offset_top = 718.0
+offset_right = 235.0
+offset_bottom = 746.0
+text = "Загрузить данные"
+
+[node name="Button2" type="Button" parent="ShopTab"]
+visible = false
+layout_mode = 0
+offset_left = 298.0
+offset_top = 718.0
+offset_right = 457.0
+offset_bottom = 746.0
+text = "загрузить продукты"
+
+[node name="Label" type="Label" parent="ShopTab"]
+visible = false
+layout_mode = 0
+offset_left = 119.0
+offset_top = 756.0
+offset_right = 186.0
+offset_bottom = 794.0
+theme_override_font_sizes/font_size = 30
+
+[node name="Label2" type="Label" parent="ShopTab"]
+visible = false
+layout_mode = 0
+offset_left = 339.0
+offset_top = 760.0
+offset_right = 406.0
+offset_bottom = 798.0
+theme_override_font_sizes/font_size = 30
+
+[node name="purchaseInfo" type="Control" parent="ShopTab"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(250, 250)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -125.0
+offset_top = 272.0
+offset_right = 125.0
+offset_bottom = 522.0
+grow_horizontal = 2
+
+[node name="bg" type="TextureRect" parent="ShopTab/purchaseInfo"]
+self_modulate = Color(0.596078, 0.776471, 0.596078, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_cwr8x")
+expand_mode = 1
+
+[node name="PurchaseResultInfo" type="Label" parent="ShopTab/purchaseInfo"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -70.5
+offset_top = -52.5
+offset_right = 70.5
+offset_bottom = 52.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.925921, 0.884176, 0.724629, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="ExitButton" type="TextureButton" parent="ShopTab/purchaseInfo"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_bs5s4")
+}
+
+[node name="loadingPage" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[connection signal="pressed" from="MainMenu/Eng/SoundButton1" to="." method="_on_sound_button_pressed"]
+[connection signal="pressed" from="MainMenu/Rus/SoundButton2" to="." method="_on_sound_button_pressed"]
+[connection signal="pressed" from="MainMenu/ButtonsContainer/Known" to="." method="_on_known_pressed"]
+[connection signal="pressed" from="MainMenu/ButtonsContainer/UnKnown" to="." method="_on_unknown_pressed"]
+[connection signal="pressed" from="MainMenu/NextButton" to="." method="_on_next_pressed"]
+[connection signal="toggled" from="MainMenu/MusicButton" to="." method="_on_music_button_toggled"]
+[connection signal="pressed" from="MainMenu/ToShopButton" to="." method="_on_to_shop_button_pressed"]
+[connection signal="pressed" from="ShopTab/fader/TextureButton" to="ShopTab" method="close_tab"]
+[connection signal="pressed" from="ShopTab/BuyFullButton" to="ShopTab" method="_on_buy_full_button_pressed"]
+[connection signal="pressed" from="ShopTab/DonatButton" to="ShopTab" method="_on_donat_button_pressed"]
+[connection signal="pressed" from="ShopTab/ExitButton" to="ShopTab" method="close_tab"]
+[connection signal="pressed" from="ShopTab/Button" to="." method="_on_get_authorization_status_button_pressed"]
+[connection signal="pressed" from="ShopTab/Button2" to="." method="_on_update_products_list_button_pressed"]
+[connection signal="pressed" from="ShopTab/purchaseInfo/ExitButton" to="ShopTab" method="_on_exit_button_pressed"]
